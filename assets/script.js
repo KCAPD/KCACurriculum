@@ -14,13 +14,86 @@ renderYear('Reception');
 document.querySelectorAll('.year-tabs button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.year-tabs button').forEach(b=>b.setAttribute('aria-selected','false'));btn.setAttribute('aria-selected','true');renderYear(btn.dataset.year)}));
 const subjects=['English','Mathematics','Science','Art & Design','Computing','Design & Technology','Geography','History','Music','Physical Education','Personal Development','Religious Education','Languages','British Sign Language','Oracy & Drama','Early Years'];
 document.getElementById('subjects-grid').innerHTML=subjects.map(s=>`<article class="subject-card"><h3>${s}</h3><p>Intent, progression, end points and curriculum documentation.</p><a href="#" aria-disabled="true">Download coming soon</a></article>`).join('');
-document.querySelectorAll('.skill-card').forEach(card=>card.addEventListener('click',()=>{
-  document.querySelectorAll('.skill-card').forEach(c=>c.classList.remove('active'));
-  card.classList.add('active');
-  const n=card.dataset.skill;
-  document.getElementById('skill-preview-title').textContent=`Fundamental Skill ${n}`;
-  document.getElementById('skill-preview-copy').textContent='The selected skill will show how expectations build in clear, child-friendly steps from Reception through to Year 6.';
-}));
+
+
+const fundamentalStages = {
+  "Nursery": {
+    title: "The starting points for confident learning",
+    description: "Children begin by developing the physical control and confidence needed to communicate meaning through marks and early writing.",
+    current: ["Make meaningful marks", "Write my name", "Grip a pencil"],
+    prior: [], image: "stage-01.jpg"
+  },
+  "Reception": {
+    title: "Turning early marks into purposeful writing",
+    description: "Children apply their early physical skills as they begin to form letters and numbers, spell phonetically and compose simple sentences.",
+    current: ["Formation of letters and numbers is mostly correct", "Make phonetically plausible attempts at spelling", "Finger spaces", "Write simple sentences"],
+    prior: ["Make meaningful marks", "Write my name", "Grip a pencil"], image: "stage-02.jpg"
+  },
+  "Year 1": {
+    title: "Establishing clear and consistent writing habits",
+    description: "Children strengthen sentence punctuation, letter formation and the organisation of written mathematics.",
+    current: ["Capital letter at the beginning of a sentence", "Full stops", "Finger spaces", "Letters are correctly formed and sit on the line", "In maths, one number per box"],
+    prior: ["Phonetically plausible spelling", "Write simple sentences", "Mostly correct letter and number formation"], image: "stage-03.jpg"
+  },
+  "Year 2": {
+    title: "Building control across sentences",
+    description: "Children use a wider range of sentence conventions and begin to maintain tense consistently across their writing.",
+    current: ["Capital letters for sentences, names and ‘I’", "Full stops", "Finger spaces", "Conjunctions: and / but / so / because", "Consistent past and present tense", "Letters correctly formed and sitting on the line", "In maths, one number per box"],
+    prior: ["Capital letter at the beginning of a sentence", "Full stops", "Finger spaces", "Secure letter formation"], image: "stage-04.jpg"
+  },
+  "Year 3": {
+    title: "Organising and connecting ideas",
+    description: "Children build longer pieces of writing using paragraphs, commas and simple and compound sentence structures.",
+    current: ["Capital letters", "Full stops", "Finger spaces", "Simple and compound sentences (FANBOYS)", "Consistent past and present tense", "Commas in lists", "Paragraphs", "Letters correctly formed and sitting on the line"],
+    prior: ["Conjunctions: and / but / so / because", "Consistent verb tense", "Secure sentence punctuation"], image: "stage-05.jpg"
+  },
+  "Year 4": {
+    title: "Developing fluency and grammatical range",
+    description: "Children extend sentence control, begin joined handwriting and use speech punctuation, apostrophes and standard English forms.",
+    current: ["Capital letters", "Full stops", "Finger spaces", "Consistent verb tense", "Commas in lists", "Paragraphs", "Simple and compound sentences (FANBOYS)", "Apostrophes for contraction", "Joined handwriting", "Standard English forms", "Inverted commas to mark speech"],
+    prior: ["Simple and compound sentences", "Paragraphs", "Commas in lists", "Secure letter formation"], image: "stage-06.jpg"
+  },
+  "Year 5": {
+    title: "Writing with increasing sophistication",
+    description: "Children combine sentence forms, use punctuation for a wider range of purposes and sustain accurate standard English.",
+    current: ["Capital letters", "Full stops", "Finger spaces", "Consistent verb tenses", "Commas for lists and fronted adverbials", "Paragraphs", "Simple, compound and complex sentences (FANBOYS and ISAWAWABUB)", "Apostrophes for contractions and possession", "Joined handwriting", "Standard English forms", "Inverted commas with appropriate punctuation"],
+    prior: ["Apostrophes for contraction", "Joined handwriting", "Speech punctuation", "Simple and compound sentences"], image: "stage-07.jpg"
+  },
+  "Year 6": {
+    title: "Writing with precision, control and purpose",
+    description: "Children select language and punctuation deliberately, adapting register and sentence structure to suit audience and purpose.",
+    current: ["Capital letters", "Full stops", "Finger spaces", "Consistent verb tenses", "Commas for lists, fronted adverbials, clauses and parenthesis", "Paragraphs", "Simple, compound and complex sentences (FANBOYS and ISAWAWABUB)", "Apostrophes for contractions and possession", "Inverted commas with appropriate punctuation", "Joined handwriting", "Standard English forms", "Correct formal and informal register"],
+    prior: ["Complex sentence structures", "Apostrophes for possession", "Appropriate speech punctuation", "Commas for fronted adverbials"], image: "stage-08.jpg"
+  }
+};
+
+function renderFundamentalStage(stageName) {
+  const stage = fundamentalStages[stageName];
+  if (!stage) return;
+  document.getElementById('fundamental-stage-kicker').textContent = `Fundamental Skills · ${stageName}`;
+  document.getElementById('fundamental-stage-title').textContent = stage.title;
+  document.getElementById('fundamental-stage-description').textContent = stage.description;
+  document.getElementById('fundamental-current-skills').innerHTML = stage.current.map(skill => `<span>${skill}</span>`).join('');
+  const priorSection = document.getElementById('fundamental-prior-section');
+  document.getElementById('fundamental-prior-skills').innerHTML = stage.prior.map(skill => `<span>${skill}</span>`).join('');
+  priorSection.hidden = stage.prior.length === 0;
+  const image = document.getElementById('fundamental-stage-image');
+  image.src = `assets/images/fundamental-skills/${stage.image}`;
+  image.alt = `${stageName} Fundamental Skills progression artwork`;
+}
+
+document.querySelectorAll('.tree-stage').forEach(button => {
+  button.addEventListener('click', () => {
+    document.querySelectorAll('.tree-stage').forEach(item => {
+      item.classList.remove('active');
+      item.setAttribute('aria-selected', 'false');
+    });
+    button.classList.add('active');
+    button.setAttribute('aria-selected', 'true');
+    renderFundamentalStage(button.dataset.stage);
+  });
+});
+renderFundamentalStage('Nursery');
 
 const pillarData={
   1:{

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/styles.css?v=1.8" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -111,29 +111,56 @@
       <div class="wrap section-heading split-heading">
         <div>
           <span class="section-kicker">Fundamental skills</span>
-          <h2>Skills that grow with every child</h2>
+          <h2>Skills that grow year after year</h2>
         </div>
-        <p>Our fundamental skills run through every year group. They are deliberately revisited, practised and strengthened so children leave KCA ready for the next stage of learning and life.</p>
+        <p>Our Fundamental Skills are explicitly taught, revisited and strengthened as children move through the school. Select a stage to see the expectations children are working towards and the foundations carried forward from the previous year.</p>
       </div>
-      <div class="wrap skills-intro">
-        <div class="skills-thread" aria-hidden="true"><span>Reception</span><i></i><span>Year 6</span></div>
-        <p>Select a skill to see how it develops from Reception to Year 6. The official skill names, graphics and progression statements will be added from the current curriculum documents.</p>
+
+      <div class="wrap fundamental-explorer">
+        <nav class="fundamental-tree" aria-label="Fundamental skills progression by year group">
+          <div class="tree-heading">
+            <span>Nursery</span>
+            <i aria-hidden="true"></i>
+            <span>Year 6</span>
+          </div>
+          <div class="tree-stages" id="fundamental-stage-tabs" role="tablist" aria-label="Select a year group">
+            <button class="tree-stage active" type="button" role="tab" aria-selected="true" data-stage="Nursery"><span>🌱</span><strong>Nursery</strong><small>Starting points</small></button>
+            <button class="tree-stage" type="button" role="tab" aria-selected="false" data-stage="Reception"><span>🌿</span><strong>Reception</strong><small>Early foundations</small></button>
+            <button class="tree-stage" type="button" role="tab" aria-selected="false" data-stage="Year 1"><span>🍃</span><strong>Year 1</strong><small>Secure routines</small></button>
+            <button class="tree-stage" type="button" role="tab" aria-selected="false" data-stage="Year 2"><span>🌿</span><strong>Year 2</strong><small>Growing control</small></button>
+            <button class="tree-stage" type="button" role="tab" aria-selected="false" data-stage="Year 3"><span>🍃</span><strong>Year 3</strong><small>Building fluency</small></button>
+            <button class="tree-stage" type="button" role="tab" aria-selected="false" data-stage="Year 4"><span>🌿</span><strong>Year 4</strong><small>Greater independence</small></button>
+            <button class="tree-stage" type="button" role="tab" aria-selected="false" data-stage="Year 5"><span>🍃</span><strong>Year 5</strong><small>Increasing precision</small></button>
+            <button class="tree-stage" type="button" role="tab" aria-selected="false" data-stage="Year 6"><span>🌳</span><strong>Year 6</strong><small>Ready for the future</small></button>
+          </div>
+        </nav>
+
+        <article class="fundamental-stage-panel" id="fundamental-stage-panel" aria-live="polite">
+          <div class="stage-copy">
+            <span class="section-kicker" id="fundamental-stage-kicker">Fundamental Skills · Nursery</span>
+            <h3 id="fundamental-stage-title">The starting points for confident learning</h3>
+            <p id="fundamental-stage-description">Children begin by developing the physical control and confidence needed to communicate meaning through marks and early writing.</p>
+            <div class="skill-groups">
+              <section>
+                <h4>At this stage</h4>
+                <div class="stage-skills" id="fundamental-current-skills"></div>
+              </section>
+              <section id="fundamental-prior-section" hidden>
+                <h4>Building on</h4>
+                <div class="stage-skills prior-skills" id="fundamental-prior-skills"></div>
+              </section>
+            </div>
+          </div>
+          <figure class="fundamental-artwork">
+            <img id="fundamental-stage-image" src="assets/images/fundamental-skills/stage-01.jpg" alt="Nursery Fundamental Skills progression artwork" />
+            <figcaption>Artwork from the KCA Fundamental Skills progression booklet.</figcaption>
+          </figure>
+        </article>
       </div>
-      <div class="wrap skills-grid">
-        <button class="skill-card" data-skill="1"><span class="skill-number">01</span><div><h3>Fundamental Skill One</h3><p>Official title and graphic to be added.</p></div><span class="skill-arrow">→</span></button>
-        <button class="skill-card" data-skill="2"><span class="skill-number">02</span><div><h3>Fundamental Skill Two</h3><p>Official title and graphic to be added.</p></div><span class="skill-arrow">→</span></button>
-        <button class="skill-card" data-skill="3"><span class="skill-number">03</span><div><h3>Fundamental Skill Three</h3><p>Official title and graphic to be added.</p></div><span class="skill-arrow">→</span></button>
-        <button class="skill-card" data-skill="4"><span class="skill-number">04</span><div><h3>Fundamental Skill Four</h3><p>Official title and graphic to be added.</p></div><span class="skill-arrow">→</span></button>
-        <button class="skill-card" data-skill="5"><span class="skill-number">05</span><div><h3>Fundamental Skill Five</h3><p>Official title and graphic to be added.</p></div><span class="skill-arrow">→</span></button>
-        <button class="skill-card" data-skill="6"><span class="skill-number">06</span><div><h3>Fundamental Skill Six</h3><p>Official title and graphic to be added.</p></div><span class="skill-arrow">→</span></button>
-      </div>
-      <div class="wrap progression-preview">
-        <span class="section-kicker">Progression preview</span>
-        <h3 id="skill-preview-title">Choose a fundamental skill</h3>
-        <div class="progression-steps" id="skill-progression">
-          <span>Reception</span><span>Year 1</span><span>Year 2</span><span>Year 3</span><span>Year 4</span><span>Year 5</span><span>Year 6</span>
-        </div>
-        <p id="skill-preview-copy">This area will show concise progression statements across all seven year groups without requiring visitors to open a document.</p>
+
+      <div class="wrap fundamental-actions">
+        <p><strong>Nothing is lost; everything builds.</strong> Each stage revisits established expectations while introducing greater accuracy, control and independence.</p>
+        <a class="button button-secondary" href="assets/downloads/KCA-Fundamental-Skills-Progression.pdf" download>Download the full progression booklet</a>
       </div>
     </section>
 
@@ -256,13 +283,6 @@
     </div>
   </footer>
 
-  <dialog id="skill-dialog">
-    <button class="skill-dialog-close dialog-close" aria-label="Close">×</button>
-    <span class="section-kicker">Fundamental Skill</span>
-    <h2 id="skill-dialog-title">Fundamental Skill</h2>
-    <p>The official graphic, description and Reception-to-Year-6 progression will appear here.</p>
-  </dialog>
-
   <dialog id="pillar-dialog" aria-labelledby="dialog-title">
     <button class="pillar-dialog-close dialog-close" type="button" aria-label="Close pillar information">×</button>
     <span class="section-kicker">Curriculum Pillar</span>
@@ -284,6 +304,6 @@
     </section>
   </dialog>
 
-  <script src="assets/script.js"></script>
+  <script src="assets/script.js?v=1.8"></script>
 </body>
 </html>
