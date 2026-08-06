@@ -1,20 +1,110 @@
 const yearData = {
-  "Nursery": {title:"A playful beginning to the KCA learning journey", desc:"Children learn through purposeful play, rich talk, stories, relationships and first-hand experiences.", questions:["Who am I and who cares for me?","What can we notice around us?","How can stories help us play?","What happens when things grow?","How do we explore with our senses?","What can we make and share together?"]},
-  "Reception": {title:"A year of curiosity, stories and discovery", desc:"Children build the foundations of communication, early reading, number, creativity and understanding the world.", questions:["Who am I and where do I belong?","What changes around us?","How do stories help us imagine?","What makes something grow?","Where could a journey take us?","How can we celebrate together?"]},
-  "Year 1": {title:"Building strong foundations", desc:"Children strengthen early knowledge and begin to make purposeful links between subjects.", questions:["What makes a place feel like home?","How has childhood changed?","Why do seasons matter?","What can we learn from animals?","How do people tell stories?","How can we make a difference?"]},
-  "Year 2": {title:"Exploring people, places and change", desc:"Children deepen their knowledge through carefully connected enquiries and experiences.", questions:["How do communities grow?","What makes someone brave?","Why does our world change?","How do living things survive?","What can objects tell us?","How should we care for our planet?"]},
-  "Year 3": {title:"Making connections across the curriculum", desc:"Children encounter increasingly complex ideas and communicate their learning with confidence.", questions:["What makes a civilisation powerful?","How does belief shape life?","Why do people move?","What lies beneath our feet?","How does creativity change minds?","What does it mean to belong?"]},
-  "Year 4": {title:"Thinking deeply and questioning the world", desc:"Children build detailed subject knowledge and use it to explain, compare and create.", questions:["How do societies rise and fall?","Can one voice create change?","How does energy shape our lives?","What makes a place unique?","How do ideas travel?","What should we protect?"]},
-  "Year 5": {title:"Applying knowledge with growing independence", desc:"Children tackle challenging questions and draw together learning from across the curriculum.", questions:["What drives people to explore?","How does power affect people?","Can progress cost too much?","Why do environments matter?","How do stories shape identity?","What is our responsibility to others?"]},
-  "Year 6": {title:"Preparing children to understand and influence the world", desc:"Children consolidate powerful knowledge, develop independence and present sophisticated final outcomes.", questions:["How can one person change the world?","What makes leadership effective?","How does conflict shape history?","Can science solve every problem?","Whose story gets remembered?","What legacy will we leave?"]}
+  "Nursery": {
+    "title": "Growing, exploring and belonging",
+    "desc": "Playful foundations for communication, curiosity, confidence and early learning.",
+    "questions": [
+      "Who am I?",
+      "What can I discover?",
+      "How do we care for one another?",
+      "What changes around us?",
+      "How can stories take us somewhere new?",
+      "What can I create?"
+    ]
+  },
+  "Reception": {
+    "title": "A year of wonder and growing independence",
+    "desc": "Children build secure foundations through purposeful play, stories, talk, exploration and memorable shared experiences.",
+    "questions": [
+      "What makes me unique?",
+      "How do stories help us understand?",
+      "What changes around us?",
+      "How can we care for living things?",
+      "Where can our imagination take us?",
+      "How have I grown?"
+    ]
+  },
+  "Year 1": {
+    "title": "Building strong foundations",
+    "desc": "In Year 1, children build strong foundations through six connected learning journeys. Each unit begins with a memorable experience and culminates in a presentation for a real audience.",
+    "questions": [
+      "Where does our food come from?",
+      "What shapes our identity?",
+      "How can we use materials to solve problems?",
+      "What can I observe in the natural world?",
+      "What makes our homes special?",
+      "What features make where we live unique?"
+    ]
+  },
+  "Year 2": {
+    "title": "Growing curiosity and confidence",
+    "desc": "Children begin to connect ideas across subjects and communicate their learning with increasing independence.",
+    "questions": [
+      "How can a community change?",
+      "Why do people tell stories?",
+      "What makes somewhere special?",
+      "How do living things survive?",
+      "How have inventions changed life?",
+      "How can we protect our world?"
+    ]
+  },
+  "Year 3": {
+    "title": "Making connections",
+    "desc": "Year 3 connects local, national and global learning. Children investigate London, journeys, prehistory, water, climate and Ancient Egypt before sharing their learning with authentic audiences.",
+    "questions": [
+      "What changes can I observe in London?",
+      "How do different types of journeys affect us?",
+      "What do I know about the Stone Age?",
+      "How does the water cycle impact the world?",
+      "How are climates around the world different?",
+      "What do I know about the Ancient Egyptians?"
+    ]
+  },
+  "Year 4": {
+    "title": "Deepening knowledge and independence",
+    "desc": "Children investigate increasingly complex ideas, make connections across disciplines and communicate with confidence.",
+    "questions": [
+      "How does power shape communities?",
+      "What can journeys teach us?",
+      "Why do civilisations grow?",
+      "How does energy change our lives?",
+      "What connects people and places?",
+      "How can creativity influence change?"
+    ]
+  },
+  "Year 5": {
+    "title": "Investigating the world",
+    "desc": "Year 5’s curriculum moves between natural disasters, early British history, global environments, mythology, space and Tudor England. Every unit has a distinct audience and final presentation.",
+    "questions": [
+      "What do I know about volcanoes and earthquakes?",
+      "Who were the Anglo-Saxons and what impact did they have on life today?",
+      "What relationship do animals, including humans, have with nature?",
+      "What have humans discovered about Earth and Space?",
+      "How can we look after our Earth and Space?",
+      "Why is Tudor history so significant?"
+    ]
+  },
+  "Year 6": {
+    "title": "Leading learning and preparing for the future",
+    "desc": "Year 6 brings together ambitious historical, geographical and scientific learning with increasingly sophisticated writing and presentation. The year culminates in transition and a final performance.",
+    "questions": [
+      "What do we know about the Benin Kingdom?",
+      "Why did people leave their homes in the Caribbean to come to Britain?",
+      "What did the world learn from World War 1?",
+      "How did the community handle the impact of World War 2?",
+      "How did the community handle the impact of World War 2?",
+      "How can I prepare for my future?"
+    ]
+  }
 };
 const presentations=["Gallery or exhibition","Performance for an audience","Published writing","Debate or speech","Film or digital showcase","Celebration of learning"];
 const grid=document.getElementById('questions-grid');
 function renderYear(year){const d=yearData[year];document.getElementById('year-kicker').textContent=`${year} Curriculum`;document.getElementById('year-title').textContent=d.title;document.getElementById('year-description').textContent=d.desc;const slug=year.toLowerCase().replace(' ','-');const link=document.getElementById('year-page-link');if(link)link.href=`year-groups/${slug}.html`;grid.innerHTML=d.questions.map((q,i)=>`<article class="question-card"><span class="term-tag">${['Autumn 1','Autumn 2','Spring 1','Spring 2','Summer 1','Summer 2'][i]}</span><h4>${q}</h4><p>Subjects, key texts, experiences and knowledge will be added here.</p><span class="presentation-label">Final outcome: ${presentations[i]}</span></article>`).join('')}
 renderYear('Nursery');
 document.querySelectorAll('.year-tabs button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.year-tabs button').forEach(b=>b.setAttribute('aria-selected','false'));btn.setAttribute('aria-selected','true');renderYear(btn.dataset.year)}));
-const subjects=['English','Mathematics','Science','Art & Design','Computing','Design & Technology','Geography','History','Music','Physical Education','Personal Development','Religious Education','Languages','British Sign Language','Oracy & Drama','Early Years'];
-document.getElementById('subjects-grid').innerHTML=subjects.map(s=>`<article class="subject-card"><h3>${s}</h3><p>Intent, progression, end points and curriculum documentation.</p><a href="#" aria-disabled="true">Download coming soon</a></article>`).join('');
+const subjects=[
+  ['English','english'],['Mathematics','mathematics'],['Science','science'],['History','history'],['Geography','geography'],['Art','art'],['Design & Technology','design-technology'],['Music','music'],['Religious Education','religious-education'],['Computing','computing'],['PSHE','pshe'],['Physical Education','physical-education'],['French','french'],['British Sign Language','british-sign-language']
+];
+document.getElementById('subjects-grid').innerHTML=subjects.map(([name,slug])=>`<article class="subject-card"><h3>${name}</h3><p>Subject vision, intent, progression and curriculum documents.</p><a href="subjects/${slug}.html">Explore subject →</a></article>`).join('');
 
 
 const fundamentalStages = {
