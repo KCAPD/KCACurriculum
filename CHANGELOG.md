@@ -12,3 +12,8 @@
 - Improved mobile navigation, tap targets, spacing and modal sizing.
 - Optimised the two-row experience gallery for phone browsing.
 - Added responsive year-group and subject-page layouts.
+
+## Version 3.5
+- Moved the mobile curriculum framework navigator directly below Our Vision.
+- Made the mobile navigator sticky while visitors move through the curriculum framework.
+- Retained the original desktop arrow journey beneath the five pillars.

@@ -454,3 +454,25 @@ html{scroll-behavior:smooth}
   .design-flow{gap:8px;padding:10px}
   .design-flow a{min-height:54px;font-size:.76rem;padding:9px 6px}
 }
+
+/* Version 3.5 — place the phone framework navigator directly below Our Vision */
+.mobile-framework-nav{display:none}
+@media (max-width:760px){
+  .desktop-framework-flow{display:none}
+  .mobile-framework-nav{
+    display:grid;
+    position:sticky;
+    top:10px;
+    z-index:30;
+    margin-top:28px;
+    margin-bottom:0;
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    background:rgba(255,250,240,.92);
+    border:1px solid rgba(16,43,65,.08);
+  }
+  .mobile-framework-nav a{
+    background:var(--ink);
+    color:#fff;
+  }
+}
