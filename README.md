@@ -1,9 +1,3 @@
-# KCA Curriculum Website — Version 2.6
+# KCA Curriculum Site — Version 2.8
 
-This release restores the real Year 1, Year 3, Year 5 and Year 6 curriculum-map content to the homepage year-group explorer while retaining the Version 2.4 Experience Library.
-
-## Changes
-- Homepage cards now show the actual Big Question, curriculum theme, Initial Experience, Learning Presentation, authentic audience and curriculum focus.
-- Nursery, Reception, Year 2 and Year 4 remain clearly labelled as awaiting their final curriculum maps.
-- Direct links open the full digital curriculum book for populated year groups.
-- All Experience Library content and filters from Version 2.4 are retained.
+This release restores a cleaner year-group presentation. Populated curriculum cards now foreground only the Big Question and Learning Presentation. Initial Experience, authentic audience, writing outcomes and wider curriculum detail remain available within each digital year-group book. Curriculum themes have been removed from the card design.

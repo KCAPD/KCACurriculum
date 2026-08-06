@@ -117,7 +117,7 @@
 @media(max-width:650px){.experience-scroll-window{max-height:680px;padding:14px}.experience-gallery{grid-template-columns:1fr}.experience-card{min-height:190px}.experience-closing{align-items:flex-start;flex-direction:column}.experience-dialog{padding:28px 22px}.experience-dialog-heading{align-items:flex-start}.experience-dialog-heading h2{font-size:2.1rem}}
 
 /* Version 2.5: real curriculum-map summaries in the homepage explorer */
-.question-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.theme-tag{display:inline-flex;padding:6px 9px;border-radius:999px;background:rgba(14,41,66,.08);font-size:.72rem;font-weight:800;color:var(--ink)}.curriculum-summary-list{display:grid;gap:10px;margin:18px 0 14px}.curriculum-summary-list div{padding-top:10px;border-top:1px solid rgba(14,41,66,.1)}.curriculum-summary-list dt{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;font-weight:900;color:var(--red);margin-bottom:3px}.curriculum-summary-list dd{margin:0;color:var(--ink);font-size:.92rem;line-height:1.35;font-weight:700}.curriculum-focus{padding-top:13px;border-top:1px solid rgba(14,41,66,.1);line-height:1.45}.curriculum-focus strong{color:var(--ink)}.curriculum-summary-card{display:flex;flex-direction:column}.curriculum-summary-card .curriculum-focus{margin-top:auto}.placeholder-card{opacity:.86}
+.question-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.curriculum-summary-card{display:flex;flex-direction:column;min-height:310px;padding:28px}.big-question-label{display:block;margin-top:26px;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:var(--red)}.curriculum-summary-card h4{font-family:"Patrick Hand",cursive;font-size:2rem;line-height:1.08;margin:8px 0 24px;color:var(--ink)}.presentation-preview{margin-top:auto;padding:16px 17px;border-radius:16px;background:rgba(255,255,255,.72);border:1px solid rgba(14,41,66,.09)}.presentation-preview span{display:block;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;font-weight:900;color:var(--red);margin-bottom:5px}.presentation-preview strong{display:block;font-size:.95rem;line-height:1.35}.unit-explore-link{display:inline-flex;margin-top:16px;color:var(--ink);font-weight:900;text-decoration:none;align-self:flex-start}.unit-explore-link:hover{text-decoration:underline}.placeholder-card{opacity:.86}
 
 /* Version 2.6: horizontal, year-filtered experience journey */
 .experience-library-shell{overflow:visible;background:transparent;border:0;box-shadow:none;border-radius:0}
@@ -141,3 +141,10 @@
 .experience-arrow:disabled{opacity:.3;cursor:default;transform:none;background:#fff;color:var(--ink)}
 .experience-arrow-prev{left:0}.experience-arrow-next{right:0}
 @media(max-width:760px){.experience-filter-scroll{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto}.experience-carousel-wrap{padding:0 8px}.experience-arrow{display:none}.experience-card{flex-basis:84vw;width:84vw;min-height:360px}.experience-scroll-window{padding-left:2px}}
+
+
+/* Version 2.7: curated experience library */
+.experience-card{transform:scale(.975);opacity:.9;transition:transform .28s ease,opacity .28s ease,box-shadow .28s ease,border-color .28s ease}
+.experience-card.is-active{transform:scale(1.025);opacity:1;box-shadow:0 22px 48px rgba(16,43,65,.14);border-color:#bed0d6}
+.experience-card:hover{transform:translateY(-4px) scale(1.01);opacity:1}
+@media(prefers-reduced-motion:reduce){.experience-card,.experience-card.is-active,.experience-card:hover{transform:none;transition:none}}
