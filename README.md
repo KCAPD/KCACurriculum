@@ -10,3 +10,7 @@ This build returns to the clear original homepage and adds the strongest visual 
 - placeholder structures ready for curriculum maps, key texts, experiences and learning presentations.
 
 Open `index.html` to preview the homepage. The year-group pages are in `year-groups/`.
+
+
+## Version 1.6 update
+The five curriculum pillar illustrations now begin near the top of each card and sit flush with the bottom edge, removing the unused space above the artwork.
