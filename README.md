@@ -1,30 +1,17 @@
-# KCA Curriculum Site — Initial Release
+# KCA Curriculum Website — Version 2.0
 
-A static GitHub Pages site for King's Cross Academy's curriculum.
+This release rebuilds the homepage as a scrolling storytelling experience.
 
 ## Included
-- Curriculum vision and intent
-- Six curriculum pillar placeholders
-- KCA learning journey
-- Six values character placeholders
-- Reception–Year 6 interactive year selector
-- Six big-question cards per year
-- Learning presentation outcomes
-- Subject curriculum download library placeholders
-- Responsive mobile design
+- Full-screen opening and curriculum question
+- Five real curriculum pillar graphics
+- One full-screen chapter for each pillar
+- Animated KCA Curriculum Framework
+- Fundamental Skills progression placeholder
+- Big Question to Learning Presentation journey
+- Experiences ribbon
+- Year-group and subject exploration placeholders
+- Responsive mobile navigation and scroll-reveal animation
 
 ## Publish on GitHub Pages
-1. Create a new repository, e.g. `kca-curriculum`.
-2. Upload the contents of this folder to the repository root.
-3. In **Settings → Pages**, choose **Deploy from a branch**.
-4. Select the `main` branch and `/root` folder.
-5. Save.
-
-## Next content release
-Replace placeholder pillar titles and graphics, value-character circles, year-group questions, curriculum map links and subject download links.
-
-
-## Version 1.1 additions
-- Fundamental Skills section with Reception-to-Year-6 progression preview
-- Experiences Beyond the Classroom section featuring Art Week and Bright Futures Festival
-- Updated curriculum design narrative and navigation
+Upload `index.html` and the complete `assets` folder to the repository root. Keep the image filenames and folder structure unchanged.
