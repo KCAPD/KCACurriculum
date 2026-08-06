@@ -14,5 +14,12 @@ renderYear('Reception');
 document.querySelectorAll('.year-tabs button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.year-tabs button').forEach(b=>b.setAttribute('aria-selected','false'));btn.setAttribute('aria-selected','true');renderYear(btn.dataset.year)}));
 const subjects=['English','Mathematics','Science','Art & Design','Computing','Design & Technology','Geography','History','Music','Physical Education','Personal Development','Religious Education','Languages','British Sign Language','Oracy & Drama','Early Years'];
 document.getElementById('subjects-grid').innerHTML=subjects.map(s=>`<article class="subject-card"><h3>${s}</h3><p>Intent, progression, end points and curriculum documentation.</p><a href="#" aria-disabled="true">Download coming soon</a></article>`).join('');
+document.querySelectorAll('.skill-card').forEach(card=>card.addEventListener('click',()=>{
+  document.querySelectorAll('.skill-card').forEach(c=>c.classList.remove('active'));
+  card.classList.add('active');
+  const n=card.dataset.skill;
+  document.getElementById('skill-preview-title').textContent=`Fundamental Skill ${n}`;
+  document.getElementById('skill-preview-copy').textContent='The selected skill will show how expectations build in clear, child-friendly steps from Reception through to Year 6.';
+}));
 const dialog=document.getElementById('pillar-dialog');document.querySelectorAll('.pillar-card').forEach(card=>card.addEventListener('click',()=>{document.getElementById('dialog-title').textContent=`Pillar ${card.dataset.pillar}`;dialog.showModal()}));document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 const menu=document.querySelector('.menu-button'),nav=document.querySelector('.site-nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',open)});document.querySelectorAll('.site-nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));

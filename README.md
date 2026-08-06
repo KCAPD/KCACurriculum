@@ -22,3 +22,9 @@ A static GitHub Pages site for King's Cross Academy's curriculum.
 
 ## Next content release
 Replace placeholder pillar titles and graphics, value-character circles, year-group questions, curriculum map links and subject download links.
+
+
+## Version 1.1 additions
+- Fundamental Skills section with Reception-to-Year-6 progression preview
+- Experiences Beyond the Classroom section featuring Art Week and Bright Futures Festival
+- Updated curriculum design narrative and navigation
