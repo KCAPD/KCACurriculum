@@ -248,3 +248,16 @@ const skillClose=document.querySelector('.skill-dialog-close');
 if(skillClose&&skillDialog)skillClose.addEventListener('click',()=>skillDialog.close());
 
 const menu=document.querySelector('.menu-button'),nav=document.querySelector('.site-nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',open)});document.querySelectorAll('.site-nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+
+
+const experienceFilters=document.querySelectorAll('.experience-filter');
+const experienceItems=document.querySelectorAll('.experience-item');
+experienceFilters.forEach(button=>button.addEventListener('click',()=>{
+  experienceFilters.forEach(item=>{item.classList.remove('active');item.setAttribute('aria-pressed','false')});
+  button.classList.add('active');button.setAttribute('aria-pressed','true');
+  const filter=button.dataset.filter;
+  experienceItems.forEach(card=>{
+    const audiences=(card.dataset.audience||'').split(' ');
+    card.hidden=filter!=='all'&&!audiences.includes(filter);
+  });
+}));
