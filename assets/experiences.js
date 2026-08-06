@@ -17,7 +17,13 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Courage"
-    ]
+    ],
+    "subjects": [
+      "pshe",
+      "english",
+      "mathematics"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Arts Week",
@@ -36,7 +42,14 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Courage"
-    ]
+    ],
+    "subjects": [
+      "art",
+      "music",
+      "design-technology",
+      "english"
+    ],
+    "partner": "Central Saint Martins"
   },
   {
     "title": "Annual West End Musical",
@@ -55,6 +68,11 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Respect"
+    ],
+    "subjects": [
+      "english",
+      "music",
+      "art"
     ]
   },
   {
@@ -73,6 +91,9 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Kindness"
+    ],
+    "subjects": [
+      "english"
     ]
   },
   {
@@ -92,6 +113,12 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Endurance",
       "Aspiration"
+    ],
+    "subjects": [
+      "science",
+      "computing",
+      "mathematics",
+      "design-technology"
     ]
   },
   {
@@ -110,7 +137,12 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Integrity",
       "Respect"
-    ]
+    ],
+    "subjects": [
+      "computing",
+      "pshe"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Outdoor Classroom Day",
@@ -129,6 +161,11 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Kindness",
       "Respect"
+    ],
+    "subjects": [
+      "science",
+      "geography",
+      "physical-education"
     ]
   },
   {
@@ -148,7 +185,12 @@ window.KCA_EXPERIENCES = [
       "Respect",
       "Kindness",
       "Courage"
-    ]
+    ],
+    "subjects": [
+      "pshe",
+      "english"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Sports Day",
@@ -167,7 +209,12 @@ window.KCA_EXPERIENCES = [
       "Endurance",
       "Respect",
       "Kindness"
-    ]
+    ],
+    "subjects": [
+      "physical-education",
+      "pshe"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Whole-School Pantomime",
@@ -186,6 +233,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Kindness",
       "Aspiration"
+    ],
+    "subjects": [
+      "english",
+      "music"
     ]
   },
   {
@@ -204,7 +255,11 @@ window.KCA_EXPERIENCES = [
       "Kindness",
       "Integrity",
       "Respect"
-    ]
+    ],
+    "subjects": [
+      "pshe"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Comic Relief",
@@ -222,7 +277,11 @@ window.KCA_EXPERIENCES = [
       "Kindness",
       "Integrity",
       "Respect"
-    ]
+    ],
+    "subjects": [
+      "pshe"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Story Gardeners",
@@ -242,7 +301,14 @@ window.KCA_EXPERIENCES = [
       "Kindness",
       "Endurance",
       "Respect"
-    ]
+    ],
+    "subjects": [
+      "science",
+      "geography",
+      "pshe"
+    ],
+    "personalDevelopment": true,
+    "partner": "Global Generation"
   },
   {
     "title": "Little Angel Theatre Christmas Production",
@@ -263,7 +329,13 @@ window.KCA_EXPERIENCES = [
       "Courage",
       "Aspiration",
       "Kindness"
-    ]
+    ],
+    "subjects": [
+      "english",
+      "music",
+      "art"
+    ],
+    "partner": "Little Angel Theatre"
   },
   {
     "title": "Key Stage 1 Christmas Productions",
@@ -283,6 +355,11 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Courage",
       "Endurance"
+    ],
+    "subjects": [
+      "english",
+      "music",
+      "art"
     ]
   },
   {
@@ -304,6 +381,12 @@ window.KCA_EXPERIENCES = [
       "Kindness",
       "Respect",
       "Aspiration"
+    ],
+    "subjects": [
+      "english",
+      "music",
+      "religious-education",
+      "geography"
     ]
   },
   {
@@ -326,6 +409,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Courage",
       "Kindness"
+    ],
+    "subjects": [
+      "music",
+      "english"
     ]
   },
   {
@@ -347,6 +434,9 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Endurance",
       "Aspiration"
+    ],
+    "subjects": [
+      "music"
     ]
   },
   {
@@ -368,7 +458,12 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Courage",
       "Endurance"
-    ]
+    ],
+    "subjects": [
+      "english",
+      "pshe"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Swimming",
@@ -390,6 +485,9 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Courage",
       "Endurance"
+    ],
+    "subjects": [
+      "physical-education"
     ]
   },
   {
@@ -410,6 +508,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Kindness"
+    ],
+    "subjects": [
+      "science",
+      "geography"
     ]
   },
   {
@@ -430,6 +532,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Aspiration"
+    ],
+    "subjects": [
+      "science",
+      "geography"
     ]
   },
   {
@@ -448,6 +554,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Kindness"
+    ],
+    "subjects": [
+      "religious-education",
+      "history"
     ]
   },
   {
@@ -467,6 +577,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Courage",
       "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "english"
     ]
   },
   {
@@ -487,7 +601,13 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Courage",
       "Respect"
-    ]
+    ],
+    "subjects": [
+      "pshe",
+      "physical-education",
+      "english"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Canal Walk & Workshop",
@@ -507,6 +627,11 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Aspiration"
+    ],
+    "subjects": [
+      "geography",
+      "history",
+      "science"
     ]
   },
   {
@@ -526,7 +651,13 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Respect"
-    ]
+    ],
+    "subjects": [
+      "geography",
+      "english",
+      "history"
+    ],
+    "partner": "The British Library"
   },
   {
     "title": "Islington Synagogue",
@@ -544,6 +675,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Kindness"
+    ],
+    "subjects": [
+      "religious-education",
+      "history"
     ]
   },
   {
@@ -563,6 +698,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Respect"
+    ],
+    "subjects": [
+      "history",
+      "geography"
     ]
   },
   {
@@ -583,6 +722,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Endurance"
+    ],
+    "subjects": [
+      "science",
+      "geography"
     ]
   },
   {
@@ -602,6 +745,11 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Aspiration"
+    ],
+    "subjects": [
+      "history",
+      "geography",
+      "science"
     ]
   },
   {
@@ -621,6 +769,10 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Kindness"
+    ],
+    "subjects": [
+      "religious-education",
+      "history"
     ]
   },
   {
@@ -640,7 +792,13 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Integrity"
-    ]
+    ],
+    "subjects": [
+      "science",
+      "geography",
+      "computing"
+    ],
+    "partner": "Eden Project"
   },
   {
     "title": "The Place Dance Collaboration",
@@ -661,7 +819,13 @@ window.KCA_EXPERIENCES = [
       "Courage",
       "Endurance",
       "Aspiration"
-    ]
+    ],
+    "subjects": [
+      "physical-education",
+      "music",
+      "english"
+    ],
+    "partner": "The Place"
   },
   {
     "title": "Natural History Museum",
@@ -681,7 +845,12 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Endurance"
-    ]
+    ],
+    "subjects": [
+      "science",
+      "geography"
+    ],
+    "partner": "Natural History Museum"
   },
   {
     "title": "British Museum",
@@ -700,7 +869,12 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Respect",
       "Aspiration"
-    ]
+    ],
+    "subjects": [
+      "history",
+      "art"
+    ],
+    "partner": "British Museum"
   },
   {
     "title": "National Portrait Gallery",
@@ -719,7 +893,13 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Aspiration",
       "Respect"
-    ]
+    ],
+    "subjects": [
+      "art",
+      "history",
+      "english"
+    ],
+    "partner": "National Portrait Gallery"
   },
   {
     "title": "Bright Futures Academy",
@@ -738,7 +918,13 @@ window.KCA_EXPERIENCES = [
     "values": [
       "Integrity",
       "Aspiration"
-    ]
+    ],
+    "subjects": [
+      "pshe",
+      "english",
+      "mathematics"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "Windrush Voices at the British Library",
@@ -758,7 +944,13 @@ window.KCA_EXPERIENCES = [
       "Respect",
       "Integrity",
       "Kindness"
-    ]
+    ],
+    "subjects": [
+      "history",
+      "english",
+      "geography"
+    ],
+    "partner": "The British Library"
   },
   {
     "title": "Camden Junior Citizenship",
@@ -778,7 +970,11 @@ window.KCA_EXPERIENCES = [
       "Integrity",
       "Courage",
       "Respect"
-    ]
+    ],
+    "subjects": [
+      "pshe"
+    ],
+    "personalDevelopment": true
   },
   {
     "title": "World War I Experience Day",
@@ -797,6 +993,10 @@ window.KCA_EXPERIENCES = [
       "Courage",
       "Respect",
       "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "english"
     ]
   },
   {
@@ -817,6 +1017,10 @@ window.KCA_EXPERIENCES = [
       "Courage",
       "Kindness",
       "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "english"
     ]
   },
   {
@@ -838,7 +1042,15 @@ window.KCA_EXPERIENCES = [
       "Courage",
       "Respect",
       "Endurance"
-    ]
+    ],
+    "subjects": [
+      "french",
+      "geography",
+      "pshe",
+      "physical-education"
+    ],
+    "personalDevelopment": true,
+    "partner": "KCA residential programme"
   },
   {
     "title": "Year 6 Production",
@@ -858,6 +1070,14 @@ window.KCA_EXPERIENCES = [
       "Courage",
       "Endurance",
       "Aspiration"
-    ]
+    ],
+    "subjects": [
+      "english",
+      "music",
+      "art",
+      "design-technology",
+      "pshe"
+    ],
+    "personalDevelopment": true
   }
 ];

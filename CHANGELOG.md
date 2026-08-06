@@ -1,9 +1,8 @@
-# KCA Curriculum Site — Changelog
+# Changelog
 
-## Version 3.0
-
-- Restored the complete, working Experience Library from Version 2.8.
-- Changed the Experience Library to a two-row horizontal gallery.
-- Kept only the year-group filters.
-- Prioritised year-specific experiences before whole-school opportunities when a year is selected.
-- Retained the cleaner Version 2.8 curriculum cards and all existing year-group, subject, pillar, values and Fundamental Skills content.
+## 3.1
+- Restored packaged Experience Library data loading.
+- Added subject metadata to every experience.
+- Added automatic experience galleries to all subject pages.
+- Connected the curriculum site to the KCA Personal Development site from values, PSHE, experiences, year pages and footer.
+- Added partner and related-subject information to experience details.

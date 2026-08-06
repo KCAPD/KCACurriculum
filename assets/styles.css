@@ -197,3 +197,5 @@
     min-height:320px;
   }
 }
+
+.personal-development-bridge{max-width:1120px;margin:2.5rem auto 0;padding:1.8rem 2rem;border-radius:24px;background:#f6efe8;display:flex;align-items:center;justify-content:space-between;gap:2rem}.personal-development-bridge h3{margin:.35rem 0}.personal-development-bridge p{max-width:720px;margin:0}.experience-dialog-tags.subjects a{display:inline-flex;padding:.45rem .7rem;border-radius:999px;background:#edf4f8;color:#16314f;text-decoration:none;font-weight:700}.experience-dialog-partner{font-weight:800;color:#536277}.experience-dialog-pd{display:inline-block;margin-top:1rem;color:#b5222e;font-weight:800}@media(max-width:760px){.personal-development-bridge{flex-direction:column;align-items:flex-start}}

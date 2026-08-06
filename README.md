@@ -1,3 +1,3 @@
-# KCA Curriculum Site — Version 3.0
+# KCA Curriculum Site — Version 3.1
 
-This release restores a cleaner year-group presentation. Populated curriculum cards now foreground only the Big Question and Learning Presentation. Initial Experience, authentic audience, writing outcomes and wider curriculum detail remain available within each digital year-group book. Curriculum themes have been removed from the card design.
+Open `index.html` to preview. Experience content is maintained in `assets/experiences.js`; subject pages automatically pull matching experiences from that file.

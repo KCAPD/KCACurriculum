@@ -529,6 +529,11 @@ function openExperience(item){
   document.getElementById('experience-dialog-detail').textContent=item.detail;
   document.getElementById('experience-dialog-pillars').innerHTML=item.pillars.map(x=>`<span>${x}</span>`).join('');
   const values=document.getElementById('experience-dialog-values'); values.classList.add('values'); values.innerHTML=item.values.map(x=>`<span>${x}</span>`).join('');
+  const subjects=document.getElementById('experience-dialog-subjects');
+  if(subjects) subjects.innerHTML=(item.subjects||[]).map(x=>`<a href="subjects/${x}.html">${x.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase())}</a>`).join('');
+  const partner=document.getElementById('experience-dialog-partner');
+  if(partner){partner.hidden=!item.partner;partner.textContent=item.partner?`In partnership with ${item.partner}`:'';}
+  const pd=document.getElementById('experience-dialog-pd'); if(pd)pd.hidden=!item.personalDevelopment;
   if(typeof experienceDialog.showModal==='function')experienceDialog.showModal();
 }
 experienceButtons.forEach(button=>button.addEventListener('click',()=>{
