@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=3.3" />
+  <link rel="stylesheet" href="assets/styles.css?v=3.4" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -101,9 +101,14 @@
           <img src="assets/images/pillar-technology.png" alt="Illustration for a technology-rich environment" />
         </button>
       </div>
-      <div class="wrap design-flow" aria-label="Curriculum design flow">
-        <div>Our Vision</div><span>→</span><div>Five Pillars</div><span>→</span><div>Fundamental Skills</div><span>→</span><div>Six Values</div><span>→</span><div>Big Questions</div><span>→</span><div>Learning Presentations</div>
-      </div>
+      <nav class="wrap design-flow" aria-label="Explore the curriculum framework">
+        <a href="#vision">Our Vision</a><span aria-hidden="true">→</span>
+        <a href="#design">Five Pillars</a><span aria-hidden="true">→</span>
+        <a href="#skills">Fundamental Skills</a><span aria-hidden="true">→</span>
+        <a href="#values">Six Values</a><span aria-hidden="true">→</span>
+        <a href="#big-questions">Big Questions</a><span aria-hidden="true">→</span>
+        <a href="#learning-presentations">Learning Presentations</a>
+      </nav>
     </section>
 
 
@@ -167,16 +172,16 @@
         <p>Children begin with a compelling question, build secure knowledge and skills, and end by presenting their learning to an authentic audience.</p>
       </div>
       <div class="wrap journey-grid">
-        <article><span>1</span><h3>Big Question</h3><p>A meaningful question creates curiosity and gives the unit a clear purpose.</p></article>
+        <article id="big-questions"><span>1</span><h3>Big Question</h3><p>A meaningful question creates curiosity and gives the unit a clear purpose.</p></article>
         <article><span>2</span><h3>Initial Experience</h3><p>Texts, objects, visits and experiences draw children into the learning.</p></article>
         <article><span>3</span><h3>Knowledge & Skills</h3><p>Carefully sequenced teaching helps pupils know more and do more.</p></article>
         <article><span>4</span><h3>Retrieve & Connect</h3><p>Children revisit prior learning and make connections across the curriculum.</p></article>
         <article><span>5</span><h3>Values in Action</h3><p>Our values guide how children think, collaborate and respond to challenge.</p></article>
-        <article class="journey-finale"><span>6</span><h3>Learning Presentation</h3><p>Every unit culminates in a purposeful final outcome shared through performance, exhibition, publication, debate or presentation.</p></article>
+        <article id="learning-presentations" class="journey-finale"><span>6</span><h3>Learning Presentation</h3><p>Every unit culminates in a purposeful final outcome shared through performance, exhibition, publication, debate or presentation.</p></article>
       </div>
     </section>
 
-    <section class="section values-section">
+    <section id="values" class="section values-section">
       <div class="wrap section-heading split-heading">
         <div><span class="section-kicker">Values-led learning</span><h2>Our characters travel through the curriculum</h2></div>
         <p>The six KCA values are not an add-on. They shape the choices, discussions and learning behaviours within every unit.</p>

@@ -1,3 +1,9 @@
+# Version 3.4 — Mobile framework navigation
+
+- Rebuilt the Vision → Pillars → Skills → Values → Big Questions → Learning Presentations strip as a two-column tappable navigator on phones.
+- Removed arrows on mobile while retaining the original desktop flow.
+- Added smooth scrolling and reliable section anchor targets.
+
 # Changelog
 
 ## 3.3
