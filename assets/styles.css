@@ -63,3 +63,19 @@
 .fundamental-actions{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:24px;padding:22px 26px;border:1px solid var(--line);background:#fff;border-radius:22px}.fundamental-actions p{margin:0;max-width:690px;color:#486174}.fundamental-actions strong{color:#17324d}
 @media(max-width:1000px){.fundamental-explorer{grid-template-columns:1fr}.tree-stages{grid-template-columns:repeat(4,1fr)}.tree-stages:before{display:none}.tree-stage{grid-template-columns:40px 1fr}.fundamental-stage-panel{grid-template-columns:1fr .65fr}.fundamental-tree:after{display:none}}
 @media(max-width:760px){.tree-stages{grid-template-columns:repeat(2,1fr)}.fundamental-stage-panel{grid-template-columns:1fr}.fundamental-artwork{min-height:480px}.fundamental-actions{align-items:flex-start;flex-direction:column}.stage-copy{padding:30px 24px}.stage-copy h3{font-size:1.9rem}}
+
+/* Version 1.9: official KCA values characters */
+.values-character-grid{align-items:start}
+.value-character{display:flex;flex-direction:column;align-items:center;text-align:center;gap:15px}
+.value-character-circle{width:158px;aspect-ratio:1;border-radius:50%;overflow:hidden;background:#fff;border:7px solid #fff;box-shadow:0 13px 30px rgba(23,50,77,.14);transition:transform .24s ease,box-shadow .24s ease}
+.value-character-circle img{width:100%;height:100%;display:block;object-fit:cover;object-position:center center;transform:scale(1.07);transition:transform .3s ease}
+.value-character:hover .value-character-circle{transform:translateY(-6px);box-shadow:0 20px 38px rgba(23,50,77,.19)}
+.value-character:hover img{transform:scale(1.12)}
+.value-character h3{margin:0;font-size:1.03rem}
+.value-courage .value-character-circle{outline:4px solid #6f63a8}
+.value-respect .value-character-circle{outline:4px solid #2778bc}
+.value-kindness .value-character-circle{outline:4px solid #4d9297}
+.value-integrity .value-character-circle{outline:4px solid #f27b23}
+.value-endurance .value-character-circle{outline:4px solid #42a84b}
+.value-aspiration .value-character-circle{outline:4px solid #65bdc8}
+@media(max-width:760px){.value-character-circle{width:132px}}
