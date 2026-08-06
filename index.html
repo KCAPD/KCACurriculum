@@ -210,7 +210,7 @@
       <div class="wrap year-panel" id="year-panel" role="tabpanel">
         <div class="year-intro">
           <div><span class="section-kicker" id="year-kicker">Nursery Curriculum</span><h3 id="year-title">A playful beginning to the KCA learning journey</h3><p id="year-description">Children learn through purposeful play, rich talk, stories, relationships and first-hand experiences.</p></div>
-          <a class="button button-primary disabled" href="#" aria-disabled="true">Curriculum map coming soon</a>
+          <a id="year-page-link" class="button button-primary disabled" href="#" aria-disabled="true">Curriculum map coming soon</a>
         </div>
         <div class="questions-grid" id="questions-grid"></div>
       </div>
@@ -228,9 +228,8 @@
 
       <div class="wrap experience-library-shell">
         <div class="experience-toolbar">
-          <div class="experience-filter-scroll" id="experience-filters" aria-label="Filter experiences">
+          <div class="experience-filter-scroll" id="experience-filters" aria-label="Filter experiences by year group">
             <button class="experience-filter active" type="button" data-filter="all" aria-pressed="true">All</button>
-            <button class="experience-filter" type="button" data-filter="whole-school" aria-pressed="false">Whole school</button>
             <button class="experience-filter" type="button" data-filter="nursery" aria-pressed="false">Nursery</button>
             <button class="experience-filter" type="button" data-filter="reception" aria-pressed="false">Reception</button>
             <button class="experience-filter" type="button" data-filter="year-1" aria-pressed="false">Year 1</button>
@@ -239,16 +238,16 @@
             <button class="experience-filter" type="button" data-filter="year-4" aria-pressed="false">Year 4</button>
             <button class="experience-filter" type="button" data-filter="year-5" aria-pressed="false">Year 5</button>
             <button class="experience-filter" type="button" data-filter="year-6" aria-pressed="false">Year 6</button>
-            <button class="experience-filter" type="button" data-filter="trip" aria-pressed="false">Trips &amp; visits</button>
-            <button class="experience-filter" type="button" data-filter="performance" aria-pressed="false">Performance</button>
-            <button class="experience-filter" type="button" data-filter="stem" aria-pressed="false">STEM</button>
-            <button class="experience-filter" type="button" data-filter="leadership" aria-pressed="false">Leadership</button>
           </div>
           <p class="experience-count" id="experience-count" aria-live="polite"></p>
         </div>
 
-        <div class="experience-scroll-window" tabindex="0" aria-label="Scrollable experience gallery">
-          <div class="experience-gallery" id="experience-gallery"></div>
+        <div class="experience-carousel-wrap">
+          <button class="experience-arrow experience-arrow-prev" id="experience-prev" type="button" aria-label="Scroll experiences left">←</button>
+          <div class="experience-scroll-window" id="experience-scroll-window" tabindex="0" aria-label="Horizontally scrollable experience gallery">
+            <div class="experience-gallery" id="experience-gallery"></div>
+          </div>
+          <button class="experience-arrow experience-arrow-next" id="experience-next" type="button" aria-label="Scroll experiences right">→</button>
         </div>
       </div>
 

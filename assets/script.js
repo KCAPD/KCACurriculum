@@ -26,13 +26,61 @@ const yearData = {
   "Year 1": {
     "title": "Building strong foundations",
     "desc": "In Year 1, children build strong foundations through six connected learning journeys. Each unit begins with a memorable experience and culminates in a presentation for a real audience.",
-    "questions": [
-      "Where does our food come from?",
-      "What shapes our identity?",
-      "How can we use materials to solve problems?",
-      "What can I observe in the natural world?",
-      "What makes our homes special?",
-      "What features make where we live unique?"
+    "units": [
+      {
+        "term": "Autumn 1",
+        "theme": "Sustainability and Food",
+        "question": "Where does our food come from?",
+        "initial": "Food tasting featuring different crops grown in Kenya",
+        "presentation": "Harvest Festival",
+        "audience": "KS1",
+        "focus": "Geography: maps of a farm · Science: senses · DT: making bread and soup"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Identity and Relationships",
+        "question": "What shapes our identity?",
+        "initial": "Creating a heritage map and a “Guess Who?” class game",
+        "presentation": "KS1 Performance",
+        "audience": "Parents",
+        "focus": "History: changes within living memory · Art: habitat diorama · Music: pulse and rhythm"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Global Citizenship",
+        "question": "How can we use materials to solve problems?",
+        "initial": "Inventing and junk-modelling new playground equipment",
+        "presentation": "Exhibition of learning",
+        "audience": "KCA children",
+        "focus": "History: the Wright Brothers · Science: materials · DT: model plane with spinning propeller"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Growth and Change",
+        "question": "What can I observe in the natural world?",
+        "initial": "Observational drawing of nature and weather at the Story Garden",
+        "presentation": "“Spring Watch” show with a weather report",
+        "audience": "Parents, digitally",
+        "focus": "Geography: weather and climate · Science: seasonal change · Art: watercolour landscapes"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Life",
+        "question": "What makes our homes special?",
+        "initial": "The Great Fire of London workshop",
+        "presentation": "Dream home exhibition",
+        "audience": "Year 1 children",
+        "focus": "History: the Great Fire of London · Science: properties of materials · DT: dream bedroom structure"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Community",
+        "question": "What features make where we live unique?",
+        "initial": "Recreating iconic King’s Cross and Camden features",
+        "presentation": "Central Saint Martins Exhibition",
+        "audience": "Parents",
+        "focus": "Geography: UK countries, capitals and seas · Science: plants · Art: drawing inspired by King’s Cross Estate"
+      }
     ]
   },
   "Year 2": {
@@ -50,13 +98,61 @@ const yearData = {
   "Year 3": {
     "title": "Making connections",
     "desc": "Year 3 connects local, national and global learning. Children investigate London, journeys, prehistory, water, climate and Ancient Egypt before sharing their learning with authentic audiences.",
-    "questions": [
-      "What changes can I observe in London?",
-      "How do different types of journeys affect us?",
-      "What do I know about the Stone Age?",
-      "How does the water cycle impact the world?",
-      "How are climates around the world different?",
-      "What do I know about the Ancient Egyptians?"
+    "units": [
+      {
+        "term": "Autumn 1",
+        "theme": "Community",
+        "question": "What changes can I observe in London?",
+        "initial": "London Exploration Day",
+        "presentation": "Interactive London Tour",
+        "audience": "Argent and governors",
+        "focus": "History of London · Forces and magnets · DT bridge with moving parts"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Identity and Relationships",
+        "question": "How do different types of journeys affect us?",
+        "initial": "Map and local journey exploration",
+        "presentation": "KS2 Performance",
+        "audience": "Parents",
+        "focus": "UK geography and mapping · Animals including humans · Animated drawing and stop motion"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Life",
+        "question": "What do I know about the Stone Age?",
+        "initial": "Stone Age Day",
+        "presentation": "Stone Age history magazine for the school library",
+        "audience": "KCA children",
+        "focus": "Stone Age history · Rocks · Cave drawings"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Global Citizenship",
+        "question": "How does the water cycle impact the world?",
+        "initial": "Canal Museum and water study",
+        "presentation": "Lesson teaching Year 2 about the water cycle",
+        "audience": "Year 2 children",
+        "focus": "Mountains, rivers and water cycle · Plants · Mini greenhouse DT"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Growth and Change",
+        "question": "How are climates around the world different?",
+        "initial": "London Wetland Centre",
+        "presentation": "Learning Exhibition",
+        "audience": "KCA community",
+        "focus": "Climate zones · Light · Inuit textile wall hangings"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Sustainability and Food",
+        "question": "What do I know about the Ancient Egyptians?",
+        "initial": "Ancient Egyptians Day",
+        "presentation": "Central Saint Martins Exhibition",
+        "audience": "Parents",
+        "focus": "Ancient Egypt · Nutrition · Egyptian feast DT"
+      }
     ]
   },
   "Year 4": {
@@ -74,38 +170,161 @@ const yearData = {
   "Year 5": {
     "title": "Investigating the world",
     "desc": "Year 5’s curriculum moves between natural disasters, early British history, global environments, mythology, space and Tudor England. Every unit has a distinct audience and final presentation.",
-    "questions": [
-      "What do I know about volcanoes and earthquakes?",
-      "Who were the Anglo-Saxons and what impact did they have on life today?",
-      "What relationship do animals, including humans, have with nature?",
-      "What have humans discovered about Earth and Space?",
-      "How can we look after our Earth and Space?",
-      "Why is Tudor history so significant?"
+    "units": [
+      {
+        "term": "Autumn 1",
+        "theme": "Growth and Change",
+        "question": "What do I know about volcanoes and earthquakes?",
+        "initial": "Volcano Day: creating volcanoes",
+        "presentation": "Natural Disasters Documentary: North America",
+        "audience": "SLT and Frank Barnes",
+        "focus": "North America geography · States of matter · Stop-motion animation"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Sustainability and Food",
+        "question": "Who were the Anglo-Saxons and what impact did they have on life today?",
+        "initial": "Anglo-Saxon Day",
+        "presentation": "Anglo-Saxon exhibition: food, art and history",
+        "audience": "Parents",
+        "focus": "Anglo-Saxon history · Living things and habitats · Food technology"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Identity and Relationships",
+        "question": "What relationship do animals, including humans, have with nature?",
+        "initial": "Round-the-world biomes discovery",
+        "presentation": "Round-the-world trip linked to climate zones and biomes",
+        "audience": "STEAM Ambassador",
+        "focus": "Climate zones and biomes · Forces · Boat-building DT"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Community",
+        "question": "What have humans discovered about Earth and Space?",
+        "initial": "Vikings Day: discovery of Viking mythology",
+        "presentation": "Vikings lesson and activity delivered to Year 2",
+        "audience": "Year 2",
+        "focus": "Viking history · Properties of materials · Printmaking"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Life",
+        "question": "How can we look after our Earth and Space?",
+        "initial": "Wonder Dome Earth and Space workshop",
+        "presentation": "Earth and Space Immersive Experience on The Street",
+        "audience": "Governors as a panel of judges",
+        "focus": "Climate sustainability · Earth and Space · Spacecraft design and evaluation"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Global Citizenship",
+        "question": "Why is Tudor history so significant?",
+        "initial": "Tudor Experience Day",
+        "presentation": "Tudor Exhibition",
+        "audience": "Parents and Central Saint Martins",
+        "focus": "Tudor history · Human development · Tudor portrait drawing"
+      }
     ]
   },
   "Year 6": {
     "title": "Leading learning and preparing for the future",
     "desc": "Year 6 brings together ambitious historical, geographical and scientific learning with increasingly sophisticated writing and presentation. The year culminates in transition and a final performance.",
-    "questions": [
-      "What do we know about the Benin Kingdom?",
-      "Why did people leave their homes in the Caribbean to come to Britain?",
-      "What did the world learn from World War 1?",
-      "How did the community handle the impact of World War 2?",
-      "How did the community handle the impact of World War 2?",
-      "How can I prepare for my future?"
+    "units": [
+      {
+        "term": "Autumn 1",
+        "theme": "Life",
+        "question": "What do we know about the Benin Kingdom?",
+        "initial": "An experience of injustice",
+        "presentation": "Performed speech",
+        "audience": "KCA community assembly",
+        "focus": "Benin history · Circulatory system and healthy lifestyle · Printmaking and activism"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Global Citizenship",
+        "question": "Why did people leave their homes in the Caribbean to come to Britain?",
+        "initial": "Windrush visitors and press conference",
+        "presentation": "Exhibition on The Street",
+        "audience": "Parents",
+        "focus": "Caribbean migration and fair trade · Evolution and inheritance · Drawing and sketchbooks"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Sustainability and Food",
+        "question": "What did the world learn from World War 1?",
+        "initial": "World War 1 Day",
+        "presentation": "Documentary: Now and Then",
+        "audience": "STEAM Ambassador",
+        "focus": "World War 1 history · Living things and habitats · WW1 cooking DT"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Community",
+        "question": "How did the community handle the impact of World War 2?",
+        "initial": "Evacuation Day",
+        "presentation": "World War 2 Magazine",
+        "audience": "Frank Barnes community",
+        "focus": "World War 2 history · Light · Blitz shadow puppets"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Community",
+        "question": "How did the community handle the impact of World War 2?",
+        "initial": "Continued World War 2 enquiry",
+        "presentation": "World War 2 Magazine",
+        "audience": "Frank Barnes community",
+        "focus": "World War 2 history · Light · Songs of World War 2"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Growth and Change",
+        "question": "How can I prepare for my future?",
+        "initial": "Time travel: who am I in thirty years?",
+        "presentation": "Final End-of-Year Performance",
+        "audience": "Parents and Central Saint Martins",
+        "focus": "European study: France · Electricity · Upcycled transition cushion"
+      }
     ]
   }
 };
-const presentations=["Gallery or exhibition","Performance for an audience","Published writing","Debate or speech","Film or digital showcase","Celebration of learning"];
+const placeholderPresentations=["Gallery or exhibition","Performance for an audience","Published writing","Debate or speech","Film or digital showcase","Celebration of learning"];
 const grid=document.getElementById('questions-grid');
-function renderYear(year){const d=yearData[year];document.getElementById('year-kicker').textContent=`${year} Curriculum`;document.getElementById('year-title').textContent=d.title;document.getElementById('year-description').textContent=d.desc;const slug=year.toLowerCase().replace(' ','-');const link=document.getElementById('year-page-link');if(link)link.href=`year-groups/${slug}.html`;grid.innerHTML=d.questions.map((q,i)=>`<article class="question-card"><span class="term-tag">${['Autumn 1','Autumn 2','Spring 1','Spring 2','Summer 1','Summer 2'][i]}</span><h4>${q}</h4><p>Subjects, key texts, experiences and knowledge will be added here.</p><span class="presentation-label">Final outcome: ${presentations[i]}</span></article>`).join('')}
+function esc(value){return String(value ?? '').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
+function renderYear(year){
+  const d=yearData[year];
+  document.getElementById('year-kicker').textContent=`${year} Curriculum`;
+  document.getElementById('year-title').textContent=d.title;
+  document.getElementById('year-description').textContent=d.desc;
+  const slug=year.toLowerCase().replace(/ /g,'-');
+  const link=document.getElementById('year-page-link');
+  if(link){
+    link.href=`year-groups/${slug}.html`;
+    link.textContent=d.units?'Open the full digital curriculum book →':'Curriculum map coming soon';
+    link.classList.toggle('disabled',!d.units);
+    link.setAttribute('aria-disabled',d.units?'false':'true');
+  }
+  if(d.units){
+    grid.innerHTML=d.units.map(u=>`<article class="question-card curriculum-summary-card">
+      <div class="question-card-top"><span class="term-tag">${esc(u.term)}</span><span class="theme-tag">${esc(u.theme)}</span></div>
+      <h4>${esc(u.question)}</h4>
+      <dl class="curriculum-summary-list">
+        <div><dt>Initial Experience</dt><dd>${esc(u.initial)}</dd></div>
+        <div><dt>Learning Presentation</dt><dd>${esc(u.presentation)}</dd></div>
+        <div><dt>Authentic audience</dt><dd>${esc(u.audience)}</dd></div>
+      </dl>
+      <p class="curriculum-focus"><strong>Curriculum focus:</strong> ${esc(u.focus)}</p>
+    </article>`).join('');
+  } else {
+    grid.innerHTML=d.questions.map((q,i)=>`<article class="question-card placeholder-card"><span class="term-tag">${['Autumn 1','Autumn 2','Spring 1','Spring 2','Summer 1','Summer 2'][i]}</span><h4>${esc(q)}</h4><p>The detailed curriculum map for this year group will be added when the final overview is available.</p><span class="presentation-label">Planned final outcome: ${placeholderPresentations[i]}</span></article>`).join('');
+  }
+}
 renderYear('Nursery');
 document.querySelectorAll('.year-tabs button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.year-tabs button').forEach(b=>b.setAttribute('aria-selected','false'));btn.setAttribute('aria-selected','true');renderYear(btn.dataset.year)}));
 const subjects=[
   ['English','english'],['Mathematics','mathematics'],['Science','science'],['History','history'],['Geography','geography'],['Art','art'],['Design & Technology','design-technology'],['Music','music'],['Religious Education','religious-education'],['Computing','computing'],['PSHE','pshe'],['Physical Education','physical-education'],['French','french'],['British Sign Language','british-sign-language']
 ];
 document.getElementById('subjects-grid').innerHTML=subjects.map(([name,slug])=>`<article class="subject-card"><h3>${name}</h3><p>Subject vision, intent, progression and curriculum documents.</p><a href="subjects/${slug}.html">Explore subject →</a></article>`).join('');
-
 
 const fundamentalStages = {
   "Nursery": {
@@ -259,12 +478,28 @@ const experienceButtons=document.querySelectorAll('.experience-filter');
 const experienceDialog=document.getElementById('experience-dialog');
 const experienceDialogClose=document.querySelector('.experience-dialog-close');
 let activeExperienceFilter='all';
+function experienceAppliesTo(item,filter){
+  if(filter==='all') return true;
+  return item.tags.includes('whole-school') || item.tags.includes(filter);
+}
+function updateExperienceArrows(){
+  const scroller=document.getElementById('experience-scroll-window');
+  const prev=document.getElementById('experience-prev');
+  const next=document.getElementById('experience-next');
+  if(!scroller||!prev||!next)return;
+  prev.disabled=scroller.scrollLeft<=4;
+  next.disabled=scroller.scrollLeft+scroller.clientWidth>=scroller.scrollWidth-4;
+}
 function renderExperiences(){
   if(!experienceGallery)return;
-  const filtered=activeExperienceFilter==='all'?experienceData:experienceData.filter(item=>item.tags.includes(activeExperienceFilter));
-  experienceCount.textContent=`Showing ${filtered.length} of ${experienceData.length} experiences`;
+  const filtered=experienceData.filter(item=>experienceAppliesTo(item,activeExperienceFilter));
+  const label=activeExperienceFilter==='all'?'all year groups':document.querySelector(`.experience-filter[data-filter="${activeExperienceFilter}"]`)?.textContent||activeExperienceFilter;
+  experienceCount.textContent=`${filtered.length} experiences for ${label}`;
   experienceGallery.innerHTML=filtered.map(item=>`<button class="experience-card" type="button" data-experience="${experienceData.indexOf(item)}"><span class="experience-card-top"><span class="experience-card-icon" aria-hidden="true">${item.icon}</span><span class="experience-card-phase">${item.audience}</span></span><h3>${item.title}</h3><p>${item.summary}</p><span class="experience-card-action">Explore experience →</span></button>`).join('');
   experienceGallery.querySelectorAll('[data-experience]').forEach(card=>card.addEventListener('click',()=>openExperience(experienceData[Number(card.dataset.experience)])));
+  const scroller=document.getElementById('experience-scroll-window');
+  if(scroller) scroller.scrollTo({left:0,behavior:'smooth'});
+  requestAnimationFrame(updateExperienceArrows);
 }
 function openExperience(item){
   document.getElementById('experience-dialog-icon').textContent=item.icon;
@@ -279,9 +514,17 @@ function openExperience(item){
 experienceButtons.forEach(button=>button.addEventListener('click',()=>{
   experienceButtons.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false')});
   button.classList.add('active');button.setAttribute('aria-pressed','true');activeExperienceFilter=button.dataset.filter;renderExperiences();
-  const windowEl=document.querySelector('.experience-scroll-window');if(windowEl)windowEl.scrollTop=0;
+  const windowEl=document.querySelector('.experience-scroll-window');if(windowEl)windowEl.scrollTo({left:0,behavior:'smooth'});
 }));
 if(experienceDialogClose&&experienceDialog)experienceDialogClose.addEventListener('click',()=>experienceDialog.close());
 if(experienceDialog)experienceDialog.addEventListener('click',event=>{const r=experienceDialog.getBoundingClientRect();if(!(event.clientX>=r.left&&event.clientX<=r.right&&event.clientY>=r.top&&event.clientY<=r.bottom))experienceDialog.close()});
 if(experienceDialog)experienceDialog.addEventListener('cancel',event=>{event.preventDefault();experienceDialog.close()});
 renderExperiences();
+
+const experienceScroller=document.getElementById('experience-scroll-window');
+const experiencePrev=document.getElementById('experience-prev');
+const experienceNext=document.getElementById('experience-next');
+if(experiencePrev&&experienceScroller)experiencePrev.addEventListener('click',()=>experienceScroller.scrollBy({left:-Math.max(340,experienceScroller.clientWidth*.8),behavior:'smooth'}));
+if(experienceNext&&experienceScroller)experienceNext.addEventListener('click',()=>experienceScroller.scrollBy({left:Math.max(340,experienceScroller.clientWidth*.8),behavior:'smooth'}));
+if(experienceScroller)experienceScroller.addEventListener('scroll',updateExperienceArrows,{passive:true});
+window.addEventListener('resize',updateExperienceArrows);

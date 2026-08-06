@@ -115,3 +115,29 @@
 .experience-dialog-tags{display:flex;flex-wrap:wrap;gap:7px}.experience-dialog-tags span{border-radius:999px;padding:7px 10px;font-size:.73rem;font-weight:850;background:#edf3f5;color:var(--ink)}.experience-dialog-tags.values span{background:#16334c;color:#fff}
 @media(max-width:980px){.experience-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.experience-dialog-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.experience-scroll-window{max-height:680px;padding:14px}.experience-gallery{grid-template-columns:1fr}.experience-card{min-height:190px}.experience-closing{align-items:flex-start;flex-direction:column}.experience-dialog{padding:28px 22px}.experience-dialog-heading{align-items:flex-start}.experience-dialog-heading h2{font-size:2.1rem}}
+
+/* Version 2.5: real curriculum-map summaries in the homepage explorer */
+.question-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.theme-tag{display:inline-flex;padding:6px 9px;border-radius:999px;background:rgba(14,41,66,.08);font-size:.72rem;font-weight:800;color:var(--ink)}.curriculum-summary-list{display:grid;gap:10px;margin:18px 0 14px}.curriculum-summary-list div{padding-top:10px;border-top:1px solid rgba(14,41,66,.1)}.curriculum-summary-list dt{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;font-weight:900;color:var(--red);margin-bottom:3px}.curriculum-summary-list dd{margin:0;color:var(--ink);font-size:.92rem;line-height:1.35;font-weight:700}.curriculum-focus{padding-top:13px;border-top:1px solid rgba(14,41,66,.1);line-height:1.45}.curriculum-focus strong{color:var(--ink)}.curriculum-summary-card{display:flex;flex-direction:column}.curriculum-summary-card .curriculum-focus{margin-top:auto}.placeholder-card{opacity:.86}
+
+/* Version 2.6: horizontal, year-filtered experience journey */
+.experience-library-shell{overflow:visible;background:transparent;border:0;box-shadow:none;border-radius:0}
+.experience-toolbar{position:relative;padding:0 0 18px;border:0;background:transparent}
+.experience-filter-scroll{justify-content:center;flex-wrap:wrap;overflow:visible;padding:2px 0 8px}
+.experience-filter{padding:10px 17px;background:#fff;box-shadow:0 4px 14px rgba(16,43,65,.05)}
+.experience-count{text-align:center;margin-top:8px}
+.experience-carousel-wrap{position:relative;margin-top:12px;padding:0 54px}
+.experience-scroll-window{max-height:none;overflow-x:auto;overflow-y:hidden;padding:22px 5px 34px;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#afc1c8 transparent;overscroll-behavior-inline:contain}
+.experience-gallery{display:flex;gap:24px;width:max-content}
+.experience-card{flex:0 0 clamp(320px,31vw,430px);width:clamp(320px,31vw,430px);min-height:390px;padding:30px;border-radius:28px;scroll-snap-align:start;box-shadow:0 13px 36px rgba(16,43,65,.08);border:1px solid #dce7ea;position:relative;overflow:hidden}
+.experience-card::before{content:"";position:absolute;inset:0 0 auto;height:7px;background:linear-gradient(90deg,#ef8b91,#f2c66d,#70c4b5,#6ba8d8);opacity:.9}
+.experience-card-top{margin-bottom:28px;align-items:center}
+.experience-card-icon{width:74px;height:74px;border-radius:22px;font-size:2.05rem;background:#edf5f5;box-shadow:inset 0 0 0 1px rgba(16,43,65,.04)}
+.experience-card-phase{font-size:.7rem;padding:8px 11px;background:#eef3f5;color:#506673}
+.experience-card h3{font-size:2.15rem;margin-bottom:14px}
+.experience-card p{font-size:.98rem;line-height:1.65;-webkit-line-clamp:5}
+.experience-card-action{padding-top:24px;font-size:.9rem}
+.experience-arrow{position:absolute;top:50%;translate:0 -50%;z-index:3;width:46px;height:46px;border-radius:50%;border:1px solid #d5e0e4;background:#fff;color:var(--ink);font:900 1.25rem/1 inherit;cursor:pointer;box-shadow:0 8px 24px rgba(16,43,65,.13);transition:.18s ease}
+.experience-arrow:hover{transform:scale(1.06);background:var(--ink);color:#fff}
+.experience-arrow:disabled{opacity:.3;cursor:default;transform:none;background:#fff;color:var(--ink)}
+.experience-arrow-prev{left:0}.experience-arrow-next{right:0}
+@media(max-width:760px){.experience-filter-scroll{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto}.experience-carousel-wrap{padding:0 8px}.experience-arrow{display:none}.experience-card{flex-basis:84vw;width:84vw;min-height:360px}.experience-scroll-window{padding-left:2px}}
