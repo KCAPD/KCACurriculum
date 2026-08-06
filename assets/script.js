@@ -489,15 +489,16 @@ function updateExperienceArrows(){
 }
 function renderExperiences(){
   if(!experienceGallery)return;
-  const filtered=experienceData
-    .filter(item=>experienceAppliesTo(item,activeExperienceFilter))
-    .sort((a,b)=>{
-      if(activeExperienceFilter==='all') return experienceData.indexOf(a)-experienceData.indexOf(b);
-      const aSpecific=a.tags.includes(activeExperienceFilter) && !a.tags.includes('whole-school');
-      const bSpecific=b.tags.includes(activeExperienceFilter) && !b.tags.includes('whole-school');
-      if(aSpecific!==bSpecific) return aSpecific ? -1 : 1;
-      return experienceData.indexOf(a)-experienceData.indexOf(b);
+  let filtered=experienceData.filter(item=>experienceAppliesTo(item,activeExperienceFilter));
+  // For a selected year, show experiences unique to that year first,
+  // followed by shared whole-school opportunities.
+  if(activeExperienceFilter!=='all'){
+    filtered=[...filtered].sort((a,b)=>{
+      const aSpecific=a.tags.includes(activeExperienceFilter)?0:1;
+      const bSpecific=b.tags.includes(activeExperienceFilter)?0:1;
+      return aSpecific-bSpecific;
     });
+  }
   const label=activeExperienceFilter==='all'?'all year groups':document.querySelector(`.experience-filter[data-filter="${activeExperienceFilter}"]`)?.textContent||activeExperienceFilter;
   experienceCount.textContent=`${filtered.length} experiences for ${label}`;
   experienceGallery.innerHTML=filtered.map(item=>`<button class="experience-card" type="button" data-experience="${experienceData.indexOf(item)}"><span class="experience-card-top"><span class="experience-card-icon" aria-hidden="true">${item.icon}</span><span class="experience-card-phase">${item.audience}</span></span><h3>${item.title}</h3><p>${item.summary}</p><span class="experience-card-action">Explore experience →</span></button>`).join('');
