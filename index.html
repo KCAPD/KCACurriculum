@@ -220,72 +220,42 @@
     <section id="experiences" class="section experiences-section">
       <div class="wrap section-heading split-heading">
         <div>
-          <span class="section-kicker">Experiences beyond the classroom</span>
-          <h2>Where learning comes to life</h2>
+          <span class="section-kicker">The KCA experience library</span>
+          <h2>Experiences that shape every child</h2>
         </div>
-        <p>These carefully planned experiences form part of every child’s curriculum entitlement. They broaden horizons, build confidence and create memorable opportunities to apply knowledge, develop character and discover new interests.</p>
+        <p>A curriculum is remembered through the moments that inspire, challenge and excite. Explore the performances, festivals, workshops, visits and trips that bring learning to life at KCA.</p>
       </div>
 
-      <div class="wrap experience-filters" aria-label="Filter experiences by phase">
-        <button class="experience-filter active" type="button" data-filter="all" aria-pressed="true">All experiences</button>
-        <button class="experience-filter" type="button" data-filter="whole-school" aria-pressed="false">Whole school</button>
-        <button class="experience-filter" type="button" data-filter="eyfs" aria-pressed="false">EYFS</button>
-        <button class="experience-filter" type="button" data-filter="ks1" aria-pressed="false">KS1</button>
-        <button class="experience-filter" type="button" data-filter="ks2" aria-pressed="false">KS2</button>
-        <button class="experience-filter" type="button" data-filter="year-6" aria-pressed="false">Year 6</button>
+      <div class="wrap experience-library-shell">
+        <div class="experience-toolbar">
+          <div class="experience-filter-scroll" id="experience-filters" aria-label="Filter experiences">
+            <button class="experience-filter active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="experience-filter" type="button" data-filter="whole-school" aria-pressed="false">Whole school</button>
+            <button class="experience-filter" type="button" data-filter="nursery" aria-pressed="false">Nursery</button>
+            <button class="experience-filter" type="button" data-filter="reception" aria-pressed="false">Reception</button>
+            <button class="experience-filter" type="button" data-filter="year-1" aria-pressed="false">Year 1</button>
+            <button class="experience-filter" type="button" data-filter="year-2" aria-pressed="false">Year 2</button>
+            <button class="experience-filter" type="button" data-filter="year-3" aria-pressed="false">Year 3</button>
+            <button class="experience-filter" type="button" data-filter="year-4" aria-pressed="false">Year 4</button>
+            <button class="experience-filter" type="button" data-filter="year-5" aria-pressed="false">Year 5</button>
+            <button class="experience-filter" type="button" data-filter="year-6" aria-pressed="false">Year 6</button>
+            <button class="experience-filter" type="button" data-filter="trip" aria-pressed="false">Trips &amp; visits</button>
+            <button class="experience-filter" type="button" data-filter="performance" aria-pressed="false">Performance</button>
+            <button class="experience-filter" type="button" data-filter="stem" aria-pressed="false">STEM</button>
+            <button class="experience-filter" type="button" data-filter="leadership" aria-pressed="false">Leadership</button>
+          </div>
+          <p class="experience-count" id="experience-count" aria-live="polite"></p>
+        </div>
+
+        <div class="experience-scroll-window" tabindex="0" aria-label="Scrollable experience gallery">
+          <div class="experience-gallery" id="experience-gallery"></div>
+        </div>
       </div>
 
-      <div class="wrap experience-gallery" id="experience-gallery">
-        <article class="experience-item" data-audience="whole-school">
-          <div class="experience-icon" aria-hidden="true">💼</div><div class="experience-copy"><div class="experience-meta"><span>Whole school</span><span>Careers</span></div><h3>Bright Futures Festival</h3><p>Each June, the school becomes a celebration of careers, ambition and possibility. Children meet professionals, take part in practical workshops and discover how today’s learning connects to tomorrow’s opportunities.</p><div class="experience-tags"><span class="pillar-tag pillar-orange">Discovering interests</span><span class="pillar-tag pillar-purple">Technology-rich learning</span><span class="value-tag">Aspiration</span><span class="value-tag">Courage</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="year-6 ks2">
-          <div class="experience-icon" aria-hidden="true">🧑‍💼</div><div class="experience-copy"><div class="experience-meta"><span>Year 6</span><span>Leadership</span></div><h3>Bright Futures Academy</h3><p>Year 6 pupils apply for meaningful roles across the school, preparing applications, attending interviews and taking on responsibilities that develop leadership, organisation and professional confidence.</p><div class="experience-tags"><span class="pillar-tag pillar-green">Learning how to learn</span><span class="pillar-tag pillar-orange">Discovering interests</span><span class="value-tag">Integrity</span><span class="value-tag">Aspiration</span></div></div>
-        </article>
-        <article class="experience-item feature" data-audience="whole-school">
-          <div class="experience-icon" aria-hidden="true">🎨</div><div class="experience-copy"><div class="experience-meta"><span>Whole school</span><span>Arts</span></div><h3>Arts Week</h3><p>A week dedicated to creativity across visual art, music, drama and dance, culminating in a gallery exhibition at Central Saint Martins where children share ambitious work with families and the wider community.</p><div class="experience-tags"><span class="pillar-tag pillar-orange">Discovering interests</span><span class="pillar-tag pillar-red">Cross-curricular skills</span><span class="value-tag">Aspiration</span><span class="value-tag">Courage</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="whole-school">
-          <div class="experience-icon" aria-hidden="true">🤝</div><div class="experience-copy"><div class="experience-meta"><span>Whole school</span><span>Belonging</span></div><h3>Anti-Bullying Week</h3><p>Assemblies, workshops and class activities help pupils understand respectful relationships, recognise bullying and practise the words and actions that make our community safe, inclusive and kind.</p><div class="experience-tags"><span class="pillar-tag pillar-blue">Lifelong learning</span><span class="value-tag">Respect</span><span class="value-tag">Kindness</span><span class="value-tag">Courage</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="ks2">
-          <div class="experience-icon" aria-hidden="true">🎄</div><div class="experience-copy"><div class="experience-meta"><span>KS2</span><span>Performance</span></div><h3>Songs Under the Tree</h3><p>Key Stage 2 pupils perform festive songs beneath the Christmas tree in Coal Drops Yard, sharing music with families, visitors and the local King’s Cross community.</p><div class="experience-tags"><span class="pillar-tag pillar-orange">Discovering interests</span><span class="pillar-tag pillar-red">Cross-curricular skills</span><span class="value-tag">Courage</span><span class="value-tag">Kindness</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="eyfs ks1">
-          <div class="experience-icon" aria-hidden="true">⭐</div><div class="experience-copy"><div class="experience-meta"><span>EYFS &amp; KS1</span><span>Performance</span></div><h3>Christmas Productions</h3><p>Our youngest pupils take to the stage in joyful festive productions that develop speaking, singing, teamwork and confidence while creating lasting memories for children and families.</p><div class="experience-tags"><span class="pillar-tag pillar-green">Learning how to learn</span><span class="pillar-tag pillar-orange">Discovering interests</span><span class="value-tag">Courage</span><span class="value-tag">Endurance</span></div></div>
-        </article>
-        <article class="experience-item feature" data-audience="year-6 ks2">
-          <div class="experience-icon" aria-hidden="true">🎭</div><div class="experience-copy"><div class="experience-meta"><span>Year 6</span><span>Performance</span></div><h3>Year 6 Production</h3><p>Every pupil contributes to a full-scale musical production. Acting, singing, dancing and backstage responsibilities combine in an unforgettable final shared achievement at KCA.</p><div class="experience-tags"><span class="pillar-tag pillar-red">Cross-curricular skills</span><span class="pillar-tag pillar-blue">Lifelong learning</span><span class="value-tag">Courage</span><span class="value-tag">Endurance</span><span class="value-tag">Aspiration</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="whole-school">
-          <div class="experience-icon" aria-hidden="true">🎟️</div><div class="experience-copy"><div class="experience-meta"><span>Whole school</span><span>Culture</span></div><h3>Annual West End Musical</h3><p>Every year, pupils experience the excitement and craft of a professional West End musical. Live theatre enriches storytelling, performance and cultural understanding across the curriculum.</p><div class="experience-tags"><span class="pillar-tag pillar-orange">Discovering interests</span><span class="value-tag">Aspiration</span><span class="value-tag">Respect</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="whole-school">
-          <div class="experience-icon" aria-hidden="true">🔒</div><div class="experience-copy"><div class="experience-meta"><span>Whole school</span><span>Digital citizenship</span></div><h3>Online Safety Day</h3><p>Age-appropriate workshops and family learning help children make safe, responsible and thoughtful choices online, understand digital risks and know where to seek support.</p><div class="experience-tags"><span class="pillar-tag pillar-purple">Technology-rich learning</span><span class="value-tag">Integrity</span><span class="value-tag">Respect</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="whole-school">
-          <div class="experience-icon" aria-hidden="true">📚</div><div class="experience-copy"><div class="experience-meta"><span>Whole school</span><span>Reading</span></div><h3>World Book Day &amp; Author Visit</h3><p>Children celebrate stories through costumes, shared reading and workshops with a published author, discovering the craft behind books and strengthening their identity as readers and writers.</p><div class="experience-tags"><span class="pillar-tag pillar-green">Learning how to learn</span><span class="pillar-tag pillar-orange">Discovering interests</span><span class="value-tag">Aspiration</span><span class="value-tag">Kindness</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="whole-school">
-          <div class="experience-icon" aria-hidden="true">🔬</div><div class="experience-copy"><div class="experience-meta"><span>Whole school</span><span>STEM</span></div><h3>Science Week</h3><p>Investigations, experiments and STEM challenges encourage curiosity and disciplined enquiry. Pupils collaborate, test ideas and communicate findings through practical science.</p><div class="experience-tags"><span class="pillar-tag pillar-green">Learning how to learn</span><span class="pillar-tag pillar-red">Cross-curricular skills</span><span class="value-tag">Endurance</span><span class="value-tag">Aspiration</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="ks2">
-          <div class="experience-icon" aria-hidden="true">🎼</div><div class="experience-copy"><div class="experience-meta"><span>Years 4–6</span><span>Music</span></div><h3>Instrumental Tuition</h3><p>Every pupil in Years 4–6 receives fully funded instrumental tuition, developing musical knowledge, disciplined practice, ensemble skills and the confidence to perform.</p><div class="experience-tags"><span class="pillar-tag pillar-orange">Discovering interests</span><span class="pillar-tag pillar-blue">Lifelong learning</span><span class="value-tag">Endurance</span><span class="value-tag">Aspiration</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="ks2">
-          <div class="experience-icon" aria-hidden="true">🎤</div><div class="experience-copy"><div class="experience-meta"><span>Years 3–5</span><span>Communication</span></div><h3>LAMDA Examinations</h3><p>Fully funded LAMDA teaching and examinations give every pupil structured opportunities to develop voice, interpretation and confident public performance, culminating in nationally recognised qualifications.</p><div class="experience-tags"><span class="pillar-tag pillar-green">Learning how to learn</span><span class="pillar-tag pillar-red">Cross-curricular skills</span><span class="value-tag">Courage</span><span class="value-tag">Endurance</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="whole-school eyfs ks1 ks2">
-          <div class="experience-icon" aria-hidden="true">🏊</div><div class="experience-copy"><div class="experience-meta"><span>Every year group</span><span>Physical education</span></div><h3>Swimming</h3><p>Swimming is taught across every year group so children progressively build water confidence, technique and essential safety knowledge through regular high-quality instruction.</p><div class="experience-tags"><span class="pillar-tag pillar-blue">Lifelong learning</span><span class="value-tag">Courage</span><span class="value-tag">Endurance</span></div></div>
-        </article>
-        <article class="experience-item feature" data-audience="year-6 ks2">
-          <div class="experience-icon" aria-hidden="true">🇫🇷</div><div class="experience-copy"><div class="experience-meta"><span>Year 6</span><span>Residential</span></div><h3>Residential to France</h3><p>Year 6 pupils travel to France for an immersive residential that develops independence, resilience and cultural understanding while creating lifelong memories with classmates.</p><div class="experience-tags"><span class="pillar-tag pillar-blue">Lifelong learning</span><span class="pillar-tag pillar-orange">Discovering interests</span><span class="value-tag">Courage</span><span class="value-tag">Respect</span><span class="value-tag">Endurance</span></div></div>
-        </article>
-        <article class="experience-item" data-audience="whole-school">
-          <div class="experience-icon" aria-hidden="true">🌳</div><div class="experience-copy"><div class="experience-meta"><span>Whole school</span><span>Outdoor learning</span></div><h3>Outdoor Classroom Day</h3><p>Every class takes purposeful learning outdoors, using the school grounds and local environment to inspire observation, enquiry, creativity and collaboration.</p><div class="experience-tags"><span class="pillar-tag pillar-red">Cross-curricular skills</span><span class="pillar-tag pillar-blue">Lifelong learning</span><span class="value-tag">Kindness</span><span class="value-tag">Respect</span></div></div>
-        </article>
+      <div class="wrap experience-closing">
+        <p>Every experience is deliberately chosen to strengthen knowledge, develop character and create memories that last a lifetime.</p>
+        <a class="button button-secondary" href="#year-groups">Explore our year groups</a>
       </div>
-      <div class="wrap experiences-note"><p><strong>Designed as entitlement:</strong> these are purposeful parts of the KCA curriculum, not occasional extras.</p></div>
     </section>
 
     <section id="subjects" class="section subjects-section">
@@ -318,6 +288,19 @@
     </div>
   </footer>
 
+  <dialog id="experience-dialog" class="experience-dialog" aria-labelledby="experience-dialog-title">
+    <button class="experience-dialog-close dialog-close" type="button" aria-label="Close experience information">×</button>
+    <div class="experience-dialog-heading">
+      <span id="experience-dialog-icon" class="experience-dialog-icon" aria-hidden="true"></span>
+      <div><span id="experience-dialog-audience" class="section-kicker"></span><h2 id="experience-dialog-title"></h2></div>
+    </div>
+    <p id="experience-dialog-description" class="dialog-intro"></p>
+    <div class="experience-dialog-grid">
+      <section><h3>What children experience</h3><p id="experience-dialog-detail"></p></section>
+      <section><h3>Curriculum connection</h3><div class="dialog-tag-group"><strong>Pillars</strong><div id="experience-dialog-pillars" class="experience-dialog-tags"></div></div><div class="dialog-tag-group"><strong>Values</strong><div id="experience-dialog-values" class="experience-dialog-tags"></div></div></section>
+    </div>
+  </dialog>
+
   <dialog id="pillar-dialog" aria-labelledby="dialog-title">
     <button class="pillar-dialog-close dialog-close" type="button" aria-label="Close pillar information">×</button>
     <span class="section-kicker">Curriculum Pillar</span>
@@ -339,6 +322,6 @@
     </section>
   </dialog>
 
-  <script src="assets/script.js?v=1.8"></script>
+  <script src="assets/script.js?v=2.4"></script>
 </body>
 </html>
