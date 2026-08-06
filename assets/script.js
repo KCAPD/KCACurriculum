@@ -1,4 +1,5 @@
 const yearData = {
+  "Nursery": {title:"A playful beginning to the KCA learning journey", desc:"Children learn through purposeful play, rich talk, stories, relationships and first-hand experiences.", questions:["Who am I and who cares for me?","What can we notice around us?","How can stories help us play?","What happens when things grow?","How do we explore with our senses?","What can we make and share together?"]},
   "Reception": {title:"A year of curiosity, stories and discovery", desc:"Children build the foundations of communication, early reading, number, creativity and understanding the world.", questions:["Who am I and where do I belong?","What changes around us?","How do stories help us imagine?","What makes something grow?","Where could a journey take us?","How can we celebrate together?"]},
   "Year 1": {title:"Building strong foundations", desc:"Children strengthen early knowledge and begin to make purposeful links between subjects.", questions:["What makes a place feel like home?","How has childhood changed?","Why do seasons matter?","What can we learn from animals?","How do people tell stories?","How can we make a difference?"]},
   "Year 2": {title:"Exploring people, places and change", desc:"Children deepen their knowledge through carefully connected enquiries and experiences.", questions:["How do communities grow?","What makes someone brave?","Why does our world change?","How do living things survive?","What can objects tell us?","How should we care for our planet?"]},
@@ -10,7 +11,7 @@ const yearData = {
 const presentations=["Gallery or exhibition","Performance for an audience","Published writing","Debate or speech","Film or digital showcase","Celebration of learning"];
 const grid=document.getElementById('questions-grid');
 function renderYear(year){const d=yearData[year];document.getElementById('year-kicker').textContent=`${year} Curriculum`;document.getElementById('year-title').textContent=d.title;document.getElementById('year-description').textContent=d.desc;const slug=year.toLowerCase().replace(' ','-');const link=document.getElementById('year-page-link');if(link)link.href=`year-groups/${slug}.html`;grid.innerHTML=d.questions.map((q,i)=>`<article class="question-card"><span class="term-tag">${['Autumn 1','Autumn 2','Spring 1','Spring 2','Summer 1','Summer 2'][i]}</span><h4>${q}</h4><p>Subjects, key texts, experiences and knowledge will be added here.</p><span class="presentation-label">Final outcome: ${presentations[i]}</span></article>`).join('')}
-renderYear('Reception');
+renderYear('Nursery');
 document.querySelectorAll('.year-tabs button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.year-tabs button').forEach(b=>b.setAttribute('aria-selected','false'));btn.setAttribute('aria-selected','true');renderYear(btn.dataset.year)}));
 const subjects=['English','Mathematics','Science','Art & Design','Computing','Design & Technology','Geography','History','Music','Physical Education','Personal Development','Religious Education','Languages','British Sign Language','Oracy & Drama','Early Years'];
 document.getElementById('subjects-grid').innerHTML=subjects.map(s=>`<article class="subject-card"><h3>${s}</h3><p>Intent, progression, end points and curriculum documentation.</p><a href="#" aria-disabled="true">Download coming soon</a></article>`).join('');
@@ -77,9 +78,6 @@ function renderFundamentalStage(stageName) {
   const priorSection = document.getElementById('fundamental-prior-section');
   document.getElementById('fundamental-prior-skills').innerHTML = stage.prior.map(skill => `<span>${skill}</span>`).join('');
   priorSection.hidden = stage.prior.length === 0;
-  const image = document.getElementById('fundamental-stage-image');
-  image.src = `assets/images/fundamental-skills/${stage.image}`;
-  image.alt = `${stageName} Fundamental Skills progression artwork`;
 }
 
 document.querySelectorAll('.tree-stage').forEach(button => {
