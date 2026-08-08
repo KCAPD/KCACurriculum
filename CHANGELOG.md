@@ -1,5 +1,10 @@
 # Changelog
 
+## v3.8 — Pillar pop-up clean-up
+- Removed the “You will see this pillar through…” section from all pillar pop-ups.
+- Removed the associated Art Week, Bright Futures Festival, Clubs and enrichment, and Trips and partnerships links/tags.
+- Kept the rest of each pillar panel unchanged.
+
 ## v3.7 — Header refinement
 - Reduced navigation font size and spacing to make the top menu calmer.
 - Reduced header vertical padding.
