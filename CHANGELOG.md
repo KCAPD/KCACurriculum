@@ -1,5 +1,16 @@
 # Changelog
 
+## v3.11 — Pre-launch status
+- Added a subtle “Launching September 2026” status badge to the homepage hero.
+- Kept it visually secondary so visitors understand the site is still being completed without distracting from the curriculum.
+- Added responsive mobile sizing.
+
+## v3.10 — Year-group card spacing
+- Improved vertical spacing and alignment on populated year-group cards.
+- Restored “Explore this unit →” to every populated unit card.
+- Anchored the explore links to the relevant unit section where available.
+- Kept the cleaner Nursery/Reception-inspired visual style.
+
 ## v3.9 — Pillar repair + cleaner year cards
 - Fixed the Explore this pillar pop-ups after the v3.8 clean-up.
 - Removed the stale JavaScript reference to the deleted pillar-links block.

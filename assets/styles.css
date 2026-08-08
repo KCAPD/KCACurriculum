@@ -656,3 +656,90 @@ header.site-header {
 .populated-year-card .presentation-label {
   margin-top: auto;
 }
+
+
+/* v3.10 — refined mapped year-group cards */
+.populated-year-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 330px;
+  padding: 26px 24px 22px;
+}
+
+.populated-year-card .term-tag {
+  align-self: flex-start;
+  margin-bottom: 22px;
+}
+
+.populated-year-card h4 {
+  margin: 0 0 28px;
+  line-height: 1.22;
+}
+
+.populated-year-card .presentation-block {
+  display: grid;
+  gap: 7px;
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.populated-year-card .presentation-kicker {
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.populated-year-card .presentation-block strong {
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.populated-year-card .unit-explore-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: 24px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.populated-year-card .unit-explore-link:hover,
+.populated-year-card .unit-explore-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+@media (max-width: 700px) {
+  .populated-year-card {
+    min-height: 300px;
+    padding: 22px 18px 19px;
+  }
+
+  .populated-year-card .term-tag {
+    margin-bottom: 18px;
+  }
+
+  .populated-year-card h4 {
+    margin-bottom: 22px;
+  }
+
+  .populated-year-card .unit-explore-link {
+    margin-top: 20px;
+  }
+}
+
+
+/* v3.11 — pre-launch status */
+.launch-status{
+  display:inline-flex;align-items:center;gap:.55rem;width:fit-content;
+  margin:0 0 .85rem;padding:.55rem .9rem;border:1px solid rgba(255,255,255,.48);
+  border-radius:999px;background:rgba(255,255,255,.12);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  color:inherit;font-size:.78rem;font-weight:800;letter-spacing:.035em;text-transform:uppercase;
+}
+.launch-status-dot{width:.48rem;height:.48rem;flex:0 0 .48rem;border-radius:50%;background:currentColor;opacity:.8}
+@media(max-width:700px){
+  .launch-status{margin-bottom:.65rem;padding:.5rem .75rem;font-size:.68rem}
+}

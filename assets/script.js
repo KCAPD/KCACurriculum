@@ -305,11 +305,14 @@ function renderYear(year){
     link.setAttribute('aria-disabled',d.units?'false':'true');
   }
   if(d.units){
-    grid.innerHTML=d.units.map(u=>`<article class="question-card placeholder-card populated-year-card">
+    grid.innerHTML=d.units.map((u,i)=>`<article class="question-card placeholder-card populated-year-card">
       <span class="term-tag">${esc(u.term)}</span>
       <h4>${esc(u.question)}</h4>
-      <p>Explore this half term's learning through the full digital curriculum book.</p>
-      <span class="presentation-label">Learning Presentation: ${esc(u.presentation)}</span>
+      <div class="presentation-block">
+        <span class="presentation-kicker">Learning Presentation</span>
+        <strong>${esc(u.presentation)}</strong>
+      </div>
+      <a class="unit-explore-link" href="year-groups/${slug}.html#unit-${i+1}">Explore this unit →</a>
     </article>`).join('');
   } else {
     grid.innerHTML=d.questions.map((q,i)=>`<article class="question-card placeholder-card"><span class="term-tag">${['Autumn 1','Autumn 2','Spring 1','Spring 2','Summer 1','Summer 2'][i]}</span><h4>${esc(q)}</h4><p>The detailed curriculum map for this year group will be added when the final overview is available.</p><span class="presentation-label">Planned final outcome: ${placeholderPresentations[i]}</span></article>`).join('');
