@@ -476,3 +476,63 @@ html{scroll-behavior:smooth}
     color:#fff;
   }
 }
+
+
+/* v3.6 — Return to main KCA website */
+.kca-return-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-left: auto;
+  padding: 0.65rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background 180ms ease, color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.kca-return-link:hover,
+.kca-return-link:focus-visible {
+  background: #fff;
+  color: var(--navy, #173653);
+  border-color: #fff;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 860px) {
+  .kca-return-link {
+    margin-left: auto;
+    padding: 0.58rem 0.78rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .header-inner {
+    gap: 0.55rem;
+  }
+
+  .kca-return-link {
+    order: 2;
+    padding: 0.55rem 0.72rem;
+    font-size: 0.72rem;
+  }
+
+  .menu-button {
+    order: 3;
+  }
+}
+
+@media (max-width: 390px) {
+  .kca-return-link {
+    padding-inline: 0.6rem;
+    font-size: 0.68rem;
+  }
+}

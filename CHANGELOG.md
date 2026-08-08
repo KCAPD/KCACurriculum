@@ -1,3 +1,10 @@
+# Changelog
+
+## v3.6 — KCA return link
+- Added a pill-style “← Return to KCA website” link to the top header.
+- Links to https://www.kingscrossacademy.org.uk.
+- Added responsive styling so the link remains compact on phones.
+
 # Version 3.4 — Mobile framework navigation
 
 - Rebuilt the Vision → Pillars → Skills → Values → Big Questions → Learning Presentations strip as a two-column tappable navigator on phones.
