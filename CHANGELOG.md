@@ -1,5 +1,10 @@
 # Changelog
 
+## v3.12 — Visible draft launch banner
+- Changed the launch label to “Draft – Launching in September 2026”.
+- Increased contrast so the pre-launch status is clearly visible in the hero.
+- Kept the banner compact on mobile.
+
 ## v3.11 — Pre-launch status
 - Added a subtle “Launching September 2026” status badge to the homepage hero.
 - Kept it visually secondary so visitors understand the site is still being completed without distracting from the curriculum.
