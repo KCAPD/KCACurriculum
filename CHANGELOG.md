@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.7 — Header refinement
+- Reduced navigation font size and spacing to make the top menu calmer.
+- Reduced header vertical padding.
+- Changed “← Return to KCA website” to a dark text link visible by default.
+- Removed the outlined pill treatment from the return link.
+- Added a simple underline hover state.
+- Kept the mobile header compact.
+
 ## v3.6 — KCA return link
 - Added a pill-style “← Return to KCA website” link to the top header.
 - Links to https://www.kingscrossacademy.org.uk.
