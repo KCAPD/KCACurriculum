@@ -642,3 +642,17 @@ header.site-header {
     font-size: 0.74rem;
   }
 }
+
+
+/* v3.9 — populated year cards match the clean Nursery/Reception format */
+.populated-year-card {
+  opacity: 1;
+}
+
+.populated-year-card h4 {
+  margin-top: 18px;
+}
+
+.populated-year-card .presentation-label {
+  margin-top: auto;
+}

@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.9 — Pillar repair + cleaner year cards
+- Fixed the Explore this pillar pop-ups after the v3.8 clean-up.
+- Removed the stale JavaScript reference to the deleted pillar-links block.
+- Removed malformed leftover dialog markup.
+- Restyled populated year-group cards to match the cleaner Nursery/Reception format.
+- Kept the real Big Questions and Learning Presentations on populated year cards.
+- Full curriculum detail remains available through the digital curriculum book button.
+
 ## v3.8 — Pillar pop-up clean-up
 - Removed the “You will see this pillar through…” section from all pillar pop-ups.
 - Removed the associated Art Week, Bright Futures Festival, Clubs and enrichment, and Trips and partnerships links/tags.

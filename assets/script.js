@@ -305,12 +305,11 @@ function renderYear(year){
     link.setAttribute('aria-disabled',d.units?'false':'true');
   }
   if(d.units){
-    grid.innerHTML=d.units.map(u=>`<article class="question-card curriculum-summary-card">
-      <div class="question-card-top"><span class="term-tag">${esc(u.term)}</span></div>
-      <span class="big-question-label">Big Question</span>
+    grid.innerHTML=d.units.map(u=>`<article class="question-card placeholder-card populated-year-card">
+      <span class="term-tag">${esc(u.term)}</span>
       <h4>${esc(u.question)}</h4>
-      <div class="presentation-preview"><span>Learning Presentation</span><strong>${esc(u.presentation)}</strong></div>
-      <a class="unit-explore-link" href="year-groups/${slug}.html">Explore this unit →</a>
+      <p>Explore this half term's learning through the full digital curriculum book.</p>
+      <span class="presentation-label">Learning Presentation: ${esc(u.presentation)}</span>
     </article>`).join('');
   } else {
     grid.innerHTML=d.questions.map((q,i)=>`<article class="question-card placeholder-card"><span class="term-tag">${['Autumn 1','Autumn 2','Spring 1','Spring 2','Summer 1','Summer 2'][i]}</span><h4>${esc(q)}</h4><p>The detailed curriculum map for this year group will be added when the final overview is available.</p><span class="presentation-label">Planned final outcome: ${placeholderPresentations[i]}</span></article>`).join('');
@@ -446,7 +445,6 @@ function openPillar(card){
   document.getElementById('dialog-intro').textContent=data.intro;
   document.getElementById('dialog-why').textContent=data.why;
   document.getElementById('dialog-practice').innerHTML=data.practice.map(item=>`<li>${item}</li>`).join('');
-  document.getElementById('dialog-links').innerHTML=data.links.map(item=>`<span>${item}</span>`).join('');
   pillarDialog.dataset.pillar=card.dataset.pillar;
   if(typeof pillarDialog.showModal==='function') pillarDialog.showModal();
 }
