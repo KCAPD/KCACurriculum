@@ -1,5 +1,10 @@
 # Changelog
 
+## v3.13 — Phonics & Early Reading
+- Added Phonics & Early Reading as the 15th card in the Subject Library.
+- Added a dedicated Phonics & Early Reading page ready for KCA's scheme-specific information.
+- Retained all v3.12 changes.
+
 ## v3.12 — Visible draft launch banner
 - Changed the launch label to “Draft – Launching in September 2026”.
 - Increased contrast so the pre-launch status is clearly visible in the hero.

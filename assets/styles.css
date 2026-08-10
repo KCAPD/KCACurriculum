@@ -782,3 +782,7 @@ header.site-header {
     line-height: 1.2;
   }
 }
+
+/* v3.13 — Phonics & Early Reading */
+.subject-placeholder-panel{margin:2rem 0;padding:1.5rem;border-radius:18px;background:rgba(23,54,83,.05)}
+.subject-placeholder-panel h3{margin-top:0}.subject-placeholder-panel li+li{margin-top:.55rem}
