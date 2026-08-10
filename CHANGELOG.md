@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.14 — Phonics subject template
+- Rebuilt Phonics & Early Reading using the same subject-page template as English and the other subjects.
+- Retained the same site navigation, layout, section styling and page structure.
+- Added placeholder copy only where the final KCA phonics documentation is still to come.
+- Retained all v3.13 content and functionality.
+
 ## v3.13 — Phonics & Early Reading
 - Added Phonics & Early Reading as the 15th card in the Subject Library.
 - Added a dedicated Phonics & Early Reading page ready for KCA's scheme-specific information.
