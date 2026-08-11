@@ -16,3 +16,77 @@ header{display:flex;justify-content:space-between;gap:1rem}.subject-experiences,
   .subject-experience-card{padding:15px;min-height:175px}
   footer{padding:28px 14px;display:grid;grid-template-columns:1fr 1fr;font-size:.8rem}
 }
+
+
+/* v3.17 — Maths home-learning panel, matched to subject-page design */
+.maths-home-learning{
+  max-width:1120px;
+  margin:2rem auto 80px;
+  padding:0;
+}
+
+.maths-home-learning .wrap{
+  width:100%;
+}
+
+.maths-home-learning .home-learning-panel{
+  background:#fff;
+  border:1px solid #dce5ec;
+  border-radius:24px;
+  padding:28px;
+  box-shadow:0 16px 45px rgba(20,36,65,.08);
+}
+
+.maths-home-learning .home-learning-panel h2{
+  margin:.35rem 0 .65rem;
+  font-size:1.4rem;
+}
+
+.maths-home-learning .home-learning-panel p:not(.eyebrow){
+  color:#587082;
+  line-height:1.6;
+  max-width:760px;
+}
+
+.maths-home-learning .home-learning-panel .button{
+  display:inline-flex;
+  margin-top:.8rem;
+  padding:.8rem 1.05rem;
+  border-radius:999px;
+  background:#17324d;
+  color:#fff;
+  font-weight:800;
+  text-decoration:none;
+}
+
+.maths-home-learning .home-learning-panel .button:hover,
+.maths-home-learning .home-learning-panel .button:focus-visible{
+  background:#b5222e;
+}
+
+@media(max-width:650px){
+  .maths-home-learning{
+    margin:1.5rem 10px 50px;
+  }
+
+  .maths-home-learning .home-learning-panel{
+    padding:17px 14px;
+    border-radius:20px;
+  }
+
+  .maths-home-learning .home-learning-panel h2{
+    font-size:1.05rem;
+  }
+
+  .maths-home-learning .home-learning-panel p:not(.eyebrow){
+    font-size:.78rem;
+    line-height:1.45;
+  }
+
+  .maths-home-learning .home-learning-panel .button{
+    width:100%;
+    justify-content:center;
+    text-align:center;
+    font-size:.78rem;
+  }
+}

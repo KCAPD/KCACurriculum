@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.17 — Maths home-learning styling fix
+- Corrected the Maths home-learning card in the stylesheet actually used by subject pages (`subjects/subject.css`).
+- Matched the existing subject-page white card, border, radius, shadow and typography.
+- Added responsive mobile styling and a full-width mobile button.
+- Verified the White Rose link still opens in a new tab.
+
 ## v3.14 — Phonics subject template
 - Rebuilt Phonics & Early Reading using the same subject-page template as English and the other subjects.
 - Retained the same site navigation, layout, section styling and page structure.
