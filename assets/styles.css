@@ -788,3 +788,7 @@ header.site-header {
 .subject-placeholder-panel h3{margin-top:0}.subject-placeholder-panel li+li{margin-top:.55rem}
 
 .subject-draft-note{margin-top:1.5rem;opacity:.8}
+
+/* v3.15 Maths home learning */
+.home-learning-panel{padding:clamp(1.4rem,3vw,2rem);border-radius:22px;background:rgba(23,54,83,.05)}
+.home-learning-panel h2{margin-top:.25rem}.home-learning-panel p:not(.eyebrow){max-width:760px}.home-learning-panel .button{margin-top:.65rem}
