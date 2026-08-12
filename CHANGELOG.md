@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.24 — Unified mobile pill buttons
+- Standardised the mobile “Explore this unit” control across Nursery to Year 6.
+- Replaced the larger dark buttons with the cleaner compact white pill style used in Nursery/Reception.
+- Kept the two-units-per-row mobile layout unchanged.
+- Kept all mobile popup functionality unchanged.
+- Desktop layout and styling remain unchanged.
+
 ## v3.23 — Mobile two-column unit layout
 - Grouped each curriculum topic card with its own “Explore this unit” button.
 - On mobile, each button now sits directly underneath the topic it belongs to.

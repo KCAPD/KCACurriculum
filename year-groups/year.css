@@ -335,3 +335,28 @@
     display:none !important;
   }
 }
+
+/* v3.24 — unified mobile pill buttons */
+@media(max-width:700px){
+  .mobile-unit-shell > .mobile-unit-open{
+    width:auto !important;
+    align-self:center;
+    min-height:34px;
+    margin:9px auto 2px !important;
+    padding:7px 13px;
+    border:1px solid rgba(23,50,77,.16);
+    border-radius:999px;
+    background:#fff;
+    color:#17324d;
+    box-shadow:0 3px 10px rgba(23,50,77,.07);
+    font-size:.62rem;
+    font-weight:800;
+    line-height:1.15;
+    letter-spacing:.01em;
+    white-space:nowrap;
+  }
+
+  .mobile-unit-shell > .mobile-unit-open:active{
+    transform:translateY(1px);
+  }
+}
