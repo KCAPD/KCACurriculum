@@ -828,80 +828,6 @@ window.KCA_EXPERIENCES = [
     "partner": "The Place"
   },
   {
-    "title": "Natural History Museum",
-    "icon": "🌋",
-    "audience": "Year 5",
-    "tags": [
-      "year-5",
-      "trip",
-      "stem"
-    ],
-    "summary": "Museum learning focused on volcanoes, earthquakes and our changing planet.",
-    "detail": "Pupils encounter geological evidence and collections that deepen their understanding of natural disasters and Earth processes.",
-    "pillars": [
-      "Discovering interests",
-      "Learning how to learn"
-    ],
-    "values": [
-      "Aspiration",
-      "Endurance"
-    ],
-    "subjects": [
-      "science",
-      "geography"
-    ],
-    "partner": "Natural History Museum"
-  },
-  {
-    "title": "British Museum",
-    "icon": "🏺",
-    "audience": "Year 5",
-    "tags": [
-      "year-5",
-      "trip"
-    ],
-    "summary": "World-class collections supporting historical enquiry and interpretation.",
-    "detail": "Children examine artefacts as evidence, ask historical questions and connect their curriculum learning with objects of global significance.",
-    "pillars": [
-      "Learning how to learn",
-      "Discovering interests"
-    ],
-    "values": [
-      "Respect",
-      "Aspiration"
-    ],
-    "subjects": [
-      "history",
-      "art"
-    ],
-    "partner": "British Museum"
-  },
-  {
-    "title": "National Portrait Gallery",
-    "icon": "🖼️",
-    "audience": "Year 5",
-    "tags": [
-      "year-5",
-      "trip"
-    ],
-    "summary": "Portraiture, identity and history explored through a national collection.",
-    "detail": "Pupils study artistic choices and the stories portraits tell, enriching both art and Tudor learning through direct engagement with significant works.",
-    "pillars": [
-      "Cross-curricular skills",
-      "Discovering interests"
-    ],
-    "values": [
-      "Aspiration",
-      "Respect"
-    ],
-    "subjects": [
-      "art",
-      "history",
-      "english"
-    ],
-    "partner": "National Portrait Gallery"
-  },
-  {
     "title": "Bright Futures Academy",
     "icon": "🧑‍💼",
     "audience": "Year 6",
@@ -925,103 +851,6 @@ window.KCA_EXPERIENCES = [
       "mathematics"
     ],
     "personalDevelopment": true
-  },
-  {
-    "title": "Windrush Voices at the British Library",
-    "icon": "🎙️",
-    "audience": "Year 6",
-    "tags": [
-      "year-6",
-      "trip"
-    ],
-    "summary": "Archive voices and stories deepen learning about the Windrush generation.",
-    "detail": "Pupils engage with first-hand testimony and historical sources, developing empathy and a richer understanding of migration and modern Britain.",
-    "pillars": [
-      "Learning how to learn",
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Respect",
-      "Integrity",
-      "Kindness"
-    ],
-    "subjects": [
-      "history",
-      "english",
-      "geography"
-    ],
-    "partner": "The British Library"
-  },
-  {
-    "title": "Camden Junior Citizenship",
-    "icon": "🏙️",
-    "audience": "Year 6",
-    "tags": [
-      "year-6",
-      "trip",
-      "leadership"
-    ],
-    "summary": "Practical preparation for safe and responsible independence.",
-    "detail": "Interactive scenarios help pupils develop decision-making, personal safety and civic responsibility as they prepare for secondary school and greater independence.",
-    "pillars": [
-      "Lifelong learning"
-    ],
-    "values": [
-      "Integrity",
-      "Courage",
-      "Respect"
-    ],
-    "subjects": [
-      "pshe"
-    ],
-    "personalDevelopment": true
-  },
-  {
-    "title": "World War I Experience Day",
-    "icon": "🪖",
-    "audience": "Year 6",
-    "tags": [
-      "year-6",
-      "performance"
-    ],
-    "summary": "An immersive day exploring the realities and legacies of the First World War.",
-    "detail": "Role, artefacts and structured activities help pupils connect historical knowledge with the experiences and choices of people living through conflict.",
-    "pillars": [
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Courage",
-      "Respect",
-      "Endurance"
-    ],
-    "subjects": [
-      "history",
-      "english"
-    ]
-  },
-  {
-    "title": "World War II Evacuation Day",
-    "icon": "🧳",
-    "audience": "Year 6",
-    "tags": [
-      "year-6",
-      "performance"
-    ],
-    "summary": "A day in role exploring evacuation, community and wartime childhood.",
-    "detail": "Pupils use historical detail and drama to understand how children and communities responded to the pressures of the Second World War.",
-    "pillars": [
-      "Cross-curricular skills",
-      "Learning how to learn"
-    ],
-    "values": [
-      "Courage",
-      "Kindness",
-      "Endurance"
-    ],
-    "subjects": [
-      "history",
-      "english"
-    ]
   },
   {
     "title": "Year 6 Residential to France",
@@ -1077,6 +906,558 @@ window.KCA_EXPERIENCES = [
       "art",
       "design-technology",
       "pshe"
+    ],
+    "personalDevelopment": true
+  },
+  {
+    "title": "Volcano Day",
+    "icon": "🌋",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "stem"
+    ],
+    "summary": "A practical launch into learning about volcanoes, earthquakes and responsible choices.",
+    "detail": "Pupils create and investigate volcanoes as the starting point for their North America, materials and natural-disaster learning.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity",
+      "Endurance"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "english"
+    ]
+  },
+  {
+    "title": "Natural History Museum: Volcanoes & Earthquakes",
+    "icon": "🌍",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "trip",
+      "stem"
+    ],
+    "summary": "Museum learning deepening Year 5 understanding of volcanoes and earthquakes.",
+    "detail": "Pupils connect first-hand museum collections and scientific evidence with their geography and science learning about our dynamic planet.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity",
+      "Aspiration"
+    ],
+    "subjects": [
+      "geography",
+      "science"
+    ],
+    "partner": "Natural History Museum"
+  },
+  {
+    "title": "Anglo-Saxon Day",
+    "icon": "🛡️",
+    "audience": "Year 5",
+    "tags": [
+      "year-5"
+    ],
+    "summary": "An immersive day introducing Anglo-Saxon Britain.",
+    "detail": "Pupils explore Anglo-Saxon life, culture and legacy before developing their historical enquiry across the half term.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect",
+      "Aspiration"
+    ],
+    "subjects": [
+      "history",
+      "english",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "British Museum: Anglo-Saxons",
+    "icon": "🏛️",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "trip"
+    ],
+    "summary": "Working with museum collections to deepen knowledge of Anglo-Saxon Britain.",
+    "detail": "Artefacts and museum evidence help pupils investigate how the Anglo-Saxons shaped Britain and how historians construct knowledge about the past.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect",
+      "Aspiration"
+    ],
+    "subjects": [
+      "history",
+      "art",
+      "english"
+    ],
+    "partner": "British Museum"
+  },
+  {
+    "title": "Round-the-World Biomes Discovery",
+    "icon": "🧭",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "stem"
+    ],
+    "summary": "An exploratory launch into global biomes, survival and resilience.",
+    "detail": "Pupils investigate contrasting environments and begin considering how living things survive in different conditions.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance",
+      "Aspiration"
+    ],
+    "subjects": [
+      "geography",
+      "science"
+    ]
+  },
+  {
+    "title": "Dulwich College: Shackleton Boat",
+    "icon": "⛵",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "trip",
+      "stem"
+    ],
+    "summary": "A curriculum experience linking Shackleton, survival and boat design.",
+    "detail": "Pupils connect geography, forces, engineering and the story of Shackleton as they prepare to design and build a boat for his shipmates.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance",
+      "Courage"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology",
+      "english"
+    ],
+    "partner": "Dulwich College"
+  },
+  {
+    "title": "Vikings Day",
+    "icon": "⚔️",
+    "audience": "Year 5",
+    "tags": [
+      "year-5"
+    ],
+    "summary": "A Viking mythology experience launching the kindness and community enquiry.",
+    "detail": "Pupils encounter Viking stories and beliefs before exploring Viking Britain, community and historical interpretation.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness",
+      "Respect"
+    ],
+    "subjects": [
+      "history",
+      "english",
+      "music"
+    ]
+  },
+  {
+    "title": "Thorgil the Viking Workshop",
+    "icon": "🎭",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "performance"
+    ],
+    "summary": "Freshwater Theatre brings Viking history to life through drama and participation.",
+    "detail": "An immersive theatre workshop helps pupils explore Viking history, storytelling, community and historical perspectives.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness",
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "english"
+    ],
+    "partner": "Freshwater Theatre"
+  },
+  {
+    "title": "Wonder Dome: Space & Earth",
+    "icon": "🪐",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "stem"
+    ],
+    "summary": "An immersive in-school experience exploring Earth and Space.",
+    "detail": "The Wonder Dome launches pupils into questions about exploration, scientific discovery and how our understanding of space changes.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage",
+      "Aspiration"
+    ],
+    "subjects": [
+      "science",
+      "geography",
+      "computing"
+    ]
+  },
+  {
+    "title": "Science Dome",
+    "icon": "🔭",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "stem"
+    ],
+    "summary": "An immersive science experience supporting the Earth and Space unit.",
+    "detail": "Pupils deepen scientific understanding of Earth and Space through an immersive dome experience.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage",
+      "Aspiration"
+    ],
+    "subjects": [
+      "science",
+      "geography"
+    ]
+  },
+  {
+    "title": "Tudor Experience Day",
+    "icon": "👑",
+    "audience": "Year 5",
+    "tags": [
+      "year-5"
+    ],
+    "summary": "An immersive introduction to Tudor power, ambition and change.",
+    "detail": "Pupils explore the people, decisions and conflicts of Tudor England before investigating how power and ambition shaped the period.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration",
+      "Integrity"
+    ],
+    "subjects": [
+      "history",
+      "english",
+      "art"
+    ]
+  },
+  {
+    "title": "Portrait Gallery: Tudor Portraits",
+    "icon": "🖼️",
+    "audience": "Year 5",
+    "tags": [
+      "year-5",
+      "trip"
+    ],
+    "summary": "Gallery study connecting Tudor history with portraiture and visual interpretation.",
+    "detail": "Pupils use portraits as historical and artistic evidence, developing understanding of representation, power and identity.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration",
+      "Respect"
+    ],
+    "subjects": [
+      "art",
+      "history",
+      "english"
+    ],
+    "partner": "National Portrait Gallery"
+  },
+  {
+    "title": "Experience of Injustice",
+    "icon": "⚖️",
+    "audience": "Year 6",
+    "tags": [
+      "year-6",
+      "leadership"
+    ],
+    "summary": "A purposeful starting point for Year 6 enquiry into history, integrity and injustice.",
+    "detail": "Pupils begin by considering fairness, responsibility and injustice before investigating Benin and using historical learning to challenge unfairness.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity",
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "english",
+      "pshe"
+    ],
+    "personalDevelopment": true
+  },
+  {
+    "title": "Centre of the Cell: In a HeartBeat",
+    "icon": "❤️",
+    "audience": "Year 6",
+    "tags": [
+      "year-6",
+      "trip",
+      "stem"
+    ],
+    "summary": "A science workshop supporting learning about the circulatory system and healthy lifestyles.",
+    "detail": "Year 6 work with Centre of the Cell to deepen understanding of the heart, circulation and healthy choices through an expert-led workshop.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity",
+      "Aspiration"
+    ],
+    "subjects": [
+      "science"
+    ],
+    "partner": "Centre of the Cell"
+  },
+  {
+    "title": "Windrush Generation: Notting Hill Carnival",
+    "icon": "🎉",
+    "audience": "Year 6",
+    "tags": [
+      "year-6"
+    ],
+    "summary": "An immersive launch into belonging, migration and the Windrush Generation.",
+    "detail": "Pupils explore the Windrush Generation through the cultural story of Notting Hill Carnival, connecting migration, identity and belonging.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect",
+      "Kindness"
+    ],
+    "subjects": [
+      "history",
+      "geography",
+      "english"
+    ]
+  },
+  {
+    "title": "Camden Citizenship Scheme",
+    "icon": "🏙️",
+    "audience": "Year 6",
+    "tags": [
+      "year-6",
+      "trip",
+      "leadership"
+    ],
+    "summary": "Practical citizenship learning supporting independence, safety and responsible decision-making.",
+    "detail": "Year 6 take part in Camden’s citizenship programme, developing knowledge and confidence for increasingly independent lives.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity",
+      "Respect",
+      "Courage"
+    ],
+    "subjects": [
+      "pshe",
+      "english"
+    ],
+    "partner": "The Salvation Army, Chalk Farm",
+    "personalDevelopment": true
+  },
+  {
+    "title": "World War 1 Day",
+    "icon": "🪖",
+    "audience": "Year 6",
+    "tags": [
+      "year-6"
+    ],
+    "summary": "An immersive day launching the Year 6 enquiry into resilience during World War 1.",
+    "detail": "Pupils encounter the experiences and challenges of the First World War before investigating resilience, sacrifice and historical evidence.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance",
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "english"
+    ]
+  },
+  {
+    "title": "British Library: Windrush Voices",
+    "icon": "📚",
+    "audience": "Year 6",
+    "tags": [
+      "year-6",
+      "trip"
+    ],
+    "summary": "Working with the British Library's collections to hear and investigate Windrush voices.",
+    "detail": "Primary sources and recorded voices deepen pupils’ understanding of migration, belonging and lived experience.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect",
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "english",
+      "geography"
+    ],
+    "partner": "The British Library"
+  },
+  {
+    "title": "WW2 Evacuation Day",
+    "icon": "🧳",
+    "audience": "Year 6",
+    "tags": [
+      "year-6"
+    ],
+    "summary": "An immersive experience exploring the lives of children during World War 2.",
+    "detail": "Role play and historical enquiry help pupils understand evacuation, community, courage and the impact of war on ordinary people.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness",
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "english"
+    ]
+  },
+  {
+    "title": "Imperial War Museum: We Were There",
+    "icon": "🏛️",
+    "audience": "Year 6",
+    "tags": [
+      "year-6",
+      "trip"
+    ],
+    "summary": "Museum learning focused on lived experiences of conflict and extraordinary ordinary people.",
+    "detail": "Pupils use museum collections and the ‘We Were There’ workshop to investigate the human experience of World War 2.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness",
+      "Courage",
+      "Respect"
+    ],
+    "subjects": [
+      "history",
+      "english"
+    ],
+    "partner": "Imperial War Museum"
+  },
+  {
+    "title": "Crumbles",
+    "icon": "🧩",
+    "audience": "Year 6",
+    "tags": [
+      "year-6"
+    ],
+    "summary": "A Year 6 curriculum experience within the World War 2 enquiry.",
+    "detail": "This experience supports the continuing Year 6 enquiry into how ordinary people can make an extraordinary difference.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness",
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "english"
+    ]
+  },
+  {
+    "title": "Time Travel: Who Am I in Thirty Years?",
+    "icon": "🚀",
+    "audience": "Year 6",
+    "tags": [
+      "year-6",
+      "leadership"
+    ],
+    "summary": "A future-focused launch into Year 6 aspiration and transition.",
+    "detail": "Pupils imagine their future selves, reflect on interests and goals, and consider the choices and habits that will help them become the people they aspire to be.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration",
+      "Courage"
+    ],
+    "subjects": [
+      "pshe",
+      "english"
+    ],
+    "personalDevelopment": true
+  },
+  {
+    "title": "Ben Kinseller",
+    "icon": "⭐",
+    "audience": "Year 6",
+    "tags": [
+      "year-6",
+      "leadership"
+    ],
+    "summary": "A Year 6 experience supporting transition, responsibility and future readiness.",
+    "detail": "This experience contributes to the final Year 6 enquiry about aspiration, responsible choices and preparing confidently for the future.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration",
+      "Integrity"
+    ],
+    "subjects": [
+      "pshe",
+      "english"
     ],
     "personalDevelopment": true
   }

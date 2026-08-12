@@ -168,125 +168,125 @@ const yearData = {
     ]
   },
   "Year 5": {
-    "title": "Investigating the world",
-    "desc": "Year 5’s curriculum moves between natural disasters, early British history, global environments, mythology, space and Tudor England. Every unit has a distinct audience and final presentation.",
+    "title": "Investigating the world with integrity, respect and ambition",
+    "desc": "Year 5 connects ambitious subject knowledge with the KCA Values. Each half term begins with a purposeful question, includes a memorable experience and ends with learning shared for a real audience.",
     "units": [
-      {
-        "term": "Autumn 1",
-        "theme": "Growth and Change",
-        "question": "What do I know about volcanoes and earthquakes?",
-        "initial": "Volcano Day: creating volcanoes",
-        "presentation": "Natural Disasters Documentary: North America",
-        "audience": "SLT and Frank Barnes",
-        "focus": "North America geography · States of matter · Stop-motion animation"
-      },
-      {
-        "term": "Autumn 2",
-        "theme": "Sustainability and Food",
-        "question": "Who were the Anglo-Saxons and what impact did they have on life today?",
-        "initial": "Anglo-Saxon Day",
-        "presentation": "Anglo-Saxon exhibition: food, art and history",
-        "audience": "Parents",
-        "focus": "Anglo-Saxon history · Living things and habitats · Food technology"
-      },
-      {
-        "term": "Spring 1",
-        "theme": "Identity and Relationships",
-        "question": "What relationship do animals, including humans, have with nature?",
-        "initial": "Round-the-world biomes discovery",
-        "presentation": "Round-the-world trip linked to climate zones and biomes",
-        "audience": "STEAM Ambassador",
-        "focus": "Climate zones and biomes · Forces · Boat-building DT"
-      },
-      {
-        "term": "Spring 2",
-        "theme": "Community",
-        "question": "What have humans discovered about Earth and Space?",
-        "initial": "Vikings Day: discovery of Viking mythology",
-        "presentation": "Vikings lesson and activity delivered to Year 2",
-        "audience": "Year 2",
-        "focus": "Viking history · Properties of materials · Printmaking"
-      },
-      {
-        "term": "Summer 1",
-        "theme": "Life",
-        "question": "How can we look after our Earth and Space?",
-        "initial": "Wonder Dome Earth and Space workshop",
-        "presentation": "Earth and Space Immersive Experience on The Street",
-        "audience": "Governors as a panel of judges",
-        "focus": "Climate sustainability · Earth and Space · Spacecraft design and evaluation"
-      },
-      {
-        "term": "Summer 2",
-        "theme": "Global Citizenship",
-        "question": "Why is Tudor history so significant?",
-        "initial": "Tudor Experience Day",
-        "presentation": "Tudor Exhibition",
-        "audience": "Parents and Central Saint Martins",
-        "focus": "Tudor history · Human development · Tudor portrait drawing"
-      }
+        {
+            "term": "Autumn 1",
+            "theme": "Integrity",
+            "question": "How can understanding our planet help us make responsible choices?",
+            "initial": "Volcano Day (creating volcanoes)",
+            "presentation": "Open Afternoon",
+            "audience": "Families",
+            "focus": "Geography: North America, volcanoes & earthquakes · Science: changes in materials · Art: stop-motion animation"
+        },
+        {
+            "term": "Autumn 2",
+            "theme": "Respect",
+            "question": "How did the Anglo-Saxons shape the Britain we know today?",
+            "initial": "Anglo-Saxon Day",
+            "presentation": "KS1 Performance",
+            "audience": "Families",
+            "focus": "History: Anglo-Saxons · Science: living things and habitats · DT: Anglo-Saxon feast and food technology"
+        },
+        {
+            "term": "Spring 1",
+            "theme": "Endurance",
+            "question": "What can animals teach us about survival and resilience?",
+            "initial": "Round-the-world biomes discovery",
+            "presentation": "Whole School Exhibition on The Street",
+            "audience": "KCA Community",
+            "focus": "Geography: climate zones & biomes · Science: forces · DT: build a boat for Shackleton and his shipmates"
+        },
+        {
+            "term": "Spring 2",
+            "theme": "Kindness",
+            "question": "What can the Vikings teach us about kindness and community?",
+            "initial": "Vikings Day – discovery of Viking mythology",
+            "presentation": "Whole School Exhibition on The Street",
+            "audience": "KCA Community",
+            "focus": "History: Vikings · Science: properties of materials · Art: printmaking"
+        },
+        {
+            "term": "Summer 1",
+            "theme": "Courage",
+            "question": "How does exploring the unknown change what we know?",
+            "initial": "In-school Wonder Dome Space & Earth workshop",
+            "presentation": "Whole School Exhibition on The Street",
+            "audience": "KCA Community",
+            "focus": "Geography: climate change & sustainability · Science: Earth & Space · DT: design and evaluate a space vehicle"
+        },
+        {
+            "term": "Summer 2",
+            "theme": "Aspiration",
+            "question": "What can we learn from the Tudors about power, ambition and change?",
+            "initial": "Tudor Experience Day",
+            "presentation": "Open Afternoon",
+            "audience": "Families",
+            "focus": "History: Tudors · Science: human development and old age · Art: Tudor portrait drawing"
+        }
     ]
-  },
+},
   "Year 6": {
     "title": "Leading learning and preparing for the future",
-    "desc": "Year 6 brings together ambitious historical, geographical and scientific learning with increasingly sophisticated writing and presentation. The year culminates in transition and a final performance.",
+    "desc": "Year 6 brings together ambitious curriculum knowledge, the KCA Values and purposeful opportunities for leadership, voice and transition. Learning is shared with authentic audiences throughout the year.",
     "units": [
-      {
-        "term": "Autumn 1",
-        "theme": "Life",
-        "question": "What do we know about the Benin Kingdom?",
-        "initial": "An experience of injustice",
-        "presentation": "Performed speech",
-        "audience": "KCA community assembly",
-        "focus": "Benin history · Circulatory system and healthy lifestyle · Printmaking and activism"
-      },
-      {
-        "term": "Autumn 2",
-        "theme": "Global Citizenship",
-        "question": "Why did people leave their homes in the Caribbean to come to Britain?",
-        "initial": "Windrush visitors and press conference",
-        "presentation": "Exhibition on The Street",
-        "audience": "Parents",
-        "focus": "Caribbean migration and fair trade · Evolution and inheritance · Drawing and sketchbooks"
-      },
-      {
-        "term": "Spring 1",
-        "theme": "Sustainability and Food",
-        "question": "What did the world learn from World War 1?",
-        "initial": "World War 1 Day",
-        "presentation": "Documentary: Now and Then",
-        "audience": "STEAM Ambassador",
-        "focus": "World War 1 history · Living things and habitats · WW1 cooking DT"
-      },
-      {
-        "term": "Spring 2",
-        "theme": "Community",
-        "question": "How did the community handle the impact of World War 2?",
-        "initial": "Evacuation Day",
-        "presentation": "World War 2 Magazine",
-        "audience": "Frank Barnes community",
-        "focus": "World War 2 history · Light · Blitz shadow puppets"
-      },
-      {
-        "term": "Summer 1",
-        "theme": "Community",
-        "question": "How did the community handle the impact of World War 2?",
-        "initial": "Continued World War 2 enquiry",
-        "presentation": "World War 2 Magazine",
-        "audience": "Frank Barnes community",
-        "focus": "World War 2 history · Light · Songs of World War 2"
-      },
-      {
-        "term": "Summer 2",
-        "theme": "Growth and Change",
-        "question": "How can I prepare for my future?",
-        "initial": "Time travel: who am I in thirty years?",
-        "presentation": "Final End-of-Year Performance",
-        "audience": "Parents and Central Saint Martins",
-        "focus": "European study: France · Electricity · Upcycled transition cushion"
-      }
+        {
+            "term": "Autumn 1",
+            "theme": "Integrity",
+            "question": "How can learning from history help us challenge injustice?",
+            "initial": "Experience of Injustice",
+            "presentation": "Open Afternoon",
+            "audience": "Families",
+            "focus": "History: Benin · Science: circulatory system and healthy lifestyles · Art: printmaking, activism and Benin Bronzes"
+        },
+        {
+            "term": "Autumn 2",
+            "theme": "Respect",
+            "question": "What makes people feel they belong?",
+            "initial": "Windrush Generation – Notting Hill Carnival",
+            "presentation": "KS2 Performance",
+            "audience": "Families",
+            "focus": "Geography: Fairtrade in the Caribbean and migration · Science: evolution and inheritance · Art: drawing and sketchbooks"
+        },
+        {
+            "term": "Spring 1",
+            "theme": "Endurance",
+            "question": "What can we learn from the resilience of those in World War 1?",
+            "initial": "World War 1 Day",
+            "presentation": "Whole School Exhibition on The Street",
+            "audience": "KCA Community",
+            "focus": "History: World War 1 · Science: living things and habitats · DT: WW1 cooking"
+        },
+        {
+            "term": "Spring 2",
+            "theme": "Kindness / Courage",
+            "question": "How can ordinary people make an extraordinary difference?",
+            "initial": "WW2: Evacuation Day",
+            "presentation": "Whole School Exhibition on The Street",
+            "audience": "KCA Community",
+            "focus": "History: World War 2 · Science: light · Art: WW2 Blitz silhouette"
+        },
+        {
+            "term": "Summer 1",
+            "theme": "Kindness / Courage",
+            "question": "How can ordinary people make an extraordinary difference?",
+            "initial": "WW2: Evacuation Day and continued enquiry",
+            "presentation": "Whole School Exhibition on The Street",
+            "audience": "KCA Community",
+            "focus": "History: World War 2 · Science: electricity · Music: Songs of World War 2"
+        },
+        {
+            "term": "Summer 2",
+            "theme": "Aspiration",
+            "question": "How can I become the person I aspire to be?",
+            "initial": "Time travel: who am I in thirty years?",
+            "presentation": "Open Afternoon",
+            "audience": "Families",
+            "focus": "Geography: European study – France · Science: light and electricity board-game project · DT: upcycled transition cushion"
+        }
     ]
-  }
+}
 };
 const placeholderPresentations=["Gallery or exhibition","Performance for an audience","Published writing","Debate or speech","Film or digital showcase","Celebration of learning"];
 const grid=document.getElementById('questions-grid');

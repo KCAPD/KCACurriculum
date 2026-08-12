@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.18 — Final Year 5 and Year 6 curriculum maps
+- Replaced Year 5 and Year 6 homepage topics with the final 2026–2027 Big Questions and Learning Presentations.
+- Rebuilt the Year 5 and Year 6 digital curriculum books from the final yearly overviews.
+- Added the final Year 5 and Year 6 PDF maps as downloadable files.
+- Replaced older map-driven Year 5/6 experience entries with the final trips, workshops and initial experiences.
+- Mapped every new experience to relevant subject pages so subject experience sections update automatically.
+- Retained wider Year 5/6 entitlements such as LAMDA, instrumental tuition, swimming, Bright Futures Academy, France residential and the Year 6 production.
+
 ## v3.17 — Maths home-learning styling fix
 - Corrected the Maths home-learning card in the stylesheet actually used by subject pages (`subjects/subject.css`).
 - Matched the existing subject-page white card, border, radius, shadow and typography.
