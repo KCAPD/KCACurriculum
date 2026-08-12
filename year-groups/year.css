@@ -201,3 +201,26 @@
 @media(min-width:701px){
   .mobile-unit-modal{display:none !important}
 }
+
+/* v3.21 — Safari-safe mobile Explore button outside <summary> */
+@media(max-width:700px){
+  .unit-card > .mobile-unit-open{
+    display:flex;
+    width:calc(100% - 24px);
+    margin:0 12px 14px;
+    position:relative;
+    z-index:2;
+  }
+
+  .unit-card > summary .mobile-unit-open{
+    display:none !important;
+  }
+
+  .mobile-unit-modal{
+    -webkit-tap-highlight-color:transparent;
+  }
+
+  .mobile-unit-sheet{
+    padding-bottom:max(22px, env(safe-area-inset-bottom));
+  }
+}

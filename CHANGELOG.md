@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.21 — iPhone mobile popup fix
+- Fixed the mobile “Explore this unit” interaction for Safari/iPhone.
+- Moved the Explore button outside the HTML summary element so Safari no longer swallows the tap.
+- Added a direct, explicit modal click handler and focus return on close.
+- Added safe-area spacing for iPhones with a home indicator.
+- Applied the fix to Nursery, Reception and Years 1–6.
+- Desktop behaviour remains unchanged.
+
 ## v3.20 — Mobile unit popups and distinct value emojis
 - Added a different emoji to each KCA value marker on the homepage:
   Integrity ⚖️, Respect 🤝, Endurance 🏔️, Kindness 💛, Courage 🦁, Aspiration ⭐.

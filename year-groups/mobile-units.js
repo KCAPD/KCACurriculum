@@ -1,107 +1,142 @@
 
 (function(){
-  const mobile = () => window.matchMedia("(max-width: 700px)").matches;
+  "use strict";
 
-  function cleanClone(detail){
-    const clone = detail.cloneNode(true);
-    clone.removeAttribute("hidden");
-    clone.style.display = "";
-    return clone;
+  const isMobile = () => window.matchMedia("(max-width: 700px)").matches;
+  let lastTrigger = null;
+
+  function getModal(){
+    return document.getElementById("mobile-unit-modal");
   }
 
-  function openModal(card){
-    if(!mobile()) return;
-    const modal = document.getElementById("mobile-unit-modal");
+  function buildModal(){
+    if(getModal()) return getModal();
+
+    const modal = document.createElement("div");
+    modal.id = "mobile-unit-modal";
+    modal.className = "mobile-unit-modal";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.setAttribute("aria-hidden", "true");
+
+    modal.innerHTML = `
+      <div class="mobile-unit-sheet" role="document">
+        <div class="mobile-unit-sheet-head">
+          <div>
+            <span class="mobile-unit-term">Curriculum unit</span>
+            <h2 class="mobile-unit-title">Explore this unit</h2>
+          </div>
+          <button type="button" class="mobile-unit-close" aria-label="Close unit details">×</button>
+        </div>
+        <div class="mobile-unit-body"></div>
+      </div>`;
+
+    document.body.appendChild(modal);
+
+    modal.querySelector(".mobile-unit-close").addEventListener("click", closeModal);
+
+    modal.addEventListener("click", function(e){
+      if(e.target === modal) closeModal();
+    });
+
+    document.addEventListener("keydown", function(e){
+      if(e.key === "Escape" && modal.classList.contains("is-open")){
+        closeModal();
+      }
+    });
+
+    return modal;
+  }
+
+  function openModal(card, trigger){
+    if(!isMobile() || !card) return;
+
+    const detail = card.querySelector(".unit-detail");
+    if(!detail) return;
+
+    const modal = buildModal();
     const body = modal.querySelector(".mobile-unit-body");
     const title = modal.querySelector(".mobile-unit-title");
     const term = modal.querySelector(".mobile-unit-term");
-    const detail = card.querySelector(".unit-detail");
+
     const question = card.querySelector("summary h2, summary h3, summary h4");
-
-    if(!detail) return;
-
     const termEl = card.querySelector("summary > span:first-child, summary .term-tag");
+
     term.textContent = termEl ? termEl.textContent.trim() : "Curriculum unit";
     title.textContent = question ? question.textContent.trim() : "Explore this unit";
 
     body.innerHTML = "";
-    body.appendChild(cleanClone(detail));
+    const clonedDetail = detail.cloneNode(true);
+    clonedDetail.removeAttribute("hidden");
+    clonedDetail.style.display = "block";
+    body.appendChild(clonedDetail);
 
+    lastTrigger = trigger || null;
     modal.classList.add("is-open");
-    modal.setAttribute("aria-hidden","false");
+    modal.setAttribute("aria-hidden", "false");
     document.body.classList.add("mobile-modal-open");
-    modal.querySelector(".mobile-unit-close").focus();
-  }
 
-  function closeModal(){
-    const modal = document.getElementById("mobile-unit-modal");
-    if(!modal) return;
-    modal.classList.remove("is-open");
-    modal.setAttribute("aria-hidden","true");
-    document.body.classList.remove("mobile-modal-open");
-  }
-
-  function enhanceCards(){
-    document.querySelectorAll(".unit-card").forEach((card, index) => {
-      if(!card.querySelector(".unit-detail")) return;
-      if(card.querySelector(".mobile-unit-open")) return;
-
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "mobile-unit-open";
-      btn.textContent = "Explore this unit";
-      btn.setAttribute("aria-haspopup","dialog");
-      btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        openModal(card);
-      });
-
-      const summary = card.querySelector("summary");
-      if(summary) summary.appendChild(btn);
+    requestAnimationFrame(function(){
+      const close = modal.querySelector(".mobile-unit-close");
+      if(close) close.focus({preventScroll:true});
     });
   }
 
-  function init(){
-    enhanceCards();
+  function closeModal(){
+    const modal = getModal();
+    if(!modal) return;
 
-    if(!document.getElementById("mobile-unit-modal")){
-      const modal = document.createElement("div");
-      modal.id = "mobile-unit-modal";
-      modal.className = "mobile-unit-modal";
-      modal.setAttribute("role","dialog");
-      modal.setAttribute("aria-modal","true");
-      modal.setAttribute("aria-hidden","true");
-      modal.innerHTML = `
-        <div class="mobile-unit-sheet">
-          <div class="mobile-unit-sheet-head">
-            <div>
-              <span class="mobile-unit-term">Curriculum unit</span>
-              <h2 class="mobile-unit-title">Explore this unit</h2>
-            </div>
-            <button type="button" class="mobile-unit-close" aria-label="Close unit">×</button>
-          </div>
-          <div class="mobile-unit-body"></div>
-        </div>`;
-      document.body.appendChild(modal);
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("mobile-modal-open");
 
-      modal.querySelector(".mobile-unit-close").addEventListener("click", closeModal);
-      modal.addEventListener("click", (e) => {
-        if(e.target === modal) closeModal();
-      });
-      document.addEventListener("keydown", (e) => {
-        if(e.key === "Escape" && modal.classList.contains("is-open")) closeModal();
-      });
+    if(lastTrigger && typeof lastTrigger.focus === "function"){
+      try { lastTrigger.focus({preventScroll:true}); } catch(e) { lastTrigger.focus(); }
     }
+    lastTrigger = null;
+  }
 
-    // On mobile, prevent the native details toggle; use modal instead.
-    document.querySelectorAll(".unit-card > summary").forEach(summary => {
-      summary.addEventListener("click", (e) => {
-        if(mobile() && !e.target.closest(".mobile-unit-open")){
+  function enhanceCards(){
+    document.querySelectorAll(".unit-card").forEach(function(card, index){
+      const detail = card.querySelector(".unit-detail");
+      const summary = card.querySelector(":scope > summary");
+      if(!detail || !summary) return;
+
+      // Remove any v3.20 button that may have been appended inside summary.
+      summary.querySelectorAll(".mobile-unit-open").forEach(function(btn){
+        btn.remove();
+      });
+
+      // Avoid duplicate buttons.
+      let button = card.querySelector(":scope > .mobile-unit-open");
+      if(!button){
+        button = document.createElement("button");
+        button.type = "button";
+        button.className = "mobile-unit-open";
+        button.textContent = "Explore this unit";
+        button.setAttribute("aria-haspopup", "dialog");
+        button.setAttribute("aria-controls", "mobile-unit-modal");
+        summary.insertAdjacentElement("afterend", button);
+      }
+
+      button.addEventListener("click", function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        openModal(card, button);
+      });
+
+      // On phones, tapping the summary does nothing; the explicit button opens detail.
+      summary.addEventListener("click", function(e){
+        if(isMobile()){
           e.preventDefault();
         }
       });
     });
+  }
+
+  function init(){
+    buildModal();
+    enhanceCards();
   }
 
   if(document.readyState === "loading"){
