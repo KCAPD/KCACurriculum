@@ -1440,3 +1440,36 @@ window.KCA_EXPERIENCES = [
     "personalDevelopment": true
   }
 ];
+
+
+/* v3.27 finalised-years-only filter
+   Non-finalised Nursery–Year 4 map-specific experiences are withheld.
+   Shared/whole-school entitlements and Year 5/6 experiences remain available. */
+(function(){
+  if(typeof experiences === "undefined" || !Array.isArray(experiences)) return;
+  const lowerYears = new Set(["Nursery","Reception","Year 1","Year 2","Year 3","Year 4","N","R","Y1","Y2","Y3","Y4"]);
+  const finalYears = new Set(["Year 5","Year 6","Y5","Y6"]);
+
+  function yearsOf(item){
+    const raw = item.years || item.yearGroups || item.year || [];
+    return Array.isArray(raw) ? raw : [raw];
+  }
+
+  const kept = experiences.filter(function(item){
+    const years = yearsOf(item).filter(Boolean);
+    if(years.length === 0) return true;
+
+    if(years.some(y => finalYears.has(String(y)))) return true;
+
+    const text = JSON.stringify(item).toLowerCase();
+    if(text.includes("whole school") || text.includes("all year") || text.includes("whole-school") || text.includes("shared entitlement")) return true;
+
+    // If an experience is exclusively mapped to Nursery–Y4, withhold it for now.
+    if(years.every(y => lowerYears.has(String(y)))) return false;
+
+    return true;
+  });
+
+  experiences.length = 0;
+  kept.forEach(x => experiences.push(x));
+})();

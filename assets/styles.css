@@ -825,3 +825,24 @@ header.site-header {
 @media(max-width:700px){
   .value-character-face{font-size:.88rem}
 }
+
+/* v3.27 — only finalised year-group maps are live */
+a[data-coming-soon="true"]{
+  position:relative;
+  opacity:.62;
+  cursor:default !important;
+  filter:saturate(.7);
+}
+a[data-coming-soon="true"]::after{
+  content:"Coming soon";
+  display:inline-flex;
+  margin-top:8px;
+  padding:4px 8px;
+  border-radius:999px;
+  background:#eef3f6;
+  color:#17324d;
+  font-size:.58rem;
+  font-weight:800;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+}

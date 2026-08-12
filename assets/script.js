@@ -570,3 +570,10 @@ if(experiencePrev&&experienceScroller)experiencePrev.addEventListener('click',()
 if(experienceNext&&experienceScroller)experienceNext.addEventListener('click',()=>experienceScroller.scrollBy({left:Math.max(340,experienceScroller.clientWidth*.8),behavior:'smooth'}));
 if(experienceScroller)experienceScroller.addEventListener('scroll',()=>{updateExperienceArrows();window.requestAnimationFrame(updateActiveExperienceCard);},{passive:true});
 window.addEventListener('resize',()=>{updateExperienceArrows();updateActiveExperienceCard();});
+
+document.addEventListener("click", function(e){
+  const link = e.target.closest('a[data-coming-soon="true"]');
+  if(link){
+    e.preventDefault();
+  }
+});

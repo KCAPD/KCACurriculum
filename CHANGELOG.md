@@ -1,5 +1,15 @@
 # Changelog
 
+## v3.27 — Finalised years only + centred mobile pills
+- Centred every mobile “Explore this unit” pill within its unit card.
+- Confirmed the Year 5/6 mobile treatment as the standard template for future year-group maps.
+- Removed the existing Nursery–Year 4 curriculum-map content from publication.
+- Nursery–Year 4 direct pages now show a clean “Coming soon” state rather than draft curriculum content.
+- Homepage year-group links for Nursery–Year 4 are marked as coming soon and are not live.
+- Year 5 and Year 6 remain the only published, finalised curriculum maps.
+- Withheld Nursery–Year 4 map-specific Experience Library entries while retaining shared/whole-school entitlements and Year 5/6 experiences.
+- Desktop and mobile Year 5/6 curriculum content remains unchanged apart from the centred mobile pill.
+
 ## v3.26 — Explore pill inside every mobile unit card
 - Corrected the remaining visual mismatch between Nursery/Reception and Years 1–6.
 - On mobile, the topic and “Explore this unit” pill now sit inside one shared coloured card.
