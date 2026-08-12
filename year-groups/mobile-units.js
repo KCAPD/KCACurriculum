@@ -102,21 +102,32 @@
       const summary = card.querySelector(":scope > summary");
       if(!detail || !summary) return;
 
-      // Remove any older mobile buttons left inside the card/summary.
+      // Remove any older mobile buttons.
       card.querySelectorAll(".mobile-unit-open").forEach(function(btn){
         btn.remove();
       });
+      if(card.nextElementSibling && card.nextElementSibling.classList.contains("mobile-unit-open")){
+        card.nextElementSibling.remove();
+      }
 
-      // Button must sit OUTSIDE <details>, otherwise closed details hide it.
-      let button = card.nextElementSibling;
-      if(!(button && button.classList.contains("mobile-unit-open"))){
+      // Group the card and its button so they stay together in the mobile grid.
+      let shell = card.parentElement;
+      if(!(shell && shell.classList.contains("mobile-unit-shell"))){
+        shell = document.createElement("div");
+        shell.className = "mobile-unit-shell";
+        card.parentNode.insertBefore(shell, card);
+        shell.appendChild(card);
+      }
+
+      let button = shell.querySelector(":scope > .mobile-unit-open");
+      if(!button){
         button = document.createElement("button");
         button.type = "button";
         button.className = "mobile-unit-open";
         button.textContent = "Explore this unit";
         button.setAttribute("aria-haspopup", "dialog");
         button.setAttribute("aria-controls", "mobile-unit-modal");
-        card.insertAdjacentElement("afterend", button);
+        shell.appendChild(button);
       }
 
       button.addEventListener("click", function(e){

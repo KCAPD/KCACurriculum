@@ -253,3 +253,85 @@
 @media(min-width:701px){
   .units > .mobile-unit-open{display:none !important}
 }
+
+/* v3.23 — two complete curriculum units per row on mobile */
+.mobile-unit-shell{
+  display:contents;
+}
+
+@media(max-width:700px){
+  .units,
+  .real-units{
+    display:grid !important;
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:12px !important;
+    align-items:stretch;
+  }
+
+  .mobile-unit-shell{
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+    height:100%;
+  }
+
+  .mobile-unit-shell > .unit-card{
+    width:100%;
+    min-width:0;
+    margin:0 !important;
+    flex:1 1 auto;
+  }
+
+  .mobile-unit-shell > .mobile-unit-open{
+    display:flex !important;
+    align-items:center;
+    justify-content:center;
+    width:100% !important;
+    min-height:42px;
+    margin:8px 0 0 !important;
+    padding:9px 10px;
+    border:0;
+    border-radius:999px;
+    background:#17324d;
+    color:#fff;
+    font:inherit;
+    font-size:.68rem;
+    font-weight:800;
+    line-height:1.2;
+    text-align:center;
+    cursor:pointer;
+  }
+
+  /* Keep the compact card readable in a two-column phone grid */
+  .mobile-unit-shell .unit-card > summary{
+    padding:14px 12px !important;
+  }
+
+  .mobile-unit-shell .unit-card > summary h2,
+  .mobile-unit-shell .unit-card > summary h3,
+  .mobile-unit-shell .unit-card > summary h4{
+    font-size:.9rem !important;
+    line-height:1.28 !important;
+  }
+
+  .mobile-unit-shell .summary-presentation{
+    margin-top:10px !important;
+  }
+
+  .mobile-unit-shell .summary-presentation span{
+    font-size:.56rem !important;
+  }
+
+  .mobile-unit-shell .summary-presentation strong{
+    font-size:.72rem !important;
+  }
+}
+
+@media(min-width:701px){
+  .mobile-unit-shell{
+    display:contents;
+  }
+  .mobile-unit-shell > .mobile-unit-open{
+    display:none !important;
+  }
+}

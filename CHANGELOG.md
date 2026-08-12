@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.23 — Mobile two-column unit layout
+- Grouped each curriculum topic card with its own “Explore this unit” button.
+- On mobile, each button now sits directly underneath the topic it belongs to.
+- Mobile year-group pages now display two complete curriculum units per row.
+- Reduced mobile card typography slightly so two-column layouts remain readable.
+- Applied consistently from Nursery through Year 6.
+- Desktop layout remains unchanged.
+
 ## v3.22 — All mobile unit buttons + brighter Year 5/6 colours
 - Fixed the mobile unit button issue: each “Explore this unit” button now sits outside its closed details card, so all six units can display a button on mobile.
 - Applied the button fix across Nursery, Reception and Years 1–6 wherever detailed units are available.
