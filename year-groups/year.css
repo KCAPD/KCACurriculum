@@ -556,3 +556,60 @@
   font-size:.64rem;
   font-weight:800;
 }
+
+/* v3.26 — Explore pill visually INSIDE every mobile unit card */
+@media(max-width:700px){
+  .mobile-unit-shell{
+    display:flex !important;
+    flex-direction:column;
+    min-width:0;
+    overflow:hidden;
+    border:1px solid color-mix(in srgb, var(--year) 24%, #e8edf1);
+    border-radius:18px;
+    background:
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--year) 14%, #ffffff) 0%,
+        #ffffff 76%
+      );
+    box-shadow:0 6px 18px rgba(26,45,62,.065);
+  }
+
+  .mobile-unit-shell > .unit-card{
+    flex:1 1 auto;
+    width:100%;
+    min-width:0;
+    margin:0 !important;
+    border:0 !important;
+    border-radius:0 !important;
+    background:transparent !important;
+    box-shadow:none !important;
+    overflow:visible;
+  }
+
+  .mobile-unit-shell > .unit-card > summary{
+    padding-bottom:12px !important;
+  }
+
+  .mobile-unit-shell > .unit-card > summary::after{
+    display:none !important;
+  }
+
+  .mobile-unit-shell > .mobile-unit-open{
+    display:inline-flex !important;
+    align-self:flex-start;
+    width:auto !important;
+    min-height:32px;
+    margin:0 12px 12px !important;
+    padding:7px 12px;
+    border:1px solid color-mix(in srgb, var(--year) 30%, #dbe3e8);
+    border-radius:999px;
+    background:color-mix(in srgb, var(--year) 10%, #ffffff);
+    color:#17324d;
+    box-shadow:none;
+    font-size:.59rem;
+    font-weight:800;
+    line-height:1.1;
+    white-space:nowrap;
+  }
+}

@@ -110,7 +110,9 @@
         card.nextElementSibling.remove();
       }
 
-      // Group the card and its button so they stay together in the mobile grid.
+      // Group the card and its button into one visual unit box.
+      // The button stays outside <summary> for Safari reliability,
+      // but the wrapper makes it appear INSIDE the same coloured card.
       let shell = card.parentElement;
       if(!(shell && shell.classList.contains("mobile-unit-shell"))){
         shell = document.createElement("div");

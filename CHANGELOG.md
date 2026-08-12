@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.26 — Explore pill inside every mobile unit card
+- Corrected the remaining visual mismatch between Nursery/Reception and Years 1–6.
+- On mobile, the topic and “Explore this unit” pill now sit inside one shared coloured card.
+- The pill remains technically outside the HTML summary element, preserving the Safari/iPhone popup fix.
+- Retained two complete units per row.
+- Applied consistently from Nursery through Year 6.
+- Desktop behaviour remains unchanged.
+
 ## v3.25 — Unified year-group card design
 - Standardised Years 1–6 to the cleaner, brighter Nursery/Reception visual language.
 - Kept the richer curriculum detail and learning-journey narratives in the mobile popup rather than crowding the card face.
