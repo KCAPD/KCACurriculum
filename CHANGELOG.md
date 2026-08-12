@@ -1,5 +1,20 @@
 # Changelog
 
+## v3.29 — Remove Nursery–Year 4 value placeholders
+- Removed any remaining value placeholders from Nursery, Reception and Years 1–4.
+- Those six pages now contain only the clean final-overview message until their final curriculum maps are supplied.
+- No unit cards, values, Explore buttons or mobile unit scripts are present on Nursery–Year 4.
+- Year 5 and Year 6 remain fully populated and unchanged in content/design.
+
+## v3.28 — Clean Nursery–Year 4 placeholders
+- Standardised Nursery, Reception and Years 1–4 to one clean unpublished curriculum state.
+- Each page now shows only: “The detailed curriculum map for this year group will be added when the final overview is available.”
+- Removed all unit cards and all “Explore this unit” controls from Nursery–Year 4.
+- Removed the mobile unit-popup script from Nursery–Year 4 until their final maps are added.
+- Year 5 and Year 6 remain the only fully populated curriculum-map pages.
+- Restored Nursery–Year 4 homepage cards to link to their clean placeholder pages while retaining their Coming Soon status.
+- Year 5/6 mobile design remains the template for future finalised maps.
+
 ## v3.27 — Finalised years only + centred mobile pills
 - Centred every mobile “Explore this unit” pill within its unit card.
 - Confirmed the Year 5/6 mobile treatment as the standard template for future year-group maps.

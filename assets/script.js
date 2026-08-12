@@ -571,9 +571,3 @@ if(experienceNext&&experienceScroller)experienceNext.addEventListener('click',()
 if(experienceScroller)experienceScroller.addEventListener('scroll',()=>{updateExperienceArrows();window.requestAnimationFrame(updateActiveExperienceCard);},{passive:true});
 window.addEventListener('resize',()=>{updateExperienceArrows();updateActiveExperienceCard();});
 
-document.addEventListener("click", function(e){
-  const link = e.target.closest('a[data-coming-soon="true"]');
-  if(link){
-    e.preventDefault();
-  }
-});

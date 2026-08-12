@@ -660,3 +660,16 @@
   font-weight:800;
   font-size:.75rem;
 }
+
+/* v3.28 — clean unpublished year-group placeholder */
+.placeholder-year-page .year-hero{
+  padding-bottom:64px;
+}
+.placeholder-year-page .year-hero .lead{
+  max-width:680px;
+}
+@media(max-width:700px){
+  .placeholder-year-page .year-hero{
+    padding-bottom:42px;
+  }
+}
