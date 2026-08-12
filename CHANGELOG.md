@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.30 — Remove residual Nursery–Year 4 curriculum data
+- Removed residual Nursery–Year 4 curriculum data from the shared homepage JavaScript.
+- Added a runtime safeguard so lower-year curriculum units cannot repopulate from legacy data.
+- Re-cleaned Nursery, Reception and Years 1–4 pages to the single placeholder message.
+- Year 1 and Year 3 no longer surface old curriculum content anywhere.
+- Year 5 and Year 6 remain the only live, populated curriculum maps.
+
 ## v3.29 — Remove Nursery–Year 4 value placeholders
 - Removed any remaining value placeholders from Nursery, Reception and Years 1–4.
 - Those six pages now contain only the clean final-overview message until their final curriculum maps are supplied.

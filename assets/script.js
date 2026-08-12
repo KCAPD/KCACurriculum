@@ -571,3 +571,28 @@ if(experienceNext&&experienceScroller)experienceNext.addEventListener('click',()
 if(experienceScroller)experienceScroller.addEventListener('scroll',()=>{updateExperienceArrows();window.requestAnimationFrame(updateActiveExperienceCard);},{passive:true});
 window.addEventListener('resize',()=>{updateExperienceArrows();updateActiveExperienceCard();});
 
+
+
+/* v3.30 — only finalised Year 5 and Year 6 curriculum maps may render */
+(function(){
+  const lowerKeys = [
+    "nursery","reception","year1","year2","year3","year4",
+    "y1","y2","y3","y4","Nursery","Reception","Year 1","Year 2","Year 3","Year 4"
+  ];
+
+  function clearLowerYears(obj){
+    if(!obj || typeof obj !== "object") return;
+    lowerKeys.forEach(function(key){
+      if(Object.prototype.hasOwnProperty.call(obj, key)){
+        if(Array.isArray(obj[key])) obj[key] = [];
+        else if(obj[key] && typeof obj[key] === "object") obj[key] = {};
+        else obj[key] = null;
+      }
+    });
+  }
+
+  if(typeof yearData !== "undefined") clearLowerYears(yearData);
+  if(typeof curriculumData !== "undefined") clearLowerYears(curriculumData);
+  if(typeof curriculumByYear !== "undefined") clearLowerYears(curriculumByYear);
+  if(typeof years !== "undefined" && !Array.isArray(years)) clearLowerYears(years);
+})();
