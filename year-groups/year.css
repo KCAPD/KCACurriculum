@@ -224,3 +224,32 @@
     padding-bottom:max(22px, env(safe-area-inset-bottom));
   }
 }
+
+/* v3.22 — mobile Explore buttons live outside closed details cards */
+@media(max-width:700px){
+  .units > .mobile-unit-open{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:calc(100% - 24px);
+    margin:-10px 12px 12px;
+    min-height:44px;
+    border:0;
+    border-radius:999px;
+    padding:10px 16px;
+    background:var(--ink);
+    color:#fff;
+    font:inherit;
+    font-size:.76rem;
+    font-weight:800;
+    letter-spacing:.02em;
+    cursor:pointer;
+    position:relative;
+    z-index:3;
+  }
+}
+
+/* On desktop these mobile-only controls remain hidden. */
+@media(min-width:701px){
+  .units > .mobile-unit-open{display:none !important}
+}

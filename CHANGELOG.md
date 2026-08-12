@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.22 — All mobile unit buttons + brighter Year 5/6 colours
+- Fixed the mobile unit button issue: each “Explore this unit” button now sits outside its closed details card, so all six units can display a button on mobile.
+- Applied the button fix across Nursery, Reception and Years 1–6 wherever detailed units are available.
+- Restored a bright curriculum-book identity to the final Year 5 and Year 6 pages.
+- Year 5 now uses a bright rose/coral accent.
+- Year 6 now uses a bright teal accent.
+- Kept all Year 5/6 narratives, final curriculum content, experiences and subject mappings unchanged.
+- Desktop unit behaviour remains unchanged.
+
 ## v3.21 — iPhone mobile popup fix
 - Fixed the mobile “Explore this unit” interaction for Safari/iPhone.
 - Moved the Explore button outside the HTML summary element so Safari no longer swallows the tap.

@@ -102,21 +102,21 @@
       const summary = card.querySelector(":scope > summary");
       if(!detail || !summary) return;
 
-      // Remove any v3.20 button that may have been appended inside summary.
-      summary.querySelectorAll(".mobile-unit-open").forEach(function(btn){
+      // Remove any older mobile buttons left inside the card/summary.
+      card.querySelectorAll(".mobile-unit-open").forEach(function(btn){
         btn.remove();
       });
 
-      // Avoid duplicate buttons.
-      let button = card.querySelector(":scope > .mobile-unit-open");
-      if(!button){
+      // Button must sit OUTSIDE <details>, otherwise closed details hide it.
+      let button = card.nextElementSibling;
+      if(!(button && button.classList.contains("mobile-unit-open"))){
         button = document.createElement("button");
         button.type = "button";
         button.className = "mobile-unit-open";
         button.textContent = "Explore this unit";
         button.setAttribute("aria-haspopup", "dialog");
         button.setAttribute("aria-controls", "mobile-unit-modal");
-        summary.insertAdjacentElement("afterend", button);
+        card.insertAdjacentElement("afterend", button);
       }
 
       button.addEventListener("click", function(e){
@@ -125,7 +125,7 @@
         openModal(card, button);
       });
 
-      // On phones, tapping the summary does nothing; the explicit button opens detail.
+      // Prevent native expand/collapse on phone; explicit button opens the modal.
       summary.addEventListener("click", function(e){
         if(isMobile()){
           e.preventDefault();
