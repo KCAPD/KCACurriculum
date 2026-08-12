@@ -290,6 +290,19 @@ const yearData = {
 };
 const placeholderPresentations=["Gallery or exhibition","Performance for an audience","Published writing","Debate or speech","Film or digital showcase","Celebration of learning"];
 const grid=document.getElementById('questions-grid');
+
+function valueEmoji(value){
+  const v = String(value || "").toLowerCase();
+  if (v.includes("integrity")) return "⚖️";
+  if (v.includes("respect")) return "🤝";
+  if (v.includes("endurance")) return "🏔️";
+  if (v.includes("kindness") && v.includes("courage")) return "💛";
+  if (v.includes("kindness")) return "💛";
+  if (v.includes("courage")) return "🦁";
+  if (v.includes("aspiration")) return "⭐";
+  return "✨";
+}
+
 function esc(value){return String(value ?? '').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
 function renderYear(year){
   const d=yearData[year];
@@ -308,7 +321,7 @@ function renderYear(year){
     grid.innerHTML=d.units.map((u,i)=>`<article class="question-card placeholder-card populated-year-card">
       <div class="unit-card-meta">
         <span class="term-tag">${esc(u.term)}</span>
-        ${u.theme ? `<span class="value-character" aria-label="KCA Value: ${esc(u.theme)}"><span class="value-character-face" aria-hidden="true">☺</span><span>${esc(u.theme)}</span></span>` : ``}
+        ${u.theme ? `<span class="value-character" aria-label="KCA Value: ${esc(u.theme)}"><span class="value-character-face" aria-hidden="true">${valueEmoji(u.theme)}</span><span>${esc(u.theme)}</span></span>` : ``}
       </div>
       <h4>${esc(u.question)}</h4>
       <div class="presentation-block">

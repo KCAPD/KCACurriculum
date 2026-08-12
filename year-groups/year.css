@@ -43,3 +43,161 @@
  .unit-narrative span{font-size:.61rem}
  .unit-narrative p{font-size:.79rem;line-height:1.55}
 }
+
+/* v3.20 — mobile curriculum unit modal */
+.mobile-unit-open,
+.mobile-unit-modal{
+  display:none;
+}
+
+@media(max-width:700px){
+  /* Keep year cards compact on phones */
+  .real-units .unit-card > summary,
+  .units .unit-card > summary{
+    cursor:default;
+  }
+
+  .real-units .unit-card > summary::-webkit-details-marker,
+  .units .unit-card > summary::-webkit-details-marker{
+    display:none;
+  }
+
+  .real-units .unit-card > summary::marker,
+  .units .unit-card > summary::marker{
+    content:"";
+  }
+
+  .real-units .unit-card .unit-detail,
+  .units .unit-card .unit-detail{
+    display:none !important;
+  }
+
+  .real-units .unit-card[open] .unit-detail,
+  .units .unit-card[open] .unit-detail{
+    display:none !important;
+  }
+
+  .real-units .unit-card summary .expand-label,
+  .units .unit-card summary .expand-label{
+    display:none !important;
+  }
+
+  .mobile-unit-open{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    margin-top:14px;
+    min-height:44px;
+    border:0;
+    border-radius:999px;
+    padding:10px 16px;
+    font:inherit;
+    font-size:.76rem;
+    font-weight:800;
+    letter-spacing:.02em;
+    color:#fff;
+    background:#17324d;
+    cursor:pointer;
+  }
+
+  .mobile-unit-modal{
+    position:fixed;
+    inset:0;
+    z-index:9999;
+    display:none;
+    background:rgba(10,24,38,.58);
+    padding:10px;
+    overflow:hidden;
+  }
+
+  .mobile-unit-modal.is-open{
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+  }
+
+  .mobile-unit-sheet{
+    width:100%;
+    max-height:92dvh;
+    overflow-y:auto;
+    overscroll-behavior:contain;
+    -webkit-overflow-scrolling:touch;
+    background:#fff;
+    border-radius:24px 24px 12px 12px;
+    box-shadow:0 -18px 50px rgba(10,24,38,.22);
+    padding:18px 16px 22px;
+  }
+
+  .mobile-unit-sheet-head{
+    position:sticky;
+    top:-18px;
+    z-index:2;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:12px;
+    margin:-18px -16px 16px;
+    padding:17px 16px 12px;
+    background:rgba(255,255,255,.97);
+    border-bottom:1px solid #e5ebef;
+    backdrop-filter:blur(8px);
+  }
+
+  .mobile-unit-sheet-head div{
+    min-width:0;
+  }
+
+  .mobile-unit-sheet-head span{
+    display:block;
+    margin-bottom:5px;
+    font-size:.63rem;
+    font-weight:800;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:#b5222e;
+  }
+
+  .mobile-unit-sheet-head h2{
+    margin:0;
+    font-size:1.18rem;
+    line-height:1.25;
+    color:#17324d;
+  }
+
+  .mobile-unit-close{
+    flex:0 0 40px;
+    width:40px;
+    height:40px;
+    border:0;
+    border-radius:50%;
+    background:#eef3f6;
+    color:#17324d;
+    font-size:1.35rem;
+    line-height:1;
+    cursor:pointer;
+  }
+
+  .mobile-unit-sheet .unit-detail{
+    display:block !important;
+    padding:0 !important;
+  }
+
+  .mobile-unit-sheet .unit-narrative{
+    display:block;
+  }
+
+  .mobile-unit-sheet .unit-highlight,
+  .mobile-unit-sheet .detail-grid section{
+    margin-bottom:10px;
+  }
+
+  body.mobile-modal-open{
+    overflow:hidden;
+    touch-action:none;
+  }
+}
+
+@media(min-width:701px){
+  .mobile-unit-modal{display:none !important}
+}

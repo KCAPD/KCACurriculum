@@ -815,3 +815,13 @@ header.site-header {
  .value-character{font-size:.56rem;gap:.28rem}
  .value-character-face{width:28px;height:28px;flex-basis:28px;font-size:.8rem}
 }
+
+/* v3.20 — distinct value emoji markers */
+.value-character-face{
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+  background:#fffdf9;
+  font-size:1.05rem;
+}
+@media(max-width:700px){
+  .value-character-face{font-size:.88rem}
+}

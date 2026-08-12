@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.20 — Mobile unit popups and distinct value emojis
+- Added a different emoji to each KCA value marker on the homepage:
+  Integrity ⚖️, Respect 🤝, Endurance 🏔️, Kindness 💛, Courage 🦁, Aspiration ⭐.
+- Added mobile-only curriculum unit popups to every year-group page from Nursery to Year 6.
+- On phones, unit cards now remain compact and open into a near-full-screen bottom sheet for the detailed curriculum content.
+- Desktop year-group behaviour remains unchanged.
+- Retained the Year 5 and Year 6 narrative learning journeys from v3.19.
+- Retained removal of the Year 6 Crumbles trip.
+
 ## v3.19 — Values and curriculum narratives
 - Removed Crumbles from the Year 6 detailed curriculum and Experience Library.
 - Added compact value-character markers to populated homepage curriculum cards.
