@@ -804,3 +804,14 @@ header.site-header {
 .maths-home-learning .home-learning-panel .eyebrow{margin-bottom:.45rem}
 .maths-home-learning .home-learning-panel h2{margin:.15rem 0 .75rem}
 .maths-home-learning .home-learning-panel .button{margin-top:.8rem}
+
+/* v3.19 — value character markers on homepage curriculum cards */
+.populated-year-card .unit-card-meta{display:flex;align-items:center;justify-content:space-between;gap:.7rem;margin-bottom:20px}
+.populated-year-card .unit-card-meta .term-tag{margin-bottom:0}
+.value-character{display:inline-flex;align-items:center;gap:.38rem;min-width:0;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.035em;color:#17324d}
+.value-character-face{display:grid;place-items:center;width:34px;height:34px;flex:0 0 34px;border-radius:50%;background:#fff;border:2px solid currentColor;box-shadow:0 4px 12px rgba(23,50,77,.08);font-size:1rem;line-height:1}
+@media(max-width:700px){
+ .populated-year-card .unit-card-meta{align-items:flex-start;gap:.45rem;margin-bottom:14px}
+ .value-character{font-size:.56rem;gap:.28rem}
+ .value-character-face{width:28px;height:28px;flex-basis:28px;font-size:.8rem}
+}

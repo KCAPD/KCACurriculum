@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.19 — Values and curriculum narratives
+- Removed Crumbles from the Year 6 detailed curriculum and Experience Library.
+- Added compact value-character markers to populated homepage curriculum cards.
+- Added a short narrative learning journey to every Year 5 and Year 6 half-term.
+- Added responsive mobile styling for both the value markers and narratives.
+- Retained all v3.18 curriculum map, experience and subject-mapping updates.
+
 ## v3.18 — Final Year 5 and Year 6 curriculum maps
 - Replaced Year 5 and Year 6 homepage topics with the final 2026–2027 Big Questions and Learning Presentations.
 - Rebuilt the Year 5 and Year 6 digital curriculum books from the final yearly overviews.

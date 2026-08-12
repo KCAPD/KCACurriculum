@@ -1392,28 +1392,6 @@ window.KCA_EXPERIENCES = [
     "partner": "Imperial War Museum"
   },
   {
-    "title": "Crumbles",
-    "icon": "🧩",
-    "audience": "Year 6",
-    "tags": [
-      "year-6"
-    ],
-    "summary": "A Year 6 curriculum experience within the World War 2 enquiry.",
-    "detail": "This experience supports the continuing Year 6 enquiry into how ordinary people can make an extraordinary difference.",
-    "pillars": [
-      "Cross-curricular skills",
-      "Discovering interests"
-    ],
-    "values": [
-      "Kindness",
-      "Courage"
-    ],
-    "subjects": [
-      "history",
-      "english"
-    ]
-  },
-  {
     "title": "Time Travel: Who Am I in Thirty Years?",
     "icon": "🚀",
     "audience": "Year 6",

@@ -33,3 +33,13 @@
   .year-pd-bridge{margin:1.5rem 10px;padding:1.25rem}
   footer{padding:30px 16px;display:grid;grid-template-columns:1fr 1fr;font-size:.8rem}
 }
+
+/* v3.19 — curriculum unit narratives */
+.unit-narrative{grid-column:1/-1;margin:0 0 18px;padding:20px 22px;border-radius:18px;background:#f7f4ee;border:1px solid #e9e2d6}
+.unit-narrative span{display:block;margin-bottom:7px;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#b5222e}
+.unit-narrative p{margin:0;color:#465d6d;line-height:1.68;font-size:.96rem;max-width:900px}
+@media(max-width:650px){
+ .unit-narrative{padding:15px 14px;margin-bottom:13px;border-radius:15px}
+ .unit-narrative span{font-size:.61rem}
+ .unit-narrative p{font-size:.79rem;line-height:1.55}
+}

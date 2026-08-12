@@ -306,7 +306,10 @@ function renderYear(year){
   }
   if(d.units){
     grid.innerHTML=d.units.map((u,i)=>`<article class="question-card placeholder-card populated-year-card">
-      <span class="term-tag">${esc(u.term)}</span>
+      <div class="unit-card-meta">
+        <span class="term-tag">${esc(u.term)}</span>
+        ${u.theme ? `<span class="value-character" aria-label="KCA Value: ${esc(u.theme)}"><span class="value-character-face" aria-hidden="true">☺</span><span>${esc(u.theme)}</span></span>` : ``}
+      </div>
       <h4>${esc(u.question)}</h4>
       <div class="presentation-block">
         <span class="presentation-kicker">Learning Presentation</span>
