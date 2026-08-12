@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.25 — Unified year-group card design
+- Standardised Years 1–6 to the cleaner, brighter Nursery/Reception visual language.
+- Kept the richer curriculum detail and learning-journey narratives in the mobile popup rather than crowding the card face.
+- Preserved the two-units-per-row mobile layout and compact Explore pill.
+- Added brighter year-colour accents, softer tinted card backgrounds and cleaner term labels.
+- Preserved desktop expand/collapse behaviour and all existing curriculum content.
+- Nursery and Reception remain visually consistent with their existing design.
+
 ## v3.24 — Unified mobile pill buttons
 - Standardised the mobile “Explore this unit” control across Nursery to Year 6.
 - Replaced the larger dark buttons with the cleaner compact white pill style used in Nursery/Reception.

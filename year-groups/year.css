@@ -360,3 +360,199 @@
     transform:translateY(1px);
   }
 }
+
+/* v3.25 — unified year-group card design
+   Nursery/Reception visual language becomes the standard for all years. */
+
+.unit-card{
+  border-radius:22px;
+  overflow:hidden;
+  border:1px solid color-mix(in srgb, var(--year) 24%, #e8edf1);
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--year) 14%, #ffffff) 0%,
+      #ffffff 72%
+    );
+  box-shadow:0 8px 24px rgba(26,45,62,.07);
+}
+
+.unit-card > summary{
+  list-style:none;
+  position:relative;
+  min-height:100%;
+  padding:20px 18px !important;
+  background:transparent !important;
+}
+
+.unit-card > summary::-webkit-details-marker{
+  display:none;
+}
+
+.unit-card > summary::after{
+  content:"";
+  position:absolute;
+  left:18px;
+  right:18px;
+  bottom:0;
+  height:4px;
+  border-radius:999px;
+  background:var(--year);
+  opacity:.9;
+}
+
+.unit-card > summary > span:first-child,
+.unit-card .term-tag{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  max-width:100%;
+  padding:6px 10px;
+  margin-bottom:12px;
+  border-radius:999px;
+  background:var(--year);
+  color:#fff;
+  font-size:.67rem;
+  font-weight:800;
+  line-height:1;
+  letter-spacing:.045em;
+  text-transform:uppercase;
+}
+
+.unit-card > summary h2,
+.unit-card > summary h3,
+.unit-card > summary h4{
+  margin:0;
+  color:#17324d;
+  font-size:1.05rem;
+  line-height:1.3;
+  font-weight:800;
+}
+
+.unit-card .summary-presentation{
+  margin-top:14px;
+  padding-top:11px;
+  border-top:1px solid rgba(23,50,77,.09);
+}
+
+.unit-card .summary-presentation span{
+  display:block;
+  margin-bottom:3px;
+  color:#6b7a88;
+  font-size:.61rem;
+  font-weight:800;
+  letter-spacing:.065em;
+  text-transform:uppercase;
+}
+
+.unit-card .summary-presentation strong{
+  color:#17324d;
+  font-size:.82rem;
+  line-height:1.35;
+}
+
+/* Hide richer inline content on small screens; it belongs in the modal. */
+@media(max-width:700px){
+  .units,
+  .real-units{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:14px 12px !important;
+  }
+
+  .mobile-unit-shell{
+    display:flex !important;
+    flex-direction:column;
+    min-width:0;
+  }
+
+  .mobile-unit-shell > .unit-card{
+    flex:1 1 auto;
+    min-height:0;
+    border-radius:18px;
+    box-shadow:0 6px 18px rgba(26,45,62,.065);
+  }
+
+  .mobile-unit-shell .unit-card > summary{
+    padding:14px 12px 15px !important;
+  }
+
+  .mobile-unit-shell .unit-card > summary::after{
+    left:12px;
+    right:12px;
+    height:3px;
+  }
+
+  .mobile-unit-shell .unit-card > summary > span:first-child,
+  .mobile-unit-shell .unit-card .term-tag{
+    padding:5px 8px;
+    margin-bottom:9px;
+    font-size:.56rem;
+  }
+
+  .mobile-unit-shell .unit-card > summary h2,
+  .mobile-unit-shell .unit-card > summary h3,
+  .mobile-unit-shell .unit-card > summary h4{
+    font-size:.86rem !important;
+    line-height:1.28 !important;
+  }
+
+  .mobile-unit-shell .summary-presentation{
+    margin-top:10px;
+    padding-top:8px;
+  }
+
+  .mobile-unit-shell .summary-presentation span{
+    font-size:.51rem !important;
+  }
+
+  .mobile-unit-shell .summary-presentation strong{
+    font-size:.68rem !important;
+    line-height:1.28 !important;
+  }
+
+  .mobile-unit-shell > .mobile-unit-open{
+    width:auto !important;
+    align-self:center;
+    min-height:32px;
+    margin:8px auto 2px !important;
+    padding:7px 12px;
+    border:1px solid color-mix(in srgb, var(--year) 30%, #dbe3e8);
+    border-radius:999px;
+    background:color-mix(in srgb, var(--year) 9%, #ffffff);
+    color:#17324d;
+    box-shadow:none;
+    font-size:.59rem;
+    font-weight:800;
+    line-height:1.1;
+    white-space:nowrap;
+  }
+}
+
+/* Desktop: keep detail expansion, but use the same bright card face. */
+@media(min-width:701px){
+  .unit-card[open]{
+    border-color:color-mix(in srgb, var(--year) 42%, #d7e0e6);
+  }
+
+  .unit-card[open] > summary{
+    border-bottom:1px solid rgba(23,50,77,.08);
+  }
+
+  .unit-card .unit-detail{
+    background:#fff;
+  }
+}
+
+.unit-value-chip{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  padding:5px 9px;
+  margin:0 0 10px;
+  border-radius:999px;
+  background:color-mix(in srgb, var(--year) 13%, #ffffff);
+  color:#17324d;
+  border:1px solid color-mix(in srgb, var(--year) 28%, #e1e7eb);
+  font-size:.64rem;
+  font-weight:800;
+}
