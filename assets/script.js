@@ -12,15 +12,15 @@ const yearData = {
     ]
   },
   "Reception": {
-    "title": "A year of wonder and growing independence",
-    "desc": "Children build secure foundations through purposeful play, stories, talk, exploration and memorable shared experiences.",
-    "questions": [
-      "What makes me unique?",
-      "How do stories help us understand?",
-      "What changes around us?",
-      "How can we care for living things?",
-      "Where can our imagination take us?",
-      "How have I grown?"
+    "title": "Building confident, curious and increasingly independent learners",
+    "desc": "Reception learning is organised around six KCA values-led questions, with purposeful teaching, play, first-hand experiences and authentic audiences across the year.",
+    "units": [
+      {"term":"Autumn 1","theme":"Integrity","question":"Who am I?","audience":"Parents","experience":"Forest school sessions"},
+      {"term":"Autumn 2","theme":"Respect","question":"How are celebrations the same or different?","audience":"Parents","experience":"Forest school sessions · St Pancras Old Church"},
+      {"term":"Spring 1","theme":"Endurance","question":"How can we explore our world?","audience":"Reception Children","experience":"Local area trips"},
+      {"term":"Spring 2","theme":"Kindness","question":"How can we take care of living things to help them grow and change?","audience":"Parents","experience":"Baby Ducklings (in-school experience)"},
+      {"term":"Summer 1","theme":"Courage","question":"How courageous are community helpers?","audience":"Reception Children","experience":"Fire Station · Little Angel Theatre"},
+      {"term":"Summer 2","theme":"Aspiration","question":"How does knowing where our food comes from help us make good choices?","audience":"Parents","experience":"Local Community Garden"}
     ]
   },
   "Year 1": {
@@ -324,10 +324,7 @@ function renderYear(year){
         ${u.theme ? `<span class="value-character" aria-label="KCA Value: ${esc(u.theme)}"><span class="value-character-face" aria-hidden="true">${valueEmoji(u.theme)}</span><span>${esc(u.theme)}</span></span>` : ``}
       </div>
       <h4>${esc(u.question)}</h4>
-      <div class="presentation-block">
-        <span class="presentation-kicker">Learning Presentation</span>
-        <strong>${esc(u.presentation)}</strong>
-      </div>
+      ${u.presentation ? `<div class="presentation-block"><span class="presentation-kicker">Learning Presentation</span><strong>${esc(u.presentation)}</strong></div>` : u.audience ? `<div class="presentation-block"><span class="presentation-kicker">Authentic Audience</span><strong>${esc(u.audience)}</strong></div>` : u.experience ? `<div class="presentation-block"><span class="presentation-kicker">Experience</span><strong>${esc(u.experience)}</strong></div>` : ``}
       <a class="unit-explore-link" href="year-groups/${slug}.html#unit-${i+1}">Explore this unit →</a>
     </article>`).join('');
   } else {
@@ -573,11 +570,11 @@ window.addEventListener('resize',()=>{updateExperienceArrows();updateActiveExper
 
 
 
-/* v3.30 — only finalised Year 5 and Year 6 curriculum maps may render */
+/* v3.33 — only finalised Reception, Year 5 and Year 6 curriculum maps may render */
 (function(){
   const lowerKeys = [
-    "nursery","reception","year1","year2","year3","year4",
-    "y1","y2","y3","y4","Nursery","Reception","Year 1","Year 2","Year 3","Year 4"
+    "nursery","year1","year2","year3","year4",
+    "y1","y2","y3","y4","Nursery","Year 1","Year 2","Year 3","Year 4"
   ];
 
   function clearLowerYears(obj){

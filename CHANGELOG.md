@@ -1,4 +1,20 @@
+# v3.34 — Reception authentic-audience alignment
+
+- Aligned Reception authentic-audience wording and treatment with the shared Year 5/6 curriculum-page convention.
+- Retained the audience values exactly from the final Reception map: Parents and Reception Children.
+- Did not invent learning-presentation outcomes where the Reception map does not specify them.
+- Cache-busted Reception year-page assets to v3.34.
+
 # Changelog
+
+## v3.33 — Final Reception curriculum map
+- Published the final 2026–2027 Reception curriculum as a full digital year-group page.
+- Added all six final KCA Values-led Reception Big Questions and authentic audiences.
+- Added the final Reception trips and experiences: Forest School, St Pancras Old Church, local area trips, Baby Ducklings, Fire Station, Little Angel Theatre and Local Community Garden.
+- Added the final Reception yearly overview as a downloadable PDF.
+- Updated the homepage Reception explorer to use the final map and to show Authentic Audience where no separate Learning Presentation is specified.
+- Added final-map Reception experiences to the Experience Library and EYFS subject page.
+- Kept Nursery and Years 1–4 unpublished placeholders unchanged.
 
 ## v3.32 — EYFS content + conditional curriculum documentation
 - Replaced the EYFS placeholder mini-page with real content drawn from the approved EYFS Vision and Intent.

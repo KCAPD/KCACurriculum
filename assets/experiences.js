@@ -311,7 +311,74 @@ window.KCA_EXPERIENCES = [
     "partner": "Global Generation"
   },
   {
-    "title": "Little Angel Theatre Christmas Production",
+    "title": "Reception Forest School",
+    "icon": "🌲",
+    "audience": "Reception",
+    "tags": ["reception", "outdoor"],
+    "summary": "Forest school sessions support exploration, talk and first-hand learning across the autumn term.",
+    "detail": "Reception children take part in forest school sessions during Autumn 1 and Autumn 2, using the outdoor environment as a context for observation, communication, relationships and purposeful exploration.",
+    "pillars": ["Cross-curricular skills", "Lifelong learning"],
+    "values": ["Integrity", "Respect"],
+    "subjects": ["eyfs"]
+  },
+  {
+    "title": "St Pancras Old Church",
+    "icon": "⛪",
+    "audience": "Reception",
+    "tags": ["reception", "trip"],
+    "summary": "A Reception visit supporting the autumn enquiry into celebrations and community.",
+    "detail": "Reception visit St Pancras Old Church during Autumn 2 as part of their learning around celebrations, difference and the local community.",
+    "pillars": ["Cross-curricular skills", "Discovering interests"],
+    "values": ["Respect"],
+    "subjects": ["eyfs"],
+    "partner": "St Pancras Old Church"
+  },
+  {
+    "title": "Reception Local Area Trips",
+    "icon": "🗺️",
+    "audience": "Reception",
+    "tags": ["reception", "trip"],
+    "summary": "Local area exploration brings maps, places and the surrounding community into Reception learning.",
+    "detail": "During Spring 1, Reception children explore the local area as part of their enquiry into how we can explore our world, connecting simple maps and observation with first-hand experience.",
+    "pillars": ["Cross-curricular skills", "Lifelong learning"],
+    "values": ["Endurance"],
+    "subjects": ["eyfs"]
+  },
+  {
+    "title": "Baby Ducklings",
+    "icon": "🐥",
+    "audience": "Reception",
+    "tags": ["reception", "in-school"],
+    "summary": "An in-school experience supporting learning about living things, growth and change.",
+    "detail": "Reception children observe baby ducklings in school during Spring 2, giving them a first-hand context for talking about living things, care, growth, change and life cycles.",
+    "pillars": ["Cross-curricular skills", "Lifelong learning"],
+    "values": ["Kindness"],
+    "subjects": ["eyfs"]
+  },
+  {
+    "title": "Fire Station",
+    "icon": "🚒",
+    "audience": "Reception",
+    "tags": ["reception", "trip"],
+    "summary": "A first-hand encounter with community helpers and the roles they play.",
+    "detail": "Reception visit a Fire Station during Summer 1 as part of their enquiry into community helpers, helping children understand roles within the local community and why they are important.",
+    "pillars": ["Discovering interests", "Cross-curricular skills"],
+    "values": ["Courage"],
+    "subjects": ["eyfs"]
+  },
+  {
+    "title": "Local Community Garden",
+    "icon": "🥕",
+    "audience": "Reception",
+    "tags": ["reception", "trip"],
+    "summary": "A local visit connecting food, growing and healthy choices.",
+    "detail": "Reception visit a Local Community Garden during Summer 2 as part of their learning about where food comes from and how this knowledge can help us make good choices.",
+    "pillars": ["Cross-curricular skills", "Lifelong learning"],
+    "values": ["Aspiration"],
+    "subjects": ["eyfs"]
+  },
+  {
+    "title": "Little Angel Theatre",
     "icon": "🎭",
     "audience": "Nursery & Reception",
     "tags": [
@@ -319,8 +386,8 @@ window.KCA_EXPERIENCES = [
       "reception",
       "performance"
     ],
-    "summary": "A magical early-years theatre experience created with Little Angel Theatre.",
-    "detail": "Nursery and Reception children experience an imaginative Christmas production developed with Little Angel Theatre, introducing our youngest pupils to puppetry, storytelling and the excitement of live performance.",
+    "summary": "A live theatre experience introducing our youngest pupils to puppetry, storytelling and performance.",
+    "detail": "Children experience live theatre with Little Angel Theatre, broadening their cultural experiences through puppetry, storytelling and performance.",
     "pillars": [
       "Discovering interests",
       "Cross-curricular skills"
