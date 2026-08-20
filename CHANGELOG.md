@@ -221,3 +221,9 @@
 - Moved the mobile curriculum framework navigator directly below Our Vision.
 - Made the mobile navigator sticky while visitors move through the curriculum framework.
 - Retained the original desktop arrow journey beneath the five pillars.
+
+
+## v3.36
+- Refined spacing on populated homepage year-group curriculum cards.
+- Added concise curriculum-grounded unit summaries for Reception, Year 5 and Year 6.
+- Shared formatting means future finalised year groups inherit the same card rhythm.

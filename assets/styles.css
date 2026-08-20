@@ -846,3 +846,16 @@ a[data-coming-soon="true"]::after{
   letter-spacing:.04em;
   text-transform:uppercase;
 }
+
+
+/* v3.36 — tighter curriculum-card rhythm + concise unit summaries */
+.populated-year-card{justify-content:flex-start}
+.populated-year-card h4{margin-bottom:10px}
+.populated-year-card .unit-summary{margin:0 0 22px;color:var(--muted);font-size:.86rem;line-height:1.5;max-width:95%}
+.populated-year-card .presentation-block{margin-top:0;padding-top:0}
+.populated-year-card .unit-explore-link{margin-top:20px}
+@media(max-width:700px){
+ .populated-year-card h4{margin-bottom:8px}
+ .populated-year-card .unit-summary{font-size:.72rem;line-height:1.42;margin-bottom:16px;max-width:100%}
+ .populated-year-card .unit-explore-link{margin-top:16px}
+}

@@ -15,12 +15,12 @@ const yearData = {
     "title": "Building confident, curious and increasingly independent learners",
     "desc": "Reception learning is organised around six KCA values-led questions, with purposeful teaching, play, first-hand experiences and authentic audiences across the year.",
     "units": [
-      {"term":"Autumn 1","theme":"Integrity","question":"Who am I?","presentation":"Open Afternoon","audience":"Parents","experience":"Forest school sessions"},
-      {"term":"Autumn 2","theme":"Respect","question":"How are celebrations the same or different?","presentation":"EYFS Performance","audience":"Parents","experience":"Forest school sessions · St Pancras Old Church"},
-      {"term":"Spring 1","theme":"Endurance","question":"How can we explore our world?","presentation":"Whole School Exhibition on The Street","audience":"Reception Children","experience":"Local area trips"},
-      {"term":"Spring 2","theme":"Kindness","question":"How can we take care of living things to help them grow and change?","presentation":"Whole School Exhibition on The Street","audience":"Parents","experience":"Baby Ducklings (in-school experience)"},
-      {"term":"Summer 1","theme":"Courage","question":"How courageous are community helpers?","presentation":"Whole School Exhibition on The Street","audience":"Reception Children","experience":"Fire Station · Little Angel Theatre"},
-      {"term":"Summer 2","theme":"Aspiration","question":"How does knowing where our food comes from help us make good choices?","presentation":"Open Afternoon","audience":"Parents","experience":"Local Community Garden"}
+      {"term":"Autumn 1","theme":"Integrity","question":"Who am I?","summary":"Children explore identity, family and belonging while building early foundations in communication, writing, phonics and mathematics.","presentation":"Open Afternoon","audience":"Parents","experience":"Forest school sessions"},
+      {"term":"Autumn 2","theme":"Respect","question":"How are celebrations the same or different?","summary":"Children compare celebrations and traditions, developing respect for difference alongside early literacy, phonics, number and shape.","presentation":"EYFS Performance","audience":"Parents","experience":"Forest school sessions · St Pancras Old Church"},
+      {"term":"Spring 1","theme":"Endurance","question":"How can we explore our world?","summary":"Children use maps, local exploration and talk to investigate places and cultures while developing purposeful writing and number knowledge.","presentation":"Whole School Exhibition on The Street","audience":"Reception Children","experience":"Local area trips"},
+      {"term":"Spring 2","theme":"Kindness","question":"How can we take care of living things to help them grow and change?","summary":"Children observe growth and life cycles first-hand, learning to care for living things while extending language, writing and mathematics.","presentation":"Whole School Exhibition on The Street","audience":"Parents","experience":"Baby Ducklings (in-school experience)"},
+      {"term":"Summer 1","theme":"Courage","question":"How courageous are community helpers?","summary":"Children discover how people help their community through real-world experiences while strengthening writing, phonics and mathematical thinking.","presentation":"Whole School Exhibition on The Street","audience":"Reception Children","experience":"Fire Station · Little Angel Theatre"},
+      {"term":"Summer 2","theme":"Aspiration","question":"How does knowing where our food comes from help us make good choices?","summary":"Children trace food from growing to plate, connecting healthy choices with increasingly confident communication, writing and mathematical understanding.","presentation":"Open Afternoon","audience":"Parents","experience":"Local Community Garden"}
     ]
   },
   "Year 1": {
@@ -174,7 +174,7 @@ const yearData = {
         {
             "term": "Autumn 1",
             "theme": "Integrity",
-            "question": "How can understanding our planet help us make responsible choices?",
+            "question": "How can understanding our planet help us make responsible choices?","summary": "Pupils investigate volcanoes, earthquakes and changing materials, considering how knowledge of our planet can inform responsible choices.",
             "initial": "Volcano Day (creating volcanoes)",
             "presentation": "Open Afternoon",
             "audience": "Families",
@@ -183,7 +183,7 @@ const yearData = {
         {
             "term": "Autumn 2",
             "theme": "Respect",
-            "question": "How did the Anglo-Saxons shape the Britain we know today?",
+            "question": "How did the Anglo-Saxons shape the Britain we know today?","summary": "Pupils explore Anglo-Saxon migration, settlement and culture alongside habitats and food technology to understand their lasting influence on Britain.",
             "initial": "Anglo-Saxon Day",
             "presentation": "KS1 Performance",
             "audience": "Families",
@@ -192,7 +192,7 @@ const yearData = {
         {
             "term": "Spring 1",
             "theme": "Endurance",
-            "question": "What can animals teach us about survival and resilience?",
+            "question": "What can animals teach us about survival and resilience?","summary": "Pupils investigate biomes, forces and Shackleton’s journey, connecting adaptation in the natural world with human resilience and endurance.",
             "initial": "Round-the-world biomes discovery",
             "presentation": "Whole School Exhibition on The Street",
             "audience": "KCA Community",
@@ -201,7 +201,7 @@ const yearData = {
         {
             "term": "Spring 2",
             "theme": "Kindness",
-            "question": "What can the Vikings teach us about kindness and community?",
+            "question": "What can the Vikings teach us about kindness and community?","summary": "Pupils investigate Viking life, belief and community through historical evidence, materials and printmaking, challenging familiar stereotypes along the way.",
             "initial": "Vikings Day – discovery of Viking mythology",
             "presentation": "Whole School Exhibition on The Street",
             "audience": "KCA Community",
@@ -210,7 +210,7 @@ const yearData = {
         {
             "term": "Summer 1",
             "theme": "Courage",
-            "question": "How does exploring the unknown change what we know?",
+            "question": "How does exploring the unknown change what we know?","summary": "Pupils explore Earth, space and sustainability, considering how curiosity, scientific discovery and technological design expand what we understand.",
             "initial": "In-school Wonder Dome Space & Earth workshop",
             "presentation": "Whole School Exhibition on The Street",
             "audience": "KCA Community",
@@ -219,7 +219,7 @@ const yearData = {
         {
             "term": "Summer 2",
             "theme": "Aspiration",
-            "question": "What can we learn from the Tudors about power, ambition and change?",
+            "question": "What can we learn from the Tudors about power, ambition and change?","summary": "Pupils investigate Tudor power and change through history, human development and portraiture, considering how ambition can shape society.",
             "initial": "Tudor Experience Day",
             "presentation": "Open Afternoon",
             "audience": "Families",
@@ -234,7 +234,7 @@ const yearData = {
         {
             "term": "Autumn 1",
             "theme": "Integrity",
-            "question": "How can learning from history help us challenge injustice?",
+            "question": "How can learning from history help us challenge injustice?","summary": "Pupils explore Benin, activism and healthy bodies, using historical understanding to consider how knowledge can help challenge injustice.",
             "initial": "Experience of Injustice",
             "presentation": "Open Afternoon",
             "audience": "Families",
@@ -243,7 +243,7 @@ const yearData = {
         {
             "term": "Autumn 2",
             "theme": "Respect",
-            "question": "What makes people feel they belong?",
+            "question": "What makes people feel they belong?","summary": "Pupils explore Windrush, migration, identity and inheritance, considering how communities create belonging and how experiences shape who we are.",
             "initial": "Windrush Generation – Notting Hill Carnival",
             "presentation": "KS2 Performance",
             "audience": "Families",
@@ -252,7 +252,7 @@ const yearData = {
         {
             "term": "Spring 1",
             "theme": "Endurance",
-            "question": "What can we learn from the resilience of those in World War 1?",
+            "question": "What can we learn from the resilience of those in World War 1?","summary": "Pupils investigate the First World War through history, habitats and food, considering how people endured challenge and uncertainty.",
             "initial": "World War 1 Day",
             "presentation": "Whole School Exhibition on The Street",
             "audience": "KCA Community",
@@ -261,7 +261,7 @@ const yearData = {
         {
             "term": "Spring 2",
             "theme": "Kindness / Courage",
-            "question": "How can ordinary people make an extraordinary difference?",
+            "question": "How can ordinary people make an extraordinary difference?","summary": "Pupils explore the Second World War, light and everyday acts of courage, considering how individual choices can make a lasting difference.",
             "initial": "WW2: Evacuation Day",
             "presentation": "Whole School Exhibition on The Street",
             "audience": "KCA Community",
@@ -270,7 +270,7 @@ const yearData = {
         {
             "term": "Summer 1",
             "theme": "Kindness / Courage",
-            "question": "How can ordinary people make an extraordinary difference?",
+            "question": "How can ordinary people make an extraordinary difference?","summary": "Pupils explore the Second World War, light and everyday acts of courage, considering how individual choices can make a lasting difference.",
             "initial": "WW2: Evacuation Day and continued enquiry",
             "presentation": "Whole School Exhibition on The Street",
             "audience": "KCA Community",
@@ -279,7 +279,7 @@ const yearData = {
         {
             "term": "Summer 2",
             "theme": "Aspiration",
-            "question": "How can I become the person I aspire to be?",
+            "question": "How can I become the person I aspire to be?","summary": "Pupils look ahead through French, design and transition learning, reflecting on the choices, ambitions and values that will shape their future.",
             "initial": "Time travel: who am I in thirty years?",
             "presentation": "Open Afternoon",
             "audience": "Families",
@@ -324,6 +324,7 @@ function renderYear(year){
         ${u.theme ? `<span class="value-character" aria-label="KCA Value: ${esc(u.theme)}"><span class="value-character-face" aria-hidden="true">${valueEmoji(u.theme)}</span><span>${esc(u.theme)}</span></span>` : ``}
       </div>
       <h4>${esc(u.question)}</h4>
+      ${u.summary ? `<p class="unit-summary">${esc(u.summary)}</p>` : ``}
       ${u.presentation ? `<div class="presentation-block"><span class="presentation-kicker">Learning Presentation</span><strong>${esc(u.presentation)}</strong></div>` : u.audience ? `<div class="presentation-block"><span class="presentation-kicker">Authentic Audience</span><strong>${esc(u.audience)}</strong></div>` : u.experience ? `<div class="presentation-block"><span class="presentation-kicker">Experience</span><strong>${esc(u.experience)}</strong></div>` : ``}
       <a class="unit-explore-link" href="year-groups/${slug}.html#unit-${i+1}">Explore this unit →</a>
     </article>`).join('');
