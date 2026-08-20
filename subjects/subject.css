@@ -90,3 +90,47 @@ header{display:flex;justify-content:space-between;gap:1rem}.subject-experiences,
     font-size:.78rem;
   }
 }
+
+/* v3.32 — conditional curriculum documentation + populated EYFS mini-page */
+.content.has-two-sections{grid-template-columns:repeat(2,minmax(0,1fr))}
+.content.has-one-section{grid-template-columns:minmax(0,1fr);max-width:760px}
+[hidden]{display:none!important}
+
+.eyfs-intent-panel,.eyfs-progression-section,.subject-curriculum-documents{
+  max-width:1120px;margin:2rem auto;padding:2rem;border-radius:24px;background:#fff;
+  box-shadow:0 16px 45px rgba(20,36,65,.08);border:1px solid #dce5ec;
+}
+.eyfs-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;margin-bottom:1.5rem}
+.eyfs-section-heading h2{margin:.35rem 0 0;font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.08}
+.eyfs-section-heading>p{max-width:470px;margin:0;color:#587082;line-height:1.6}
+.eyfs-intent-copy{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem 1.5rem}
+.eyfs-intent-copy p{margin:0;color:#405b70;line-height:1.7}
+.subject-document-button{display:inline-flex;align-items:center;justify-content:center;padding:.8rem 1.05rem;border-radius:999px;background:#17324d;color:#fff;text-decoration:none;font-weight:800;white-space:nowrap}
+.subject-document-button:hover,.subject-document-button:focus-visible{background:#b5222e}
+.eyfs-document-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.eyfs-document-card{position:relative;display:flex;flex-direction:column;min-height:290px;padding:1.55rem;border:1px solid #dce5ec;border-radius:22px;background:#fbfdff}
+.eyfs-document-card:nth-child(2){background:#fff9eb}
+.eyfs-document-stage{width:fit-content;padding:.4rem .65rem;border-radius:999px;background:#17324d;color:#fff;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.eyfs-document-card h3{font-size:1.35rem;margin:1rem 0 .55rem}
+.eyfs-document-card p{color:#587082;line-height:1.6;margin-bottom:.85rem}
+.eyfs-document-card small{display:block;color:#6a7c8c;font-weight:700;margin-bottom:1rem}
+.eyfs-document-card a{margin-top:auto;color:#b5222e;font-weight:800;text-decoration:none}
+.eyfs-document-card a:hover,.eyfs-document-card a:focus-visible{text-decoration:underline;text-underline-offset:.18em}
+
+@media(max-width:650px){
+  .content.has-two-sections{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .eyfs-intent-panel,.eyfs-progression-section,.subject-curriculum-documents{margin:1.5rem 10px;padding:18px 14px;border-radius:20px}
+  .eyfs-section-heading{align-items:flex-start;flex-direction:column;gap:1rem}
+  .eyfs-section-heading h2{font-size:1.6rem}
+  .eyfs-section-heading>p{font-size:.82rem;line-height:1.5}
+  .subject-document-button{width:100%;font-size:.8rem}
+  .eyfs-intent-copy{grid-template-columns:1fr;gap:.85rem}
+  .eyfs-intent-copy p{font-size:.82rem;line-height:1.55}
+  .eyfs-document-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .eyfs-document-card{min-height:270px;padding:15px 12px;border-radius:18px}
+  .eyfs-document-card h3{font-size:1rem;line-height:1.15}
+  .eyfs-document-card p{font-size:.74rem;line-height:1.45}
+  .eyfs-document-card small{font-size:.68rem;line-height:1.35}
+  .eyfs-document-card a{font-size:.76rem;line-height:1.3}
+  .eyfs-document-stage{font-size:.62rem;padding:.35rem .5rem}
+}

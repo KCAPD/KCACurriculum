@@ -1,17 +1,9 @@
-# KCA Curriculum Site — Version 3.31
+# KCA Curriculum Site — Version 3.32
 
-Mobile optimisation release built from the stable Version 3.2 rebuild.
+EYFS curriculum mini-page content release.
 
-## Mobile changes
-- Compact 2- and 3-column layouts instead of defaulting to one long column.
-- Two-column pillar, year-unit, journey and subject layouts.
-- Three-column values and year-group experience filters.
-- Two-row experience carousel with two square tiles visible across most phones.
-- Larger touch targets, cleaner mobile navigation and phone-sized dialogs.
-- Dedicated mobile layouts for all year-group and subject pages.
-
-Desktop styling and content remain unchanged.
-
-
-## v3.31
-Added EYFS to the Subject Library with a dedicated placeholder subject page. Nursery–Year 4 curriculum maps remain unpublished until final overviews are supplied.
+## Changes
+- EYFS Vision and Intent now presented as real website content with the full PDF available to open.
+- Nursery and Reception Progression of Skills documents are available from two dedicated progression cards.
+- Curriculum-document sections on subject curriculum pages only appear when an actual document has been assigned.
+- No changes to the year-group publication status: Nursery–Year 4 remain clean placeholders; Year 5 and Year 6 remain fully populated.

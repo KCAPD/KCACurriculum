@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.32 — EYFS content + conditional curriculum documentation
+- Replaced the EYFS placeholder mini-page with real content drawn from the approved EYFS Vision and Intent.
+- Added the full EYFS Vision and Intent as a downloadable PDF.
+- Added separate Nursery and Reception Progression of Skills cards and downloadable PDFs.
+- Kept the EYFS page focused on the curriculum: no invented curriculum-map content or experiences were added.
+- Added curriculum-page-only conditional document sections: the “Curriculum documents” section remains hidden unless a real document link is present.
+- Updated subject-page layout so two visible information cards balance correctly when the document section is hidden.
+- Retained the clean Nursery–Year 4 year-group placeholders and all final Year 5/6 content unchanged.
+
 ## v3.31 — EYFS subject page
 - Added EYFS as the 16th card in the homepage Subject Library.
 - Added a dedicated EYFS subject page using the established subject-page design.
