@@ -337,7 +337,7 @@ function renderYear(year){
 renderYear('Nursery');
 document.querySelectorAll('.year-tabs button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.year-tabs button').forEach(b=>b.setAttribute('aria-selected','false'));btn.setAttribute('aria-selected','true');renderYear(btn.dataset.year)}));
 const subjects=[
-  ['English','english'],['Mathematics','mathematics'],['Science','science'],['History','history'],['Geography','geography'],['Art','art'],['Design & Technology','design-technology'],['Music','music'],['Religious Education','religious-education'],['Computing','computing'],['PSHE','pshe'],['Physical Education','physical-education'],['French','french'],['British Sign Language','british-sign-language'],['Phonics & Early Reading','phonics-early-reading']
+  ['English','english'],['Mathematics','mathematics'],['Science','science'],['History','history'],['Geography','geography'],['Art','art'],['Design & Technology','design-technology'],['Music','music'],['Religious Education','religious-education'],['Computing','computing'],['PSHE','pshe'],['Physical Education','physical-education'],['French','french'],['British Sign Language','british-sign-language'],['Phonics & Early Reading','phonics-early-reading'],['EYFS','eyfs']
 ];
 document.getElementById('subjects-grid').innerHTML=subjects.map(([name,slug])=>`<article class="subject-card"><h3>${name}</h3><p>Subject vision, intent, progression and curriculum documents.</p><a href="subjects/${slug}.html">Explore subject →</a></article>`).join('');
 

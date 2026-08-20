@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.31 — EYFS subject page
+- Added EYFS as the 16th card in the homepage Subject Library.
+- Added a dedicated EYFS subject page using the established subject-page design.
+- Kept EYFS curriculum content deliberately at placeholder stage until the final Nursery and Reception curriculum maps are available.
+- Added no draft Nursery or Reception curriculum-map content.
+- Bumped the homepage JavaScript cache version to v3.31.
+
 ## v3.30 — Remove residual Nursery–Year 4 curriculum data
 - Removed residual Nursery–Year 4 curriculum data from the shared homepage JavaScript.
 - Added a runtime safeguard so lower-year curriculum units cannot repopulate from legacy data.
