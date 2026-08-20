@@ -15,12 +15,12 @@ const yearData = {
     "title": "Building confident, curious and increasingly independent learners",
     "desc": "Reception learning is organised around six KCA values-led questions, with purposeful teaching, play, first-hand experiences and authentic audiences across the year.",
     "units": [
-      {"term":"Autumn 1","theme":"Integrity","question":"Who am I?","audience":"Parents","experience":"Forest school sessions"},
-      {"term":"Autumn 2","theme":"Respect","question":"How are celebrations the same or different?","audience":"Parents","experience":"Forest school sessions · St Pancras Old Church"},
-      {"term":"Spring 1","theme":"Endurance","question":"How can we explore our world?","audience":"Reception Children","experience":"Local area trips"},
-      {"term":"Spring 2","theme":"Kindness","question":"How can we take care of living things to help them grow and change?","audience":"Parents","experience":"Baby Ducklings (in-school experience)"},
-      {"term":"Summer 1","theme":"Courage","question":"How courageous are community helpers?","audience":"Reception Children","experience":"Fire Station · Little Angel Theatre"},
-      {"term":"Summer 2","theme":"Aspiration","question":"How does knowing where our food comes from help us make good choices?","audience":"Parents","experience":"Local Community Garden"}
+      {"term":"Autumn 1","theme":"Integrity","question":"Who am I?","presentation":"Open Afternoon","audience":"Parents","experience":"Forest school sessions"},
+      {"term":"Autumn 2","theme":"Respect","question":"How are celebrations the same or different?","presentation":"EYFS Performance","audience":"Parents","experience":"Forest school sessions · St Pancras Old Church"},
+      {"term":"Spring 1","theme":"Endurance","question":"How can we explore our world?","presentation":"Whole School Exhibition on The Street","audience":"Reception Children","experience":"Local area trips"},
+      {"term":"Spring 2","theme":"Kindness","question":"How can we take care of living things to help them grow and change?","presentation":"Whole School Exhibition on The Street","audience":"Parents","experience":"Baby Ducklings (in-school experience)"},
+      {"term":"Summer 1","theme":"Courage","question":"How courageous are community helpers?","presentation":"Whole School Exhibition on The Street","audience":"Reception Children","experience":"Fire Station · Little Angel Theatre"},
+      {"term":"Summer 2","theme":"Aspiration","question":"How does knowing where our food comes from help us make good choices?","presentation":"Open Afternoon","audience":"Parents","experience":"Local Community Garden"}
     ]
   },
   "Year 1": {

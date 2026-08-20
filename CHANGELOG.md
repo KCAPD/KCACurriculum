@@ -1,3 +1,10 @@
+## v3.35 — Reception learning presentations aligned
+- Added the standard KCA learning-presentation cycle to Reception, matching the Year 5/6 architecture.
+- Autumn 1 and Summer 2 use Open Afternoon; Autumn 2 uses the EYFS Performance; Spring 1, Spring 2 and Summer 1 use Whole School Exhibition on The Street.
+- Retained the authentic audiences exactly as supplied in the final Reception map.
+- Homepage Reception cards now show Learning Presentation, with audience retained in the detailed year page.
+- No other curriculum content changed.
+
 # v3.34 — Reception authentic-audience alignment
 
 - Aligned Reception authentic-audience wording and treatment with the shared Year 5/6 curriculum-page convention.
