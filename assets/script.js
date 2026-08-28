@@ -1,293 +1,490 @@
 const yearData = {
   "Nursery": {
-    "title": "Growing, exploring and belonging",
-    "desc": "Playful foundations for communication, curiosity, confidence and early learning.",
-    "questions": [
-      "Who am I?",
-      "What can I discover?",
-      "How do we care for one another?",
-      "What changes around us?",
-      "How can stories take us somewhere new?",
-      "What can I create?"
-    ]
+    "title": "Nursery curriculum map coming soon",
+    "desc": "The detailed Nursery curriculum map will be added when the final overview is available."
   },
   "Reception": {
     "title": "Building confident, curious and increasingly independent learners",
     "desc": "Reception learning is organised around six KCA values-led questions, with purposeful teaching, play, first-hand experiences and authentic audiences across the year.",
     "units": [
-      {"term":"Autumn 1","theme":"Integrity","question":"Who am I?","summary":"Children explore identity, family and belonging while building early foundations in communication, writing, phonics and mathematics.","presentation":"Open Afternoon","audience":"Parents","experience":"Forest school sessions"},
-      {"term":"Autumn 2","theme":"Respect","question":"How are celebrations the same or different?","summary":"Children compare celebrations and traditions, developing respect for difference alongside early literacy, phonics, number and shape.","presentation":"EYFS Performance","audience":"Parents","experience":"Forest school sessions · St Pancras Old Church"},
-      {"term":"Spring 1","theme":"Endurance","question":"How can we explore our world?","summary":"Children use maps, local exploration and talk to investigate places and cultures while developing purposeful writing and number knowledge.","presentation":"Whole School Exhibition on The Street","audience":"Reception Children","experience":"Local area trips"},
-      {"term":"Spring 2","theme":"Kindness","question":"How can we take care of living things to help them grow and change?","summary":"Children observe growth and life cycles first-hand, learning to care for living things while extending language, writing and mathematics.","presentation":"Whole School Exhibition on The Street","audience":"Parents","experience":"Baby Ducklings (in-school experience)"},
-      {"term":"Summer 1","theme":"Courage","question":"How courageous are community helpers?","summary":"Children discover how people help their community through real-world experiences while strengthening writing, phonics and mathematical thinking.","presentation":"Whole School Exhibition on The Street","audience":"Reception Children","experience":"Fire Station · Little Angel Theatre"},
-      {"term":"Summer 2","theme":"Aspiration","question":"How does knowing where our food comes from help us make good choices?","summary":"Children trace food from growing to plate, connecting healthy choices with increasingly confident communication, writing and mathematical understanding.","presentation":"Open Afternoon","audience":"Parents","experience":"Local Community Garden"}
-    ]
-  },
-  "Year 1": {
-    "title": "Building strong foundations",
-    "desc": "In Year 1, children build strong foundations through six connected learning journeys. Each unit begins with a memorable experience and culminates in a presentation for a real audience.",
-    "units": [
       {
         "term": "Autumn 1",
-        "theme": "Sustainability and Food",
-        "question": "Where does our food come from?",
-        "initial": "Food tasting featuring different crops grown in Kenya",
-        "presentation": "Harvest Festival",
-        "audience": "KS1",
-        "focus": "Geography: maps of a farm · Science: senses · DT: making bread and soup"
+        "theme": "Integrity",
+        "question": "Who am I?",
+        "summary": "Children explore identity, family and belonging while building early foundations in communication, writing, phonics and mathematics.",
+        "presentation": "Open Afternoon",
+        "audience": "Parents",
+        "experience": "Forest school sessions"
       },
       {
         "term": "Autumn 2",
-        "theme": "Identity and Relationships",
-        "question": "What shapes our identity?",
-        "initial": "Creating a heritage map and a “Guess Who?” class game",
-        "presentation": "KS1 Performance",
+        "theme": "Respect",
+        "question": "How are celebrations the same or different?",
+        "summary": "Children compare celebrations and traditions, developing respect for difference alongside early literacy, phonics, number and shape.",
+        "presentation": "EYFS Performance",
         "audience": "Parents",
-        "focus": "History: changes within living memory · Art: habitat diorama · Music: pulse and rhythm"
+        "experience": "Forest school sessions · St Pancras Old Church"
       },
       {
         "term": "Spring 1",
-        "theme": "Global Citizenship",
-        "question": "How can we use materials to solve problems?",
-        "initial": "Inventing and junk-modelling new playground equipment",
-        "presentation": "Exhibition of learning",
-        "audience": "KCA children",
-        "focus": "History: the Wright Brothers · Science: materials · DT: model plane with spinning propeller"
+        "theme": "Endurance",
+        "question": "How can we explore our world?",
+        "summary": "Children use maps, local exploration and talk to investigate places and cultures while developing purposeful writing and number knowledge.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "Reception Children",
+        "experience": "Local area trips"
       },
       {
         "term": "Spring 2",
-        "theme": "Growth and Change",
-        "question": "What can I observe in the natural world?",
-        "initial": "Observational drawing of nature and weather at the Story Garden",
-        "presentation": "“Spring Watch” show with a weather report",
-        "audience": "Parents, digitally",
-        "focus": "Geography: weather and climate · Science: seasonal change · Art: watercolour landscapes"
+        "theme": "Kindness",
+        "question": "How can we take care of living things to help them grow and change?",
+        "summary": "Children observe growth and life cycles first-hand, learning to care for living things while extending language, writing and mathematics.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "Parents",
+        "experience": "Baby Ducklings (in-school experience)"
       },
       {
         "term": "Summer 1",
-        "theme": "Life",
-        "question": "What makes our homes special?",
-        "initial": "The Great Fire of London workshop",
-        "presentation": "Dream home exhibition",
-        "audience": "Year 1 children",
-        "focus": "History: the Great Fire of London · Science: properties of materials · DT: dream bedroom structure"
+        "theme": "Courage",
+        "question": "How courageous are community helpers?",
+        "summary": "Children discover how people help their community through real-world experiences while strengthening writing, phonics and mathematical thinking.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "Reception Children",
+        "experience": "Fire Station · Little Angel Theatre"
       },
       {
         "term": "Summer 2",
-        "theme": "Community",
-        "question": "What features make where we live unique?",
-        "initial": "Recreating iconic King’s Cross and Camden features",
-        "presentation": "Central Saint Martins Exhibition",
+        "theme": "Aspiration",
+        "question": "How does knowing where our food comes from help us make good choices?",
+        "summary": "Children trace food from growing to plate, connecting healthy choices with increasingly confident communication, writing and mathematical understanding.",
+        "presentation": "Open Afternoon",
         "audience": "Parents",
-        "focus": "Geography: UK countries, capitals and seas · Science: plants · Art: drawing inspired by King’s Cross Estate"
+        "experience": "Local Community Garden"
+      }
+    ]
+  },
+  "Year 1": {
+    "title": "Building strong foundations through purposeful enquiry",
+    "desc": "Year 1 connects knowledge, values and first-hand experiences through six purposeful enquiries about food, identity, invention, the natural world, courage and the local area.",
+    "units": [
+      {
+        "term": "Autumn 1",
+        "theme": "Integrity",
+        "question": "Why is it so important to know where our food comes from?",
+        "summary": "Pupils trace food back to where it is grown, using farm geography, the senses and food technology to think about responsible choices.",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "initial": "Food tasting – different crops grown in Kenya",
+        "trip": "Kentish Town City Farm",
+        "focus": "Geography: maps of a farm · Science: animals including humans – senses · DT: food technology – smoothie"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Respect",
+        "question": "What makes every person and family unique?",
+        "summary": "Pupils explore identity, family and change within living memory while using art and music to represent what makes people and communities distinctive.",
+        "presentation": "KS1 Performance",
+        "audience": "Families",
+        "initial": "Creating a heritage map and a “Guess Who?” class game",
+        "trip": "St Pancras Church",
+        "focus": "History: changes within living memory · Science: animals including humans – classifying · Art: 3D sculpture and habitat diorama"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Endurance",
+        "question": "How do inventors keep going when solving problems?",
+        "summary": "Pupils investigate the Wright brothers and materials, then design and make mechanisms while considering how persistence helps inventors improve ideas.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Inventing and junk modelling a new piece of playground equipment",
+        "trip": "Zoo Trip",
+        "focus": "History: the Wright Brothers · Science: materials – object vs material · DT: model plane with a spinning propeller"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Kindness",
+        "question": "How can we care for the world around us?",
+        "summary": "Pupils observe seasonal change, weather and landscapes, developing close observation and artistic responses to the natural world.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Nature Scavenger Hunt with iPads",
+        "trip": "The Wallace Collection – Art workshop",
+        "focus": "Geography: weather and climate · Science: seasonal changes · Art: watercolour landscapes and nature"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Courage",
+        "question": "How do people show courage?",
+        "summary": "Pupils study the Great Fire of London and material properties, using design to think about homes, safety and courageous responses to challenge.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Representing a special place to them through Art",
+        "trip": "Freshwater Theatre",
+        "focus": "History: the Great Fire of London · Science: materials – properties · DT: design and make a dream bedroom structure"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Aspiration",
+        "question": "How can we make our local area an even better place?",
+        "summary": "Pupils investigate the UK and local environment, using plants, mapping and drawing to consider what makes places special and how they can improve them.",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "initial": "Local Area Walk Treasure Hunt",
+        "trip": "Hampstead Heath",
+        "focus": "Geography: UK countries, capital cities and surrounding seas · Science: plants · Art: drawing inspired by King’s Cross Estate"
       }
     ]
   },
   "Year 2": {
-    "title": "Growing curiosity and confidence",
-    "desc": "Children begin to connect ideas across subjects and communicate their learning with increasing independence.",
-    "questions": [
-      "How can a community change?",
-      "Why do people tell stories?",
-      "What makes somewhere special?",
-      "How do living things survive?",
-      "How have inventions changed life?",
-      "How can we protect our world?"
-    ]
-  },
-  "Year 3": {
-    "title": "Making connections",
-    "desc": "Year 3 connects local, national and global learning. Children investigate London, journeys, prehistory, water, climate and Ancient Egypt before sharing their learning with authentic audiences.",
+    "title": "Connecting experiences, culture and change",
+    "desc": "Year 2 explores identity, culture, determination, kindness, exploration and the past through connected history, geography, science, arts and design learning.",
     "units": [
       {
         "term": "Autumn 1",
-        "theme": "Community",
-        "question": "What changes can I observe in London?",
-        "initial": "London Exploration Day",
-        "presentation": "Interactive London Tour",
-        "audience": "Argent and governors",
-        "focus": "History of London · Forces and magnets · DT bridge with moving parts"
+        "theme": "Integrity",
+        "question": "How do our experiences shape who we become?",
+        "summary": "Pupils explore identity and local history, considering how people and places shape us while developing knowledge of basic human needs and sculpture.",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "initial": "Special item show and tell and identity self portrait",
+        "trip": "Walk along the Canal workshop · ChickenShed Water Safety theatre show",
+        "focus": "History: the history of Camden – people and events · Science: animals including humans – basic needs · Art: sculptures inspired by King’s Cross Estate"
       },
       {
         "term": "Autumn 2",
-        "theme": "Identity and Relationships",
-        "question": "How do different types of journeys affect us?",
-        "initial": "Map and local journey exploration",
-        "presentation": "KS2 Performance",
-        "audience": "Parents",
-        "focus": "UK geography and mapping · Animals including humans · Animated drawing and stop motion"
+        "theme": "Respect",
+        "question": "How does food connect people and culture?",
+        "summary": "Pupils compare London and India through food, place and culture, connecting geography with habitats and traditional Indian food technology.",
+        "presentation": "KS1 Performance",
+        "audience": "Families",
+        "initial": "Tasting food from India",
+        "trip": "Indian Food Workshop",
+        "focus": "Geography: contrasting locations – London and India · Science: living things and habitats – food chains · DT: traditional Indian food – vegetable samosas"
       },
       {
         "term": "Spring 1",
-        "theme": "Life",
-        "question": "What do I know about the Stone Age?",
-        "initial": "Stone Age Day",
-        "presentation": "Stone Age history magazine for the school library",
-        "audience": "KCA children",
-        "focus": "Stone Age history · Rocks · Cave drawings"
+        "theme": "Endurance",
+        "question": "How did determination change Victorian Britain?",
+        "summary": "Pupils investigate Victorian life and determination, linking historical change with materials and the design and making of a Victorian toy.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Victorian Day: writing like a Victorian, portrait miniature necklace making and Victorian cooking",
+        "trip": "Tower Bridge",
+        "focus": "History: the Victorians · Science: everyday materials · DT: designing and making a Victorian toy"
       },
       {
         "term": "Spring 2",
-        "theme": "Global Citizenship",
-        "question": "How does the water cycle impact the world?",
-        "initial": "Canal Museum and water study",
-        "presentation": "Lesson teaching Year 2 about the water cycle",
-        "audience": "Year 2 children",
-        "focus": "Mountains, rivers and water cycle · Plants · Mini greenhouse DT"
+        "theme": "Kindness",
+        "question": "How can learning about other cultures help us show kindness?",
+        "summary": "Pupils explore cultures through continents, oceans, habitats, stories and visual art, considering how curiosity about others can strengthen kindness.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Arts and craft activities from different cultures mentioned in The Story Tree",
+        "trip": "London Aquarium",
+        "focus": "Geography: continents and oceans · Science: living things and habitats · Art: painting and printmaking inspired by The Story Tree"
       },
       {
         "term": "Summer 1",
-        "theme": "Growth and Change",
-        "question": "How are climates around the world different?",
-        "initial": "London Wetland Centre",
-        "presentation": "Learning Exhibition",
-        "audience": "KCA community",
-        "focus": "Climate zones · Light · Inuit textile wall hangings"
+        "theme": "Courage",
+        "question": "How does exploring our world help us grow?",
+        "summary": "Pupils investigate offspring and physical geography while using textiles and animation to explore how curiosity and courage help us learn about the world.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Stop motion video of dinosaurs",
+        "trip": "Spitalfields City Farm",
+        "focus": "Geography: human and physical features · Science: animals including humans – offspring · DT: textiles – dinosaur hand puppets"
       },
       {
         "term": "Summer 2",
-        "theme": "Sustainability and Food",
-        "question": "What do I know about the Ancient Egyptians?",
+        "theme": "Aspiration",
+        "question": "How can learning from the past help us shape the future?",
+        "summary": "Pupils compare change over time through medicine, the local area and plant study, using the past to think about how knowledge can shape the future.",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "initial": "Baby picture matching and exploring how King’s Cross Estate has changed",
+        "trip": "Kew Gardens",
+        "focus": "History: medicine through time · Science: plants · Art: observational drawings of plants"
+      }
+    ]
+  },
+  "Year 3": {
+    "title": "Making connections across place, time and people",
+    "desc": "Year 3 connects local, national and global learning through London, journeys, prehistory, water, climate and Ancient Egypt, with memorable experiences and authentic audiences.",
+    "units": [
+      {
+        "term": "Autumn 1",
+        "theme": "Integrity",
+        "question": "How has London's past shaped the city we know today?",
+        "summary": "Pupils investigate London’s history and landmarks, combining historical enquiry with forces, magnets and a moving bridge design challenge.",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "initial": "London Exploration Day (second half of Autumn 1)",
+        "trip": "Horizon 22",
+        "focus": "History: history of London · Science: forces and magnets · DT: mechanisms – model bridge with moving parts"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Respect",
+        "question": "How do journeys help us understand the world and each other?",
+        "summary": "Pupils use maps, movement and stories to explore journeys, linking UK geography with the human body and animated visual storytelling.",
+        "presentation": "KS2 Performance",
+        "audience": "Families",
+        "initial": "Map / Local Journey Exploration",
+        "trip": "British Library – Voyage into Maps",
+        "focus": "Geography: UK study – maps and mapping skills · Science: skeletons and muscles · Art: animated drawing and stop motion"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Endurance",
+        "question": "How did people survive and thrive in the Stone Age?",
+        "summary": "Pupils investigate Stone Age survival through historical evidence, rocks and cave art, considering how people adapted and persisted over time.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Stone Age Day",
+        "trip": "Gunnersbury Park Museum",
+        "focus": "History: Stone Age · Science: rocks – Rock Detectives · Art: drawing and sketchbooks – cave drawings"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Kindness",
+        "question": "How does water bring people together?",
+        "summary": "Pupils explore rivers, mountains and the water cycle, linking plant science and design with the ways water connects communities and environments.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Canal Museum & Water Study",
+        "trip": "Thames Explorer Trust – Linden House",
+        "focus": "Geography: mountains, rivers and the water cycle · Science: plants · DT: make a mini greenhouse"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Courage",
+        "question": "How do people adapt to life in different climates?",
+        "summary": "Pupils compare climate zones and investigate light, using art and first-hand environmental study to consider how people adapt to different conditions.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "London Wetland Centre",
+        "trip": "Light Workshop",
+        "focus": "Geography: climate zones · Science: light · Art: painting, fabric and textiles – Inuit wall hangings"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Aspiration",
+        "question": "What can the achievements of Ancient Egypt inspire us to do?",
+        "summary": "Pupils study Ancient Egyptian achievements alongside nutrition and food technology, asking how past innovation can inspire ambition today.",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
         "initial": "Ancient Egyptians Day",
-        "presentation": "Central Saint Martins Exhibition",
-        "audience": "Parents",
-        "focus": "Ancient Egypt · Nutrition · Egyptian feast DT"
+        "trip": "British Museum – Egyptians",
+        "focus": "History: Ancient Egypt · Science: animals including humans – nutrition · DT: food technology – Egyptian feast"
       }
     ]
   },
   "Year 4": {
-    "title": "Deepening knowledge and independence",
-    "desc": "Children investigate increasingly complex ideas, make connections across disciplines and communicate with confidence.",
-    "questions": [
-      "How does power shape communities?",
-      "What can journeys teach us?",
-      "Why do civilisations grow?",
-      "How does energy change our lives?",
-      "What connects people and places?",
-      "How can creativity influence change?"
+    "title": "Deepening knowledge, responsibility and independence",
+    "desc": "Year 4 explores responsibility, rainforests, migration, Ancient Greece, Roman Britain and global food choices through ambitious subject learning and memorable experiences.",
+    "units": [
+      {
+        "term": "Autumn 1",
+        "theme": "Integrity",
+        "question": "Why is it our responsibility to care for the natural world?",
+        "summary": "Pupils investigate the natural world through science and artistic enquiry while considering how people’s choices and responsibilities shape environments.",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "initial": "Nature Day: exploring nature across London and Essex (second half of Autumn term)",
+        "trip": "St Pancras Gardens",
+        "focus": "Science: states of matter · History: the Mayans · Art: painting and printmaking – Mayan masks"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Respect",
+        "question": "Why should we protect the world's rainforests?",
+        "summary": "Pupils explore the Amazon rainforest through geography, habitats and model-making, considering why rainforests matter and deserve protection.",
+        "presentation": "KS2 Performance",
+        "audience": "Families",
+        "initial": "Kew Gardens & Barbican Conservatory: Rainforest Experience",
+        "trip": "Eden Project Online Workshop",
+        "focus": "Geography: South America – the Amazon Rainforest · Science: living things and habitats · DT: create a 3D rainforest model"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Endurance",
+        "question": "How have people overcome challenges to build new lives?",
+        "summary": "Pupils investigate immigration and settlement in Camden, linking human geography with electricity and a design challenge inspired by electrical engineers.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Exploring Camden & Immigration – Camden’s development",
+        "trip": "STEM Electricity Workshop",
+        "focus": "Geography: immigration and settlement · Science: electricity · DT: battery-operated lights inspired by electrical engineers who immigrated"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Kindness",
+        "question": "What can Ancient Greece teach us about living well together?",
+        "summary": "Pupils study Ancient Greek society, sound and art, considering how ideas about community and participation can inform how we live together.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Ancient Greek Day",
+        "trip": "British Museum – Ancient Greece",
+        "focus": "History: Ancient Greeks · Science: sound · Art: Greek paintings and Ancient Greek vases"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Courage",
+        "question": "How did the Romans change Britain?",
+        "summary": "Pupils investigate Roman Britain and its legacy, connecting historical change with the human body and Roman-inspired visual art.",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "initial": "Romans Day",
+        "trip": "Roman Workshop",
+        "focus": "History: Romans · Science: digestive system and teeth · Art: Roman mosaics"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Aspiration",
+        "question": "How can our food choices change the world?",
+        "summary": "Pupils explore global food, trade and food chains, considering how choices connect people, environments and economies around the world.",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "initial": "Food discovery",
+        "trip": "The Orangery Farm",
+        "focus": "Geography: food, world trade and globalisation · Science: life cycles and food chains · DT: global food and diverse choices"
+      }
     ]
   },
   "Year 5": {
     "title": "Investigating the world with integrity, respect and ambition",
     "desc": "Year 5 connects ambitious subject knowledge with the KCA Values. Each half term begins with a purposeful question, includes a memorable experience and ends with learning shared for a real audience.",
     "units": [
-        {
-            "term": "Autumn 1",
-            "theme": "Integrity",
-            "question": "How can understanding our planet help us make responsible choices?","summary": "Pupils investigate volcanoes, earthquakes and changing materials, considering how knowledge of our planet can inform responsible choices.",
-            "initial": "Volcano Day (creating volcanoes)",
-            "presentation": "Open Afternoon",
-            "audience": "Families",
-            "focus": "Geography: North America, volcanoes & earthquakes · Science: changes in materials · Art: stop-motion animation"
-        },
-        {
-            "term": "Autumn 2",
-            "theme": "Respect",
-            "question": "How did the Anglo-Saxons shape the Britain we know today?","summary": "Pupils explore Anglo-Saxon migration, settlement and culture alongside habitats and food technology to understand their lasting influence on Britain.",
-            "initial": "Anglo-Saxon Day",
-            "presentation": "KS1 Performance",
-            "audience": "Families",
-            "focus": "History: Anglo-Saxons · Science: living things and habitats · DT: Anglo-Saxon feast and food technology"
-        },
-        {
-            "term": "Spring 1",
-            "theme": "Endurance",
-            "question": "What can animals teach us about survival and resilience?","summary": "Pupils investigate biomes, forces and Shackleton’s journey, connecting adaptation in the natural world with human resilience and endurance.",
-            "initial": "Round-the-world biomes discovery",
-            "presentation": "Whole School Exhibition on The Street",
-            "audience": "KCA Community",
-            "focus": "Geography: climate zones & biomes · Science: forces · DT: build a boat for Shackleton and his shipmates"
-        },
-        {
-            "term": "Spring 2",
-            "theme": "Kindness",
-            "question": "What can the Vikings teach us about kindness and community?","summary": "Pupils investigate Viking life, belief and community through historical evidence, materials and printmaking, challenging familiar stereotypes along the way.",
-            "initial": "Vikings Day – discovery of Viking mythology",
-            "presentation": "Whole School Exhibition on The Street",
-            "audience": "KCA Community",
-            "focus": "History: Vikings · Science: properties of materials · Art: printmaking"
-        },
-        {
-            "term": "Summer 1",
-            "theme": "Courage",
-            "question": "How does exploring the unknown change what we know?","summary": "Pupils explore Earth, space and sustainability, considering how curiosity, scientific discovery and technological design expand what we understand.",
-            "initial": "In-school Wonder Dome Space & Earth workshop",
-            "presentation": "Whole School Exhibition on The Street",
-            "audience": "KCA Community",
-            "focus": "Geography: climate change & sustainability · Science: Earth & Space · DT: design and evaluate a space vehicle"
-        },
-        {
-            "term": "Summer 2",
-            "theme": "Aspiration",
-            "question": "What can we learn from the Tudors about power, ambition and change?","summary": "Pupils investigate Tudor power and change through history, human development and portraiture, considering how ambition can shape society.",
-            "initial": "Tudor Experience Day",
-            "presentation": "Open Afternoon",
-            "audience": "Families",
-            "focus": "History: Tudors · Science: human development and old age · Art: Tudor portrait drawing"
-        }
+      {
+        "term": "Autumn 1",
+        "theme": "Integrity",
+        "question": "How can understanding our planet help us make responsible choices?",
+        "summary": "Pupils investigate volcanoes, earthquakes and changing materials, considering how knowledge of our planet can inform responsible choices.",
+        "initial": "Volcano Day (creating volcanoes)",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "focus": "Geography: North America, volcanoes & earthquakes · Science: changes in materials · Art: stop-motion animation"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Respect",
+        "question": "How did the Anglo-Saxons shape the Britain we know today?",
+        "summary": "Pupils explore Anglo-Saxon migration, settlement and culture alongside habitats and food technology to understand their lasting influence on Britain.",
+        "initial": "Anglo-Saxon Day",
+        "presentation": "KS1 Performance",
+        "audience": "Families",
+        "focus": "History: Anglo-Saxons · Science: living things and habitats · DT: Anglo-Saxon feast and food technology"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Endurance",
+        "question": "What can animals teach us about survival and resilience?",
+        "summary": "Pupils investigate biomes, forces and Shackleton’s journey, connecting adaptation in the natural world with human resilience and endurance.",
+        "initial": "Round-the-world biomes discovery",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "focus": "Geography: climate zones & biomes · Science: forces · DT: build a boat for Shackleton and his shipmates"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Kindness",
+        "question": "What can the Vikings teach us about kindness and community?",
+        "summary": "Pupils investigate Viking life, belief and community through historical evidence, materials and printmaking, challenging familiar stereotypes along the way.",
+        "initial": "Vikings Day – discovery of Viking mythology",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "focus": "History: Vikings · Science: properties of materials · Art: printmaking"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Courage",
+        "question": "How does exploring the unknown change what we know?",
+        "summary": "Pupils explore Earth, space and sustainability, considering how curiosity, scientific discovery and technological design expand what we understand.",
+        "initial": "In-school Wonder Dome Space & Earth workshop",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "focus": "Geography: climate change & sustainability · Science: Earth & Space · DT: design and evaluate a space vehicle"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Aspiration",
+        "question": "What can we learn from the Tudors about power, ambition and change?",
+        "summary": "Pupils investigate Tudor power and change through history, human development and portraiture, considering how ambition can shape society.",
+        "initial": "Tudor Experience Day",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "focus": "History: Tudors · Science: human development and old age · Art: Tudor portrait drawing"
+      }
     ]
-},
+  },
   "Year 6": {
     "title": "Leading learning and preparing for the future",
     "desc": "Year 6 brings together ambitious curriculum knowledge, the KCA Values and purposeful opportunities for leadership, voice and transition. Learning is shared with authentic audiences throughout the year.",
     "units": [
-        {
-            "term": "Autumn 1",
-            "theme": "Integrity",
-            "question": "How can learning from history help us challenge injustice?","summary": "Pupils explore Benin, activism and healthy bodies, using historical understanding to consider how knowledge can help challenge injustice.",
-            "initial": "Experience of Injustice",
-            "presentation": "Open Afternoon",
-            "audience": "Families",
-            "focus": "History: Benin · Science: circulatory system and healthy lifestyles · Art: printmaking, activism and Benin Bronzes"
-        },
-        {
-            "term": "Autumn 2",
-            "theme": "Respect",
-            "question": "What makes people feel they belong?","summary": "Pupils explore Windrush, migration, identity and inheritance, considering how communities create belonging and how experiences shape who we are.",
-            "initial": "Windrush Generation – Notting Hill Carnival",
-            "presentation": "KS2 Performance",
-            "audience": "Families",
-            "focus": "Geography: Fairtrade in the Caribbean and migration · Science: evolution and inheritance · Art: drawing and sketchbooks"
-        },
-        {
-            "term": "Spring 1",
-            "theme": "Endurance",
-            "question": "What can we learn from the resilience of those in World War 1?","summary": "Pupils investigate the First World War through history, habitats and food, considering how people endured challenge and uncertainty.",
-            "initial": "World War 1 Day",
-            "presentation": "Whole School Exhibition on The Street",
-            "audience": "KCA Community",
-            "focus": "History: World War 1 · Science: living things and habitats · DT: WW1 cooking"
-        },
-        {
-            "term": "Spring 2",
-            "theme": "Kindness / Courage",
-            "question": "How can ordinary people make an extraordinary difference?","summary": "Pupils explore the Second World War, light and everyday acts of courage, considering how individual choices can make a lasting difference.",
-            "initial": "WW2: Evacuation Day",
-            "presentation": "Whole School Exhibition on The Street",
-            "audience": "KCA Community",
-            "focus": "History: World War 2 · Science: light · Art: WW2 Blitz silhouette"
-        },
-        {
-            "term": "Summer 1",
-            "theme": "Kindness / Courage",
-            "question": "How can ordinary people make an extraordinary difference?","summary": "Pupils explore the Second World War, light and everyday acts of courage, considering how individual choices can make a lasting difference.",
-            "initial": "WW2: Evacuation Day and continued enquiry",
-            "presentation": "Whole School Exhibition on The Street",
-            "audience": "KCA Community",
-            "focus": "History: World War 2 · Science: electricity · Music: Songs of World War 2"
-        },
-        {
-            "term": "Summer 2",
-            "theme": "Aspiration",
-            "question": "How can I become the person I aspire to be?","summary": "Pupils look ahead through French, design and transition learning, reflecting on the choices, ambitions and values that will shape their future.",
-            "initial": "Time travel: who am I in thirty years?",
-            "presentation": "Open Afternoon",
-            "audience": "Families",
-            "focus": "Geography: European study – France · Science: light and electricity board-game project · DT: upcycled transition cushion"
-        }
+      {
+        "term": "Autumn 1",
+        "theme": "Integrity",
+        "question": "How can learning from history help us challenge injustice?",
+        "summary": "Pupils explore Benin, activism and healthy bodies, using historical understanding to consider how knowledge can help challenge injustice.",
+        "initial": "Experience of Injustice",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "focus": "History: Benin · Science: circulatory system and healthy lifestyles · Art: printmaking, activism and Benin Bronzes"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Respect",
+        "question": "What makes people feel they belong?",
+        "summary": "Pupils explore Windrush, migration, identity and inheritance, considering how communities create belonging and how experiences shape who we are.",
+        "initial": "Windrush Generation – Notting Hill Carnival",
+        "presentation": "KS2 Performance",
+        "audience": "Families",
+        "focus": "Geography: Fairtrade in the Caribbean and migration · Science: evolution and inheritance · Art: drawing and sketchbooks"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Endurance",
+        "question": "What can we learn from the resilience of those in World War 1?",
+        "summary": "Pupils investigate the First World War through history, habitats and food, considering how people endured challenge and uncertainty.",
+        "initial": "World War 1 Day",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "focus": "History: World War 1 · Science: living things and habitats · DT: WW1 cooking"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Kindness / Courage",
+        "question": "How can ordinary people make an extraordinary difference?",
+        "summary": "Pupils explore the Second World War, light and everyday acts of courage, considering how individual choices can make a lasting difference.",
+        "initial": "WW2: Evacuation Day",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "focus": "History: World War 2 · Science: light · Art: WW2 Blitz silhouette"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Kindness / Courage",
+        "question": "How can ordinary people make an extraordinary difference?",
+        "summary": "Pupils explore the Second World War, light and everyday acts of courage, considering how individual choices can make a lasting difference.",
+        "initial": "WW2: Evacuation Day and continued enquiry",
+        "presentation": "Whole School Exhibition on The Street",
+        "audience": "KCA Community",
+        "focus": "History: World War 2 · Science: electricity · Music: Songs of World War 2"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Aspiration",
+        "question": "How can I become the person I aspire to be?",
+        "summary": "Pupils look ahead through French, design and transition learning, reflecting on the choices, ambitions and values that will shape their future.",
+        "initial": "Time travel: who am I in thirty years?",
+        "presentation": "Open Afternoon",
+        "audience": "Families",
+        "focus": "Geography: European study – France · Science: light and electricity board-game project · DT: upcycled transition cushion"
+      }
     ]
-}
+  }
 };
+
 const placeholderPresentations=["Gallery or exhibition","Performance for an audience","Published writing","Debate or speech","Film or digital showcase","Celebration of learning"];
 const grid=document.getElementById('questions-grid');
 
@@ -329,7 +526,7 @@ function renderYear(year){
       <a class="unit-explore-link" href="year-groups/${slug}.html#unit-${i+1}">Explore this unit →</a>
     </article>`).join('');
   } else {
-    grid.innerHTML=d.questions.map((q,i)=>`<article class="question-card placeholder-card"><span class="term-tag">${['Autumn 1','Autumn 2','Spring 1','Spring 2','Summer 1','Summer 2'][i]}</span><h4>${esc(q)}</h4><p>The detailed curriculum map for this year group will be added when the final overview is available.</p><span class="presentation-label">Planned final outcome: ${placeholderPresentations[i]}</span></article>`).join('');
+    grid.innerHTML=`<article class="question-card placeholder-card curriculum-coming-soon"><span class="term-tag">Coming soon</span><h4>Nursery curriculum</h4><p>The detailed curriculum map for this year group will be added when the final overview is available.</p></article>`;
   }
 }
 renderYear('Nursery');
@@ -571,26 +768,5 @@ window.addEventListener('resize',()=>{updateExperienceArrows();updateActiveExper
 
 
 
-/* v3.33 — only finalised Reception, Year 5 and Year 6 curriculum maps may render */
-(function(){
-  const lowerKeys = [
-    "nursery","year1","year2","year3","year4",
-    "y1","y2","y3","y4","Nursery","Year 1","Year 2","Year 3","Year 4"
-  ];
 
-  function clearLowerYears(obj){
-    if(!obj || typeof obj !== "object") return;
-    lowerKeys.forEach(function(key){
-      if(Object.prototype.hasOwnProperty.call(obj, key)){
-        if(Array.isArray(obj[key])) obj[key] = [];
-        else if(obj[key] && typeof obj[key] === "object") obj[key] = {};
-        else obj[key] = null;
-      }
-    });
-  }
-
-  if(typeof yearData !== "undefined") clearLowerYears(yearData);
-  if(typeof curriculumData !== "undefined") clearLowerYears(curriculumData);
-  if(typeof curriculumByYear !== "undefined") clearLowerYears(curriculumByYear);
-  if(typeof years !== "undefined" && !Array.isArray(years)) clearLowerYears(years);
-})();
+/* v3.37 — Year 1–4 final maps now live; Nursery remains the sole unpublished year map. */

@@ -314,68 +314,129 @@ window.KCA_EXPERIENCES = [
     "title": "Reception Forest School",
     "icon": "🌲",
     "audience": "Reception",
-    "tags": ["reception", "outdoor"],
+    "tags": [
+      "reception",
+      "outdoor"
+    ],
     "summary": "Forest school sessions support exploration, talk and first-hand learning across the autumn term.",
     "detail": "Reception children take part in forest school sessions during Autumn 1 and Autumn 2, using the outdoor environment as a context for observation, communication, relationships and purposeful exploration.",
-    "pillars": ["Cross-curricular skills", "Lifelong learning"],
-    "values": ["Integrity", "Respect"],
-    "subjects": ["eyfs"]
+    "pillars": [
+      "Cross-curricular skills",
+      "Lifelong learning"
+    ],
+    "values": [
+      "Integrity",
+      "Respect"
+    ],
+    "subjects": [
+      "eyfs"
+    ]
   },
   {
     "title": "St Pancras Old Church",
     "icon": "⛪",
     "audience": "Reception",
-    "tags": ["reception", "trip"],
+    "tags": [
+      "reception",
+      "trip"
+    ],
     "summary": "A Reception visit supporting the autumn enquiry into celebrations and community.",
     "detail": "Reception visit St Pancras Old Church during Autumn 2 as part of their learning around celebrations, difference and the local community.",
-    "pillars": ["Cross-curricular skills", "Discovering interests"],
-    "values": ["Respect"],
-    "subjects": ["eyfs"],
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "eyfs"
+    ],
     "partner": "St Pancras Old Church"
   },
   {
     "title": "Reception Local Area Trips",
     "icon": "🗺️",
     "audience": "Reception",
-    "tags": ["reception", "trip"],
+    "tags": [
+      "reception",
+      "trip"
+    ],
     "summary": "Local area exploration brings maps, places and the surrounding community into Reception learning.",
     "detail": "During Spring 1, Reception children explore the local area as part of their enquiry into how we can explore our world, connecting simple maps and observation with first-hand experience.",
-    "pillars": ["Cross-curricular skills", "Lifelong learning"],
-    "values": ["Endurance"],
-    "subjects": ["eyfs"]
+    "pillars": [
+      "Cross-curricular skills",
+      "Lifelong learning"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "eyfs"
+    ]
   },
   {
     "title": "Baby Ducklings",
     "icon": "🐥",
     "audience": "Reception",
-    "tags": ["reception", "in-school"],
+    "tags": [
+      "reception",
+      "in-school"
+    ],
     "summary": "An in-school experience supporting learning about living things, growth and change.",
     "detail": "Reception children observe baby ducklings in school during Spring 2, giving them a first-hand context for talking about living things, care, growth, change and life cycles.",
-    "pillars": ["Cross-curricular skills", "Lifelong learning"],
-    "values": ["Kindness"],
-    "subjects": ["eyfs"]
+    "pillars": [
+      "Cross-curricular skills",
+      "Lifelong learning"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "eyfs"
+    ]
   },
   {
     "title": "Fire Station",
     "icon": "🚒",
     "audience": "Reception",
-    "tags": ["reception", "trip"],
+    "tags": [
+      "reception",
+      "trip"
+    ],
     "summary": "A first-hand encounter with community helpers and the roles they play.",
     "detail": "Reception visit a Fire Station during Summer 1 as part of their enquiry into community helpers, helping children understand roles within the local community and why they are important.",
-    "pillars": ["Discovering interests", "Cross-curricular skills"],
-    "values": ["Courage"],
-    "subjects": ["eyfs"]
+    "pillars": [
+      "Discovering interests",
+      "Cross-curricular skills"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "eyfs"
+    ]
   },
   {
     "title": "Local Community Garden",
     "icon": "🥕",
     "audience": "Reception",
-    "tags": ["reception", "trip"],
+    "tags": [
+      "reception",
+      "trip"
+    ],
     "summary": "A local visit connecting food, growing and healthy choices.",
     "detail": "Reception visit a Local Community Garden during Summer 2 as part of their learning about where food comes from and how this knowledge can help us make good choices.",
-    "pillars": ["Cross-curricular skills", "Lifelong learning"],
-    "values": ["Aspiration"],
-    "subjects": ["eyfs"]
+    "pillars": [
+      "Cross-curricular skills",
+      "Lifelong learning"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "eyfs"
+    ]
   },
   {
     "title": "Little Angel Theatre",
@@ -556,316 +617,6 @@ window.KCA_EXPERIENCES = [
     "subjects": [
       "physical-education"
     ]
-  },
-  {
-    "title": "Kentish Town City Farm",
-    "icon": "🐑",
-    "audience": "Year 1",
-    "tags": [
-      "year-1",
-      "trip",
-      "stem"
-    ],
-    "summary": "First-hand learning about animals, farming and where food comes from.",
-    "detail": "Pupils encounter a working city farm, ask questions and connect classroom learning about food, animals and habitats with direct observation.",
-    "pillars": [
-      "Discovering interests",
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Respect",
-      "Kindness"
-    ],
-    "subjects": [
-      "science",
-      "geography"
-    ]
-  },
-  {
-    "title": "London Zoo: ZooTown",
-    "icon": "🦁",
-    "audience": "Year 1",
-    "tags": [
-      "year-1",
-      "trip",
-      "stem"
-    ],
-    "summary": "A living-world experience focused on animals, habitats and care.",
-    "detail": "Children observe animals directly and deepen scientific understanding through discussion, classification and questions about habitats and conservation.",
-    "pillars": [
-      "Discovering interests",
-      "Learning how to learn"
-    ],
-    "values": [
-      "Respect",
-      "Aspiration"
-    ],
-    "subjects": [
-      "science",
-      "geography"
-    ]
-  },
-  {
-    "title": "St Pancras Church Visit",
-    "icon": "⛪",
-    "audience": "Year 1",
-    "tags": [
-      "year-1",
-      "trip"
-    ],
-    "summary": "A local visit supporting learning about faith, community and belonging.",
-    "detail": "Children explore a place of worship, observe its features and learn how religious communities gather, celebrate and care for one another.",
-    "pillars": [
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Respect",
-      "Kindness"
-    ],
-    "subjects": [
-      "religious-education",
-      "history"
-    ]
-  },
-  {
-    "title": "Great Fire of London Workshop",
-    "icon": "🔥",
-    "audience": "Year 1",
-    "tags": [
-      "year-1",
-      "trip",
-      "performance"
-    ],
-    "summary": "An immersive drama workshop bringing a major historical event to life.",
-    "detail": "Through role play, storytelling and historical detail, pupils explore the events and human experiences of the Great Fire of London.",
-    "pillars": [
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Courage",
-      "Endurance"
-    ],
-    "subjects": [
-      "history",
-      "english"
-    ]
-  },
-  {
-    "title": "Water Safety Theatre",
-    "icon": "🛟",
-    "audience": "Year 2",
-    "tags": [
-      "year-2",
-      "trip",
-      "performance"
-    ],
-    "summary": "A theatre experience combining storytelling with essential water safety.",
-    "detail": "Pupils learn practical safety messages through an engaging performance in the local community, helping important knowledge become memorable.",
-    "pillars": [
-      "Lifelong learning",
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Courage",
-      "Respect"
-    ],
-    "subjects": [
-      "pshe",
-      "physical-education",
-      "english"
-    ],
-    "personalDevelopment": true
-  },
-  {
-    "title": "Canal Walk & Workshop",
-    "icon": "🚤",
-    "audience": "Year 2",
-    "tags": [
-      "year-2",
-      "trip",
-      "stem"
-    ],
-    "summary": "Local fieldwork exploring waterways, place and change.",
-    "detail": "Children investigate the Regent's Canal through observation and guided activities, connecting geography, history and the local environment.",
-    "pillars": [
-      "Cross-curricular skills",
-      "Learning how to learn"
-    ],
-    "values": [
-      "Respect",
-      "Aspiration"
-    ],
-    "subjects": [
-      "geography",
-      "history",
-      "science"
-    ]
-  },
-  {
-    "title": "British Library: Voyage into Maps",
-    "icon": "🗺️",
-    "audience": "Year 3",
-    "tags": [
-      "year-3",
-      "trip"
-    ],
-    "summary": "A library workshop exploring maps, journeys and how places are represented.",
-    "detail": "Pupils work with collections and expert educators to interpret maps and deepen understanding of journeys, scale and place.",
-    "pillars": [
-      "Learning how to learn",
-      "Discovering interests"
-    ],
-    "values": [
-      "Aspiration",
-      "Respect"
-    ],
-    "subjects": [
-      "geography",
-      "english",
-      "history"
-    ],
-    "partner": "The British Library"
-  },
-  {
-    "title": "Islington Synagogue",
-    "icon": "✡️",
-    "audience": "Year 3",
-    "tags": [
-      "year-3",
-      "trip"
-    ],
-    "summary": "A visit supporting respectful understanding of Jewish faith and practice.",
-    "detail": "Children explore a synagogue, learn from members of the community and connect classroom RE with a living place of worship.",
-    "pillars": [
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Respect",
-      "Kindness"
-    ],
-    "subjects": [
-      "religious-education",
-      "history"
-    ]
-  },
-  {
-    "title": "London Canal Museum",
-    "icon": "🏛️",
-    "audience": "Year 3",
-    "tags": [
-      "year-3",
-      "trip"
-    ],
-    "summary": "Local history and geography explored through London's canal story.",
-    "detail": "Pupils investigate how canals shaped movement, work and communities, linking museum evidence with their water-cycle and local-area learning.",
-    "pillars": [
-      "Cross-curricular skills",
-      "Discovering interests"
-    ],
-    "values": [
-      "Aspiration",
-      "Respect"
-    ],
-    "subjects": [
-      "history",
-      "geography"
-    ]
-  },
-  {
-    "title": "London Wetland Centre",
-    "icon": "🦆",
-    "audience": "Year 3",
-    "tags": [
-      "year-3",
-      "trip",
-      "stem"
-    ],
-    "summary": "Fieldwork exploring habitats, water and environmental systems.",
-    "detail": "Children observe wetland environments, gather evidence and connect science and geography through first-hand ecological study.",
-    "pillars": [
-      "Learning how to learn",
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Respect",
-      "Endurance"
-    ],
-    "subjects": [
-      "science",
-      "geography"
-    ]
-  },
-  {
-    "title": "St Pancras Gardens",
-    "icon": "🌿",
-    "audience": "Year 4",
-    "tags": [
-      "year-4",
-      "trip",
-      "stem"
-    ],
-    "summary": "Local fieldwork using a historic green space as a learning resource.",
-    "detail": "Pupils observe, record and interpret features of the local environment while making links across history, geography and science.",
-    "pillars": [
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Respect",
-      "Aspiration"
-    ],
-    "subjects": [
-      "history",
-      "geography",
-      "science"
-    ]
-  },
-  {
-    "title": "Neasden Temple",
-    "icon": "🛕",
-    "audience": "Year 4",
-    "tags": [
-      "year-4",
-      "trip"
-    ],
-    "summary": "An immersive visit deepening understanding of Hindu belief and practice.",
-    "detail": "Children learn from the architecture, objects and community of the temple, building respectful religious literacy through direct experience.",
-    "pillars": [
-      "Discovering interests",
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Respect",
-      "Kindness"
-    ],
-    "subjects": [
-      "religious-education",
-      "history"
-    ]
-  },
-  {
-    "title": "Eden Project Workshop",
-    "icon": "🌱",
-    "audience": "Year 4",
-    "tags": [
-      "year-4",
-      "stem"
-    ],
-    "summary": "Expert-led environmental learning connected to sustainability.",
-    "detail": "An interactive workshop helps pupils explore ecosystems, human impact and practical responses to environmental challenges.",
-    "pillars": [
-      "Technology-rich learning",
-      "Cross-curricular skills"
-    ],
-    "values": [
-      "Aspiration",
-      "Integrity"
-    ],
-    "subjects": [
-      "science",
-      "geography",
-      "computing"
-    ],
-    "partner": "Eden Project"
   },
   {
     "title": "The Place Dance Collaboration",
@@ -1505,38 +1256,1170 @@ window.KCA_EXPERIENCES = [
       "english"
     ],
     "personalDevelopment": true
+  },
+  {
+    "title": "Food tasting – different crops grown in Kenya",
+    "icon": "✨",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "in-school"
+    ],
+    "summary": "A Year 1 starting experience that launches the Integrity enquiry: “Why is it so important to know where our food comes from?”",
+    "detail": "Food tasting – different crops grown in Kenya provides the initial experience for Year 1 Autumn 1. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: maps of a farm · Science: animals including humans – senses · DT: food technology – smoothie.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "Kentish Town City Farm",
+    "icon": "🚌",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "trip"
+    ],
+    "summary": "A Year 1 trip, visit or workshop extending the Integrity enquiry through first-hand learning.",
+    "detail": "Kentish Town City Farm extends Year 1 Autumn 1 learning connected to “Why is it so important to know where our food comes from?”. It supports the mapped curriculum focus: Geography: maps of a farm · Science: animals including humans – senses · DT: food technology – smoothie.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ],
+    "partner": "Kentish Town City Farm"
+  },
+  {
+    "title": "Creating a heritage map and a “Guess Who?” class game",
+    "icon": "✨",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "in-school"
+    ],
+    "summary": "A Year 1 starting experience that launches the Respect enquiry: “What makes every person and family unique?”",
+    "detail": "Creating a heritage map and a “Guess Who?” class game provides the initial experience for Year 1 Autumn 2. It introduces the enquiry before pupils develop the mapped curriculum focus: History: changes within living memory · Science: animals including humans – classifying · Art: 3D sculpture and habitat diorama.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "St Pancras Church",
+    "icon": "🚌",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "trip"
+    ],
+    "summary": "A Year 1 trip, visit or workshop extending the Respect enquiry through first-hand learning.",
+    "detail": "St Pancras Church extends Year 1 Autumn 2 learning connected to “What makes every person and family unique?”. It supports the mapped curriculum focus: History: changes within living memory · Science: animals including humans – classifying · Art: 3D sculpture and habitat diorama.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ],
+    "partner": "St Pancras Church"
+  },
+  {
+    "title": "Inventing and junk modelling a new piece of playground equipment",
+    "icon": "✨",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "in-school"
+    ],
+    "summary": "A Year 1 starting experience that launches the Endurance enquiry: “How do inventors keep going when solving problems?”",
+    "detail": "Inventing and junk modelling a new piece of playground equipment provides the initial experience for Year 1 Spring 1. It introduces the enquiry before pupils develop the mapped curriculum focus: History: the Wright Brothers · Science: materials – object vs material · DT: model plane with a spinning propeller.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "Zoo Trip",
+    "icon": "🚌",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "trip"
+    ],
+    "summary": "A Year 1 trip, visit or workshop extending the Endurance enquiry through first-hand learning.",
+    "detail": "Zoo Trip extends Year 1 Spring 1 learning connected to “How do inventors keep going when solving problems?”. It supports the mapped curriculum focus: History: the Wright Brothers · Science: materials – object vs material · DT: model plane with a spinning propeller.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "Nature Scavenger Hunt with iPads",
+    "icon": "✨",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "in-school"
+    ],
+    "summary": "A Year 1 starting experience that launches the Kindness enquiry: “How can we care for the world around us?”",
+    "detail": "Nature Scavenger Hunt with iPads provides the initial experience for Year 1 Spring 2. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: weather and climate · Science: seasonal changes · Art: watercolour landscapes and nature.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "The Wallace Collection – Art workshop",
+    "icon": "🚌",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "trip"
+    ],
+    "summary": "A Year 1 trip, visit or workshop extending the Kindness enquiry through first-hand learning.",
+    "detail": "The Wallace Collection – Art workshop extends Year 1 Spring 2 learning connected to “How can we care for the world around us?”. It supports the mapped curriculum focus: Geography: weather and climate · Science: seasonal changes · Art: watercolour landscapes and nature.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art"
+    ],
+    "partner": "The Wallace Collection"
+  },
+  {
+    "title": "Representing a special place to them through Art",
+    "icon": "✨",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "in-school"
+    ],
+    "summary": "A Year 1 starting experience that launches the Courage enquiry: “How do people show courage?”",
+    "detail": "Representing a special place to them through Art provides the initial experience for Year 1 Summer 1. It introduces the enquiry before pupils develop the mapped curriculum focus: History: the Great Fire of London · Science: materials – properties · DT: design and make a dream bedroom structure.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology",
+      "art"
+    ]
+  },
+  {
+    "title": "Freshwater Theatre",
+    "icon": "🚌",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "trip"
+    ],
+    "summary": "A Year 1 trip, visit or workshop extending the Courage enquiry through first-hand learning.",
+    "detail": "Freshwater Theatre extends Year 1 Summer 1 learning connected to “How do people show courage?”. It supports the mapped curriculum focus: History: the Great Fire of London · Science: materials – properties · DT: design and make a dream bedroom structure.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology",
+      "art"
+    ],
+    "partner": "Freshwater Theatre"
+  },
+  {
+    "title": "Local Area Walk Treasure Hunt",
+    "icon": "✨",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "in-school"
+    ],
+    "summary": "A Year 1 starting experience that launches the Aspiration enquiry: “How can we make our local area an even better place?”",
+    "detail": "Local Area Walk Treasure Hunt provides the initial experience for Year 1 Summer 2. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: UK countries, capital cities and surrounding seas · Science: plants · Art: drawing inspired by King’s Cross Estate.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "Hampstead Heath",
+    "icon": "🚌",
+    "audience": "Year 1",
+    "tags": [
+      "year-1",
+      "trip"
+    ],
+    "summary": "A Year 1 trip, visit or workshop extending the Aspiration enquiry through first-hand learning.",
+    "detail": "Hampstead Heath extends Year 1 Summer 2 learning connected to “How can we make our local area an even better place?”. It supports the mapped curriculum focus: Geography: UK countries, capital cities and surrounding seas · Science: plants · Art: drawing inspired by King’s Cross Estate.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art"
+    ],
+    "partner": "Hampstead Heath"
+  },
+  {
+    "title": "Special item show and tell and identity self portrait",
+    "icon": "✨",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "in-school"
+    ],
+    "summary": "A Year 2 starting experience that launches the Integrity enquiry: “How do our experiences shape who we become?”",
+    "detail": "Special item show and tell and identity self portrait provides the initial experience for Year 2 Autumn 1. It introduces the enquiry before pupils develop the mapped curriculum focus: History: the history of Camden – people and events · Science: animals including humans – basic needs · Art: sculptures inspired by King’s Cross Estate.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art",
+      "pshe"
+    ]
+  },
+  {
+    "title": "Walk along the Canal workshop",
+    "icon": "🚌",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "trip"
+    ],
+    "summary": "A Year 2 trip, visit or workshop extending the Integrity enquiry through first-hand learning.",
+    "detail": "Walk along the Canal workshop extends Year 2 Autumn 1 learning connected to “How do our experiences shape who we become?”. It supports the mapped curriculum focus: History: the history of Camden – people and events · Science: animals including humans – basic needs · Art: sculptures inspired by King’s Cross Estate.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art",
+      "pshe"
+    ]
+  },
+  {
+    "title": "ChickenShed Water Safety theatre show",
+    "icon": "🚌",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "trip"
+    ],
+    "summary": "A Year 2 trip, visit or workshop extending the Integrity enquiry through first-hand learning.",
+    "detail": "ChickenShed Water Safety theatre show extends Year 2 Autumn 1 learning connected to “How do our experiences shape who we become?”. It supports the mapped curriculum focus: History: the history of Camden – people and events · Science: animals including humans – basic needs · Art: sculptures inspired by King’s Cross Estate.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art",
+      "pshe"
+    ],
+    "partner": "ChickenShed"
+  },
+  {
+    "title": "Tasting food from India",
+    "icon": "✨",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "in-school"
+    ],
+    "summary": "A Year 2 starting experience that launches the Respect enquiry: “How does food connect people and culture?”",
+    "detail": "Tasting food from India provides the initial experience for Year 2 Autumn 2. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: contrasting locations – London and India · Science: living things and habitats – food chains · DT: traditional Indian food – vegetable samosas.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "Indian Food Workshop",
+    "icon": "🚌",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "trip"
+    ],
+    "summary": "A Year 2 trip, visit or workshop extending the Respect enquiry through first-hand learning.",
+    "detail": "Indian Food Workshop extends Year 2 Autumn 2 learning connected to “How does food connect people and culture?”. It supports the mapped curriculum focus: Geography: contrasting locations – London and India · Science: living things and habitats – food chains · DT: traditional Indian food – vegetable samosas.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "Victorian Day: writing like a Victorian, portrait miniature necklace making and Victorian cooking",
+    "icon": "✨",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "in-school"
+    ],
+    "summary": "A Year 2 starting experience that launches the Endurance enquiry: “How did determination change Victorian Britain?”",
+    "detail": "Victorian Day: writing like a Victorian, portrait miniature necklace making and Victorian cooking provides the initial experience for Year 2 Spring 1. It introduces the enquiry before pupils develop the mapped curriculum focus: History: the Victorians · Science: everyday materials · DT: designing and making a Victorian toy.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "Tower Bridge",
+    "icon": "🚌",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "trip"
+    ],
+    "summary": "A Year 2 trip, visit or workshop extending the Endurance enquiry through first-hand learning.",
+    "detail": "Tower Bridge extends Year 2 Spring 1 learning connected to “How did determination change Victorian Britain?”. It supports the mapped curriculum focus: History: the Victorians · Science: everyday materials · DT: designing and making a Victorian toy.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology"
+    ],
+    "partner": "Tower Bridge"
+  },
+  {
+    "title": "Arts and craft activities from different cultures mentioned in The Story Tree",
+    "icon": "✨",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "in-school"
+    ],
+    "summary": "A Year 2 starting experience that launches the Kindness enquiry: “How can learning about other cultures help us show kindness?”",
+    "detail": "Arts and craft activities from different cultures mentioned in The Story Tree provides the initial experience for Year 2 Spring 2. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: continents and oceans · Science: living things and habitats · Art: painting and printmaking inspired by The Story Tree.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "London Aquarium",
+    "icon": "🚌",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "trip"
+    ],
+    "summary": "A Year 2 trip, visit or workshop extending the Kindness enquiry through first-hand learning.",
+    "detail": "London Aquarium extends Year 2 Spring 2 learning connected to “How can learning about other cultures help us show kindness?”. It supports the mapped curriculum focus: Geography: continents and oceans · Science: living things and habitats · Art: painting and printmaking inspired by The Story Tree.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art"
+    ],
+    "partner": "London Aquarium"
+  },
+  {
+    "title": "Stop motion video of dinosaurs",
+    "icon": "✨",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "in-school"
+    ],
+    "summary": "A Year 2 starting experience that launches the Courage enquiry: “How does exploring our world help us grow?”",
+    "detail": "Stop motion video of dinosaurs provides the initial experience for Year 2 Summer 1. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: human and physical features · Science: animals including humans – offspring · DT: textiles – dinosaur hand puppets.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology",
+      "computing"
+    ]
+  },
+  {
+    "title": "Spitalfields City Farm",
+    "icon": "🚌",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "trip"
+    ],
+    "summary": "A Year 2 trip, visit or workshop extending the Courage enquiry through first-hand learning.",
+    "detail": "Spitalfields City Farm extends Year 2 Summer 1 learning connected to “How does exploring our world help us grow?”. It supports the mapped curriculum focus: Geography: human and physical features · Science: animals including humans – offspring · DT: textiles – dinosaur hand puppets.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology",
+      "computing"
+    ],
+    "partner": "Spitalfields City Farm"
+  },
+  {
+    "title": "Baby picture matching and exploring how King’s Cross Estate has changed",
+    "icon": "✨",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "in-school"
+    ],
+    "summary": "A Year 2 starting experience that launches the Aspiration enquiry: “How can learning from the past help us shape the future?”",
+    "detail": "Baby picture matching and exploring how King’s Cross Estate has changed provides the initial experience for Year 2 Summer 2. It introduces the enquiry before pupils develop the mapped curriculum focus: History: medicine through time · Science: plants · Art: observational drawings of plants.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "Kew Gardens",
+    "icon": "🚌",
+    "audience": "Year 2",
+    "tags": [
+      "year-2",
+      "trip"
+    ],
+    "summary": "A Year 2 trip, visit or workshop extending the Aspiration enquiry through first-hand learning.",
+    "detail": "Kew Gardens extends Year 2 Summer 2 learning connected to “How can learning from the past help us shape the future?”. It supports the mapped curriculum focus: History: medicine through time · Science: plants · Art: observational drawings of plants.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ],
+    "partner": "Kew Gardens"
+  },
+  {
+    "title": "London Exploration Day (second half of Autumn 1)",
+    "icon": "✨",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "in-school"
+    ],
+    "summary": "A Year 3 starting experience that launches the Integrity enquiry: “How has London's past shaped the city we know today?”",
+    "detail": "London Exploration Day (second half of Autumn 1) provides the initial experience for Year 3 Autumn 1. It introduces the enquiry before pupils develop the mapped curriculum focus: History: history of London · Science: forces and magnets · DT: mechanisms – model bridge with moving parts.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology",
+      "geography"
+    ]
+  },
+  {
+    "title": "Horizon 22",
+    "icon": "🚌",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "trip"
+    ],
+    "summary": "A Year 3 trip, visit or workshop extending the Integrity enquiry through first-hand learning.",
+    "detail": "Horizon 22 extends Year 3 Autumn 1 learning connected to “How has London's past shaped the city we know today?”. It supports the mapped curriculum focus: History: history of London · Science: forces and magnets · DT: mechanisms – model bridge with moving parts.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology",
+      "geography"
+    ],
+    "partner": "Horizon 22"
+  },
+  {
+    "title": "Map / Local Journey Exploration",
+    "icon": "✨",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "in-school"
+    ],
+    "summary": "A Year 3 starting experience that launches the Respect enquiry: “How do journeys help us understand the world and each other?”",
+    "detail": "Map / Local Journey Exploration provides the initial experience for Year 3 Autumn 2. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: UK study – maps and mapping skills · Science: skeletons and muscles · Art: animated drawing and stop motion.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art",
+      "english"
+    ]
+  },
+  {
+    "title": "British Library – Voyage into Maps",
+    "icon": "🚌",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "trip"
+    ],
+    "summary": "A Year 3 trip, visit or workshop extending the Respect enquiry through first-hand learning.",
+    "detail": "British Library – Voyage into Maps extends Year 3 Autumn 2 learning connected to “How do journeys help us understand the world and each other?”. It supports the mapped curriculum focus: Geography: UK study – maps and mapping skills · Science: skeletons and muscles · Art: animated drawing and stop motion.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art",
+      "english"
+    ],
+    "partner": "British Library"
+  },
+  {
+    "title": "Stone Age Day",
+    "icon": "✨",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "in-school"
+    ],
+    "summary": "A Year 3 starting experience that launches the Endurance enquiry: “How did people survive and thrive in the Stone Age?”",
+    "detail": "Stone Age Day provides the initial experience for Year 3 Spring 1. It introduces the enquiry before pupils develop the mapped curriculum focus: History: Stone Age · Science: rocks – Rock Detectives · Art: drawing and sketchbooks – cave drawings.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "Gunnersbury Park Museum",
+    "icon": "🚌",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "trip"
+    ],
+    "summary": "A Year 3 trip, visit or workshop extending the Endurance enquiry through first-hand learning.",
+    "detail": "Gunnersbury Park Museum extends Year 3 Spring 1 learning connected to “How did people survive and thrive in the Stone Age?”. It supports the mapped curriculum focus: History: Stone Age · Science: rocks – Rock Detectives · Art: drawing and sketchbooks – cave drawings.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ],
+    "partner": "Gunnersbury Park Museum"
+  },
+  {
+    "title": "Canal Museum & Water Study",
+    "icon": "✨",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "in-school"
+    ],
+    "summary": "A Year 3 starting experience that launches the Kindness enquiry: “How does water bring people together?”",
+    "detail": "Canal Museum & Water Study provides the initial experience for Year 3 Spring 2. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: mountains, rivers and the water cycle · Science: plants · DT: make a mini greenhouse.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "Thames Explorer Trust – Linden House",
+    "icon": "🚌",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "trip"
+    ],
+    "summary": "A Year 3 trip, visit or workshop extending the Kindness enquiry through first-hand learning.",
+    "detail": "Thames Explorer Trust – Linden House extends Year 3 Spring 2 learning connected to “How does water bring people together?”. It supports the mapped curriculum focus: Geography: mountains, rivers and the water cycle · Science: plants · DT: make a mini greenhouse.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ],
+    "partner": "Thames Explorer Trust"
+  },
+  {
+    "title": "London Wetland Centre",
+    "icon": "✨",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "in-school"
+    ],
+    "summary": "A Year 3 starting experience that launches the Courage enquiry: “How do people adapt to life in different climates?”",
+    "detail": "London Wetland Centre provides the initial experience for Year 3 Summer 1. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: climate zones · Science: light · Art: painting, fabric and textiles – Inuit wall hangings.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art"
+    ],
+    "partner": "London Wetland Centre"
+  },
+  {
+    "title": "Light Workshop",
+    "icon": "🚌",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "trip"
+    ],
+    "summary": "A Year 3 trip, visit or workshop extending the Courage enquiry through first-hand learning.",
+    "detail": "Light Workshop extends Year 3 Summer 1 learning connected to “How do people adapt to life in different climates?”. It supports the mapped curriculum focus: Geography: climate zones · Science: light · Art: painting, fabric and textiles – Inuit wall hangings.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "Ancient Egyptians Day",
+    "icon": "✨",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "in-school"
+    ],
+    "summary": "A Year 3 starting experience that launches the Aspiration enquiry: “What can the achievements of Ancient Egypt inspire us to do?”",
+    "detail": "Ancient Egyptians Day provides the initial experience for Year 3 Summer 2. It introduces the enquiry before pupils develop the mapped curriculum focus: History: Ancient Egypt · Science: animals including humans – nutrition · DT: food technology – Egyptian feast.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "British Museum – Egyptians",
+    "icon": "🚌",
+    "audience": "Year 3",
+    "tags": [
+      "year-3",
+      "trip"
+    ],
+    "summary": "A Year 3 trip, visit or workshop extending the Aspiration enquiry through first-hand learning.",
+    "detail": "British Museum – Egyptians extends Year 3 Summer 2 learning connected to “What can the achievements of Ancient Egypt inspire us to do?”. It supports the mapped curriculum focus: History: Ancient Egypt · Science: animals including humans – nutrition · DT: food technology – Egyptian feast.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "design-technology"
+    ],
+    "partner": "British Museum"
+  },
+  {
+    "title": "Nature Day: exploring nature across London and Essex (second half of Autumn term)",
+    "icon": "✨",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "in-school"
+    ],
+    "summary": "A Year 4 starting experience that launches the Integrity enquiry: “Why is it our responsibility to care for the natural world?”",
+    "detail": "Nature Day: exploring nature across London and Essex (second half of Autumn term) provides the initial experience for Year 4 Autumn 1. It introduces the enquiry before pupils develop the mapped curriculum focus: Science: states of matter · History: the Mayans · Art: painting and printmaking – Mayan masks.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "science",
+      "history",
+      "art",
+      "geography"
+    ]
+  },
+  {
+    "title": "St Pancras Gardens",
+    "icon": "🚌",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "trip"
+    ],
+    "summary": "A Year 4 trip, visit or workshop extending the Integrity enquiry through first-hand learning.",
+    "detail": "St Pancras Gardens extends Year 4 Autumn 1 learning connected to “Why is it our responsibility to care for the natural world?”. It supports the mapped curriculum focus: Science: states of matter · History: the Mayans · Art: painting and printmaking – Mayan masks.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Integrity"
+    ],
+    "subjects": [
+      "science",
+      "history",
+      "art",
+      "geography"
+    ],
+    "partner": "St Pancras Gardens"
+  },
+  {
+    "title": "Kew Gardens & Barbican Conservatory: Rainforest Experience",
+    "icon": "✨",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "in-school"
+    ],
+    "summary": "A Year 4 starting experience that launches the Respect enquiry: “Why should we protect the world's rainforests?”",
+    "detail": "Kew Gardens & Barbican Conservatory: Rainforest Experience provides the initial experience for Year 4 Autumn 2. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: South America – the Amazon Rainforest · Science: living things and habitats · DT: create a 3D rainforest model.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ],
+    "partner": "Kew Gardens"
+  },
+  {
+    "title": "Eden Project Online Workshop",
+    "icon": "🚌",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "trip"
+    ],
+    "summary": "A Year 4 trip, visit or workshop extending the Respect enquiry through first-hand learning.",
+    "detail": "Eden Project Online Workshop extends Year 4 Autumn 2 learning connected to “Why should we protect the world's rainforests?”. It supports the mapped curriculum focus: Geography: South America – the Amazon Rainforest · Science: living things and habitats · DT: create a 3D rainforest model.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Respect"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ],
+    "partner": "Eden Project"
+  },
+  {
+    "title": "Exploring Camden & Immigration – Camden’s development",
+    "icon": "✨",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "in-school"
+    ],
+    "summary": "A Year 4 starting experience that launches the Endurance enquiry: “How have people overcome challenges to build new lives?”",
+    "detail": "Exploring Camden & Immigration – Camden’s development provides the initial experience for Year 4 Spring 1. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: immigration and settlement · Science: electricity · DT: battery-operated lights inspired by electrical engineers who immigrated.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology",
+      "history"
+    ]
+  },
+  {
+    "title": "STEM Electricity Workshop",
+    "icon": "🚌",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "trip"
+    ],
+    "summary": "A Year 4 trip, visit or workshop extending the Endurance enquiry through first-hand learning.",
+    "detail": "STEM Electricity Workshop extends Year 4 Spring 1 learning connected to “How have people overcome challenges to build new lives?”. It supports the mapped curriculum focus: Geography: immigration and settlement · Science: electricity · DT: battery-operated lights inspired by electrical engineers who immigrated.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Endurance"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology",
+      "history"
+    ]
+  },
+  {
+    "title": "Ancient Greek Day",
+    "icon": "✨",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "in-school"
+    ],
+    "summary": "A Year 4 starting experience that launches the Kindness enquiry: “What can Ancient Greece teach us about living well together?”",
+    "detail": "Ancient Greek Day provides the initial experience for Year 4 Spring 2. It introduces the enquiry before pupils develop the mapped curriculum focus: History: Ancient Greeks · Science: sound · Art: Greek paintings and Ancient Greek vases.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "British Museum – Ancient Greece",
+    "icon": "🚌",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "trip"
+    ],
+    "summary": "A Year 4 trip, visit or workshop extending the Kindness enquiry through first-hand learning.",
+    "detail": "British Museum – Ancient Greece extends Year 4 Spring 2 learning connected to “What can Ancient Greece teach us about living well together?”. It supports the mapped curriculum focus: History: Ancient Greeks · Science: sound · Art: Greek paintings and Ancient Greek vases.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Kindness"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ],
+    "partner": "British Museum"
+  },
+  {
+    "title": "Romans Day",
+    "icon": "✨",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "in-school"
+    ],
+    "summary": "A Year 4 starting experience that launches the Courage enquiry: “How did the Romans change Britain?”",
+    "detail": "Romans Day provides the initial experience for Year 4 Summer 1. It introduces the enquiry before pupils develop the mapped curriculum focus: History: Romans · Science: digestive system and teeth · Art: Roman mosaics.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "Roman Workshop",
+    "icon": "🚌",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "trip"
+    ],
+    "summary": "A Year 4 trip, visit or workshop extending the Courage enquiry through first-hand learning.",
+    "detail": "Roman Workshop extends Year 4 Summer 1 learning connected to “How did the Romans change Britain?”. It supports the mapped curriculum focus: History: Romans · Science: digestive system and teeth · Art: Roman mosaics.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Courage"
+    ],
+    "subjects": [
+      "history",
+      "science",
+      "art"
+    ]
+  },
+  {
+    "title": "Food discovery",
+    "icon": "✨",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "in-school"
+    ],
+    "summary": "A Year 4 starting experience that launches the Aspiration enquiry: “How can our food choices change the world?”",
+    "detail": "Food discovery provides the initial experience for Year 4 Summer 2. It introduces the enquiry before pupils develop the mapped curriculum focus: Geography: food, world trade and globalisation · Science: life cycles and food chains · DT: global food and diverse choices.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ]
+  },
+  {
+    "title": "The Orangery Farm",
+    "icon": "🚌",
+    "audience": "Year 4",
+    "tags": [
+      "year-4",
+      "trip"
+    ],
+    "summary": "A Year 4 trip, visit or workshop extending the Aspiration enquiry through first-hand learning.",
+    "detail": "The Orangery Farm extends Year 4 Summer 2 learning connected to “How can our food choices change the world?”. It supports the mapped curriculum focus: Geography: food, world trade and globalisation · Science: life cycles and food chains · DT: global food and diverse choices.",
+    "pillars": [
+      "Cross-curricular skills",
+      "Discovering interests"
+    ],
+    "values": [
+      "Aspiration"
+    ],
+    "subjects": [
+      "geography",
+      "science",
+      "design-technology"
+    ],
+    "partner": "The Orangery Farm"
   }
 ];
 
-
-/* v3.27 finalised-years-only filter
-   Non-finalised Nursery–Year 4 map-specific experiences are withheld.
-   Shared/whole-school entitlements and Year 5/6 experiences remain available. */
-(function(){
-  if(typeof experiences === "undefined" || !Array.isArray(experiences)) return;
-  const lowerYears = new Set(["Nursery","Reception","Year 1","Year 2","Year 3","Year 4","N","R","Y1","Y2","Y3","Y4"]);
-  const finalYears = new Set(["Year 5","Year 6","Y5","Y6"]);
-
-  function yearsOf(item){
-    const raw = item.years || item.yearGroups || item.year || [];
-    return Array.isArray(raw) ? raw : [raw];
-  }
-
-  const kept = experiences.filter(function(item){
-    const years = yearsOf(item).filter(Boolean);
-    if(years.length === 0) return true;
-
-    if(years.some(y => finalYears.has(String(y)))) return true;
-
-    const text = JSON.stringify(item).toLowerCase();
-    if(text.includes("whole school") || text.includes("all year") || text.includes("whole-school") || text.includes("shared entitlement")) return true;
-
-    // If an experience is exclusively mapped to Nursery–Y4, withhold it for now.
-    if(years.every(y => lowerYears.has(String(y)))) return false;
-
-    return true;
-  });
-
-  experiences.length = 0;
-  kept.forEach(x => experiences.push(x));
-})();
+/* v3.37 — final Year 1–4 map experiences added; Nursery remains pending. */

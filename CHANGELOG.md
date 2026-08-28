@@ -1,3 +1,24 @@
+# KCA Curriculum Site — Changelog
+
+## v3.38 — Lean deployment build
+- Removed obsolete duplicate Year 1 and Year 3 curriculum PDFs that were no longer linked anywhere in the live site.
+- Web-optimised the live curriculum PDFs where this reduced file size without changing page content or site links.
+- Kept all live year-group maps, EYFS documents, progression documents, images and functionality intact.
+- Nursery remains the sole year-group placeholder while its final map is awaited.
+- Prepared specifically to make GitHub browser deployment substantially lighter.
+
+# Changelog
+
+## v3.37 — Final Year 1–4 curriculum maps
+- Published final Year 1, Year 2, Year 3 and Year 4 digital curriculum books from the supplied 2026–2027 yearly overviews.
+- Added the final values-led Big Questions, initial experiences, authentic audiences, learning presentations, trips, writing outcomes and curriculum focuses for all four year groups.
+- Added concise one-line homepage summaries to every Year 1–4 unit, matching Reception, Year 5 and Year 6.
+- Added the four final yearly-overview PDFs as downloads from their year pages.
+- Rebuilt Year 1–4 map-specific Experience Library entries from the final maps and linked them to relevant subject pages through the shared experience data.
+- Removed the old safeguard that withheld Year 1–4 curriculum data.
+- Nursery is now the only year group still held in the clean unpublished placeholder state.
+- Cache-bumped shared homepage, experience and mobile-unit assets to v3.37.
+
 ## v3.35 — Reception learning presentations aligned
 - Added the standard KCA learning-presentation cycle to Reception, matching the Year 5/6 architecture.
 - Autumn 1 and Summer 2 use Open Afternoon; Autumn 2 uses the EYFS Performance; Spring 1, Spring 2 and Summer 1 use Whole School Exhibition on The Street.

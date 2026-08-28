@@ -1,13 +1,7 @@
-# KCA Curriculum Site — Version 3.32
+# KCA Curriculum Site — Version 3.38
 
-EYFS curriculum mini-page content release.
+Lean deployment build of the curriculum website. Reception and Years 1–6 are populated from final curriculum maps; Nursery remains a clean placeholder until its final map is available. Obsolete duplicate PDFs have been removed and live curriculum PDFs have been web-optimised to reduce deployment size.
 
-## Changes
-- EYFS Vision and Intent now presented as real website content with the full PDF available to open.
-- Nursery and Reception Progression of Skills documents are available from two dedicated progression cards.
-- Curriculum-document sections on subject curriculum pages only appear when an actual document has been assigned.
-- No changes to the year-group publication status: Nursery–Year 4 remain clean placeholders; Year 5 and Year 6 remain fully populated.
+Final curriculum maps are now live for Reception and Years 1–6. Nursery remains a clean placeholder until its final yearly overview is supplied.
 
-
-## v3.33
-Reception is now a finalised, published curriculum map alongside Year 5 and Year 6. Nursery and Years 1–4 remain clean placeholders until their final maps are supplied.
+Year-group map data feeds the homepage curriculum explorer, detailed digital curriculum books, Experience Library and linked subject experience sections.
