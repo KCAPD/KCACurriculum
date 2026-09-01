@@ -1,7 +1,57 @@
 const yearData = {
   "Nursery": {
-    "title": "Nursery curriculum map coming soon",
-    "desc": "The detailed Nursery curriculum map will be added when the final overview is available."
+    "title": "Growing identity, confidence and curiosity through purposeful play",
+    "desc": "Nursery learning is organised around six KCA values-led questions, with carefully sequenced communication, early literacy, mathematics, physical development and wider EYFS learning across the year.",
+    "units": [
+      {
+        "term": "Autumn 1",
+        "theme": "Integrity",
+        "question": "Who am I?",
+        "summary": "Children explore identity, family and belonging while developing mark making, early sound awareness, mathematical comparison and confidence in the Nursery community.",
+        "audience": "Parents: Showcase learning environment & children’s learning",
+        "experience": "Settling-in period"
+      },
+      {
+        "term": "Autumn 2",
+        "theme": "Respect",
+        "question": "How does our community celebrate?",
+        "summary": "Children explore celebrations and differences between people while strengthening pencil control, instrumental sound awareness, counting and participation in their Nursery community.",
+        "audience": "Parents: Nativity",
+        "experience": "Local area"
+      },
+      {
+        "term": "Spring 1",
+        "theme": "Endurance",
+        "question": "What will we find in the woods?",
+        "summary": "Children investigate the wider world through talk, sensory exploration and first-hand outdoor experiences while extending early writing, rhythm, number and pattern knowledge.",
+        "audience": "SLT",
+        "experience": "Forest school sessions"
+      },
+      {
+        "term": "Spring 2",
+        "theme": "Kindness",
+        "question": "How can we take care of living things to help them grow?",
+        "summary": "Children develop care, cooperation and curiosity through exploration of their environment while building name writing, rhyme, counting and practical problem-solving skills.",
+        "audience": "Parents",
+        "experience": "Little Angel Theatre"
+      },
+      {
+        "term": "Summer 1",
+        "theme": "Courage",
+        "question": "How can we show courage?",
+        "summary": "Children grow in confidence and independence while learning about plants and life cycles, developing alliteration, number knowledge, fine-motor control and imaginative expression.",
+        "audience": "Reception Children",
+        "experience": "Farm"
+      },
+      {
+        "term": "Summer 2",
+        "theme": "Aspiration",
+        "question": "How does knowing where our food comes from help us make good choices?",
+        "summary": "Children connect food, healthy choices and the natural world while consolidating early writing, oral blending, counting, comparison and increasing independence in self-care.",
+        "audience": "Parents: Art Show",
+        "experience": "The Floating Garden / Skip Garden"
+      }
+    ]
   },
   "Reception": {
     "title": "Building confident, curious and increasingly independent learners",
@@ -769,4 +819,4 @@ window.addEventListener('resize',()=>{updateExperienceArrows();updateActiveExper
 
 
 
-/* v3.37 — Year 1–4 final maps now live; Nursery remains the sole unpublished year map. */
+/* v3.39 — Nursery final map now live; all Nursery–Year 6 maps are published. */

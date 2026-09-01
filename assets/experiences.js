@@ -461,7 +461,8 @@ window.KCA_EXPERIENCES = [
     "subjects": [
       "english",
       "music",
-      "art"
+      "art",
+      "eyfs"
     ],
     "partner": "Little Angel Theatre"
   },
@@ -2420,6 +2421,51 @@ window.KCA_EXPERIENCES = [
     ],
     "partner": "The Orangery Farm"
   }
+  ,{
+    "title": "Nursery Local Area Exploration",
+    "icon": "🗺️",
+    "audience": "Nursery",
+    "tags": ["nursery", "trip"],
+    "summary": "A local-area experience helping Nursery children connect their learning with the community around school.",
+    "detail": "Nursery explore the local area during Autumn 2 as part of their Respect enquiry, ‘How does our community celebrate?’. The visit supports first-hand talk, observation and growing understanding of the community around them.",
+    "pillars": ["Cross-curricular skills", "Lifelong learning"],
+    "values": ["Respect"],
+    "subjects": ["eyfs"]
+  },
+  {
+    "title": "Nursery Forest School",
+    "icon": "🌲",
+    "audience": "Nursery",
+    "tags": ["nursery", "outdoor"],
+    "summary": "Forest School gives Nursery a first-hand context for curiosity, talk and outdoor exploration.",
+    "detail": "Nursery take part in Forest School sessions during Spring 1 as part of their Endurance enquiry, ‘What will we find in the woods?’, developing observation, communication, physical confidence and purposeful exploration.",
+    "pillars": ["Cross-curricular skills", "Lifelong learning"],
+    "values": ["Endurance"],
+    "subjects": ["eyfs"]
+  },
+  {
+    "title": "Nursery Farm Visit",
+    "icon": "🐄",
+    "audience": "Nursery",
+    "tags": ["nursery", "trip"],
+    "summary": "A farm visit gives Nursery a real-world context for plants, animals, growth and care.",
+    "detail": "Nursery visit a farm during Summer 1 as part of their Courage enquiry, ‘How can we show courage?’. The experience connects with learning about plants, life cycles, living things and growing confidence in new experiences.",
+    "pillars": ["Cross-curricular skills", "Discovering interests"],
+    "values": ["Courage"],
+    "subjects": ["eyfs"]
+  },
+  {
+    "title": "The Floating Garden / Skip Garden",
+    "icon": "🌱",
+    "audience": "Nursery",
+    "tags": ["nursery", "trip"],
+    "summary": "A garden visit connects Nursery learning about food, plants, the natural world and healthy choices.",
+    "detail": "Nursery visit The Floating Garden / Skip Garden during Summer 2 as part of their Aspiration enquiry, ‘How does knowing where our food comes from help us make good choices?’. Children connect first-hand observation of plants and natural materials with food and healthy choices.",
+    "pillars": ["Cross-curricular skills", "Lifelong learning"],
+    "values": ["Aspiration"],
+    "subjects": ["eyfs"]
+  }
+
 ];
 
-/* v3.37 — final Year 1–4 map experiences added; Nursery remains pending. */
+/* v3.39 — final Nursery map experiences added; Nursery–Year 6 experience mapping complete. */
