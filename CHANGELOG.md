@@ -1,3 +1,13 @@
+# Changelog
+
+## v3.40 — Year-page consistency and launch polish
+- Standardised Years 1–4 to the established Nursery/Reception/Years 5–6 page template.
+- Added the four-part Big Questions / Initial Experiences / Authentic Audiences / Learning Presentations explainer to Years 1–4.
+- Added the Connected Learning / Personal Development bridge to Years 1–4.
+- Added the standard curriculum footer to Years 1–4.
+- Removed the “Draft – Launching in September 2026” badge from the homepage.
+- Curriculum content and experience mappings are unchanged.
+
 # KCA Curriculum Site — v3.39
 
 - Published the final Nursery 2026–2027 curriculum map.

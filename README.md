@@ -8,3 +8,6 @@ Year-group map data feeds the homepage curriculum explorer, detailed digital cur
 
 ## v3.39
 Final Nursery map added. All Nursery–Year 6 year-group curriculum maps are now live.
+
+
+Current deployment: v3.40. All Nursery–Year 6 curriculum pages now use the consistent finished page structure.
