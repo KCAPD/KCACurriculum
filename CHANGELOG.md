@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.41 — Learning presentation types
+- Simplified the homepage Learning Presentations panel from six outcome types to four: Exhibition, Performance, Publication and Showcase.
+- Updated the accompanying homepage copy to match the four displayed outcome types.
+
 ## v3.40 — Year-page consistency and launch polish
 - Standardised Years 1–4 to the established Nursery/Reception/Years 5–6 page template.
 - Added the four-part Big Questions / Initial Experiences / Authentic Audiences / Learning Presentations explainer to Years 1–4.
