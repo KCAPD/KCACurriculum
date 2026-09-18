@@ -1,3 +1,9 @@
+## v3.46 — Subject page cleanup
+- Removed obsolete Curriculum Documents component CSS/JavaScript.
+- Preserved the EYFS-style Vision & Intent narrative and top PDF button across all subjects.
+- Preserved EYFS Nursery/Reception progression cards.
+- Bumped subject asset cache version to 3.46.
+
 # v3.43 — Subject Library narrative alignment
 
 - Rebuilt all subject Vision & Intent areas to follow the established EYFS narrative treatment.
