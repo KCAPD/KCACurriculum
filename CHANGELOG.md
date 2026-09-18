@@ -1,3 +1,12 @@
+# v3.43 — Subject Library narrative alignment
+
+- Rebuilt all subject Vision & Intent areas to follow the established EYFS narrative treatment.
+- Removed the duplicate Vision & Intent buttons introduced in v3.42.
+- Each subject now has a concise, subject-specific web narrative grounded in its final Vision & Intent document.
+- Vision & Intent PDFs now sit in the existing Curriculum documents area rather than being linked from the narrative itself.
+- EYFS retains its existing narrative and its Vision & Intent PDF has been moved into Curriculum documents for consistency.
+- No curriculum-map, year-group or Experience Library content changed.
+
 # Changelog
 
 ## v3.42 — Complete subject Vision & Intent library
