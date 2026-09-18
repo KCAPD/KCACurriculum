@@ -38,3 +38,9 @@
 - Retained the shared Little Angel Theatre experience and connected it to EYFS.
 - Added the optimised final Nursery yearly overview PDF.
 - Nursery–Year 6 curriculum maps are now all published.
+
+## v3.45 — Subject Vision & Intent placement and link repair
+- Restored the original EYFS Vision & Intent treatment: the document action sits beside the narrative heading.
+- Replicated that treatment across all 16 subject pages.
+- Removed the additional Curriculum documentation box from subject pages.
+- Repaired Vision & Intent paths to use the repository-root PDF locations used by the GitHub browser deployment.
