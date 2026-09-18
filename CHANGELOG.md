@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.42 — Complete subject Vision & Intent library
+- Added the final Vision & Intent PDF to every subject curriculum page: Art, BSL, Computing, Design & Technology, English, French, Geography, History, Mathematics, Music, Phonics & Early Reading, PE, PSHE, RE and Science.
+- Replaced subject Vision & Intent placeholder copy with concise, subject-specific introductions and direct links to the full documents.
+- Activated the Curriculum documents panel on each of those subject pages.
+- Retained the existing EYFS Vision & Intent and progression documents.
+- Removed the remaining Draft / launching September 2026 notices from individual subject curriculum pages.
+- Preserved all curriculum maps, experiences and learning-presentation content from v3.41.
+
 ## v3.41 — Learning presentation types
 - Simplified the homepage Learning Presentations panel from six outcome types to four: Exhibition, Performance, Publication and Showcase.
 - Updated the accompanying homepage copy to match the four displayed outcome types.

@@ -11,3 +11,7 @@ Final Nursery map added. All Nursery–Year 6 year-group curriculum maps are now
 
 
 Current deployment: v3.41. All Nursery–Year 6 curriculum pages now use the consistent finished page structure.
+
+
+## v3.42
+All subject curriculum pages now include their final Vision & Intent document. Remaining subject-page draft notices have been removed.
