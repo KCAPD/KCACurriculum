@@ -1,3 +1,9 @@
+## v3.63 — Reading progression + Fundamental Skills protection
+- Added the completed Reading Progression Map to the English subject page directly beneath Writing progression.
+- Reading progression covers Years 3–6 and signposts Nursery–Year 2 to Phonics & Early Reading.
+- Removed the Fundamental Skills PDF download button from the homepage.
+- Removed the public Fundamental Skills progression PDF asset; the interactive on-page explorer remains.
+
 # v3.62 — Phonics & Early Reading experience range
 
 - Limited the Phonics & Early Reading subject page to experiences appropriate up to Year 2.
