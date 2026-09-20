@@ -1,3 +1,13 @@
+# v3.62 — Phonics & Early Reading experience range
+
+- Limited the Phonics & Early Reading subject page to experiences appropriate up to Year 2.
+- Whole-school and Year 3+ experiences are excluded, so the section now contains only experiences whose stated age range sits within Nursery–Year 2.
+- Added a reusable `data-max-year` subject-page filter so the age range is enforced in code rather than by duplicating experience data.
+
+## v3.61 — Mathematics progression
+- Added the full Mathematics Progression Map to the Mathematics subject page.
+- Embedded the 17-page Nursery–Year 6 map with an open-in-new-tab fallback.
+
 ## v3.60 — Phonics & Early Reading progression
 - Added the completed Phonics & Early Reading progression map to the subject page.
 - Embedded the full Nursery–Year 2 progression map with a full-document fallback link.
