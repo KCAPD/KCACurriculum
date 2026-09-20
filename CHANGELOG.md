@@ -1,3 +1,7 @@
+# v3.47 — PE progression
+- Added the complete PE Progression Map to the Physical Education page in an embedded viewer with a full-map link.
+- Updated remaining current site copy to reflect the subject architecture: vision, intent, progression and experiences.
+
 ## v3.46 — Subject page cleanup
 - Removed obsolete Curriculum Documents component CSS/JavaScript.
 - Preserved the EYFS-style Vision & Intent narrative and top PDF button across all subjects.
@@ -50,3 +54,7 @@
 - Replicated that treatment across all 16 subject pages.
 - Removed the additional Curriculum documentation box from subject pages.
 - Repaired Vision & Intent paths to use the repository-root PDF locations used by the GitHub browser deployment.
+
+## v3.47
+- Added the final PE Progression Map to the Physical Education subject page.
+- Embedded the progression map for in-page viewing with a full-view fallback link.

@@ -18,4 +18,4 @@ All subject curriculum pages now include their final Vision & Intent document. R
 
 
 ## v3.43
-Subject pages now use the EYFS-style narrative treatment, with Vision & Intent PDFs located in Curriculum documents.
+Subject pages use the EYFS-style narrative treatment, with Vision & Intent PDFs linked alongside the narrative and progression presented below.

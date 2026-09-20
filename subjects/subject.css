@@ -134,3 +134,13 @@ header{display:flex;justify-content:space-between;gap:1rem}.subject-experiences,
   .eyfs-document-card a{font-size:.76rem;line-height:1.3}
   .eyfs-document-stage{font-size:.62rem;padding:.35rem .5rem}
 }
+
+/* v3.47 — embedded subject progression viewer */
+.progression-intro{max-width:760px;margin:0 0 1.1rem;color:#4a5b68;line-height:1.65}
+.progression-pdf-shell{overflow:hidden;border:1px solid #dce4e8;border-radius:18px;background:#f5f7f8;box-shadow:0 12px 30px rgba(23,50,77,.08)}
+.progression-pdf-viewer{display:block;width:100%;height:min(76vh,900px);min-height:620px;border:0;background:#fff}
+.progression-pdf-fallback{display:none;padding:18px}
+@media(max-width:720px){
+  .progression-pdf-viewer{height:68vh;min-height:500px}
+  .progression-intro{font-size:.92rem}
+}
