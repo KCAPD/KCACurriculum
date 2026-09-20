@@ -1,3 +1,10 @@
+# Changelog
+
+## v3.53 — History progression
+- Added the final History Progression Map to the History subject page.
+- Embedded the three-page progression map with an open-in-new-tab fallback.
+- History progression covers Chronology, Historical Knowledge and Historical Enquiry from Nursery to Year 6.
+
 ## v3.52 — Science progression
 - Added the completed 29-page Science Progression Map to the Science subject page.
 - Preserved the established Vision & Intent → Progression → Experiences structure.
