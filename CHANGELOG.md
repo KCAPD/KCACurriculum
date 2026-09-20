@@ -94,3 +94,8 @@
 
 ## v3.50 — Writing progression
 - Added the complete KCA Writing Progression Map to the English subject page, embedded in the existing progression section.
+
+## v3.59 — French progression
+- Added the completed French progression map.
+- Embedded the progression map on the French subject page.
+- Added a concise progression overview across Listening and Understanding, Speaking and Communication, Reading and Writing, and Grammar and Language Structures.
