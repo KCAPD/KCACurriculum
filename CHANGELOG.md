@@ -1,3 +1,8 @@
+## v3.49 — Design & Technology progression
+- Added the complete Design & Technology progression map to the DT subject page.
+- Embedded progression viewer plus full-map link, matching PE and Geography.
+- Progression covers Design, Make, Evaluate and Cooking & Nutrition from Nursery to Year 6.
+
 # v3.47 — PE progression
 - Added the complete PE Progression Map to the Physical Education page in an embedded viewer with a full-map link.
 - Updated remaining current site copy to reflect the subject architecture: vision, intent, progression and experiences.
