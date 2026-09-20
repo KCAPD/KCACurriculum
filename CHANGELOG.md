@@ -1,3 +1,9 @@
+# v3.57 — Computing progression
+
+- Added the final Computing progression map to the Computing subject page.
+- Embedded the full progression document beneath “Learning that builds over time”.
+- Added a direct full-document link and strand summary covering Computing Systems, Networks and Digital Literacy; Creating Digital Content; Data and Information; and Programming and Computer Science.
+
 ## v3.55 — Music progression
 - Added the final Music Progression Map to the Music subject page, embedded with a full-document fallback.
 - Progression covers Singing and Performance, Musicianship and Notation, Composing and Improvising, and Listening and Appraising from Nursery to Year 6.
