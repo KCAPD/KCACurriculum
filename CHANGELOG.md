@@ -1,3 +1,8 @@
+## v3.60 — Phonics & Early Reading progression
+- Added the completed Phonics & Early Reading progression map to the subject page.
+- Embedded the full Nursery–Year 2 progression map with a full-document fallback link.
+- Preserved all v3.59 content and structure.
+
 # v3.58 — PSHE progression
 
 - Added the final PSHE progression map to the PSHE subject page.
