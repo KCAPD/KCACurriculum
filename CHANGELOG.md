@@ -1,3 +1,9 @@
+# v3.58 — PSHE progression
+
+- Added the final PSHE progression map to the PSHE subject page.
+- Embedded the full progression document beneath “Learning that builds over time”, with a direct full-document link and mobile fallback.
+- Progression spans Family and Relationships, Celebrating Differences, Citizenship and Economic Wellbeing, Health and Wellbeing, Safety/Keeping Safe, and Growing and Changing from Nursery to Year 6.
+
 # v3.57 — Computing progression
 
 - Added the final Computing progression map to the Computing subject page.
