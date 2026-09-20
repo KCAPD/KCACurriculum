@@ -63,3 +63,6 @@
 ## v3.47
 - Added the final PE Progression Map to the Physical Education subject page.
 - Embedded the progression map for in-page viewing with a full-view fallback link.
+
+## v3.50 — Writing progression
+- Added the complete KCA Writing Progression Map to the English subject page, embedded in the existing progression section.
