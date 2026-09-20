@@ -1,3 +1,7 @@
+## v3.55 — Music progression
+- Added the final Music Progression Map to the Music subject page, embedded with a full-document fallback.
+- Progression covers Singing and Performance, Musicianship and Notation, Composing and Improvising, and Listening and Appraising from Nursery to Year 6.
+
 # Changelog
 
 ## v3.53 — History progression
