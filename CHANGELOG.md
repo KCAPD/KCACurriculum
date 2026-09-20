@@ -1,3 +1,8 @@
+## v3.52 — Science progression
+- Added the completed 29-page Science Progression Map to the Science subject page.
+- Preserved the established Vision & Intent → Progression → Experiences structure.
+- Embedded the map with an open-in-new-tab fallback.
+
 ## v3.49 — Design & Technology progression
 - Added the complete Design & Technology progression map to the DT subject page.
 - Embedded progression viewer plus full-map link, matching PE and Geography.
