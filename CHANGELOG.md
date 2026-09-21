@@ -120,3 +120,7 @@
 - Added the completed French progression map.
 - Embedded the progression map on the French subject page.
 - Added a concise progression overview across Listening and Understanding, Speaking and Communication, Reading and Writing, and Grammar and Language Structures.
+
+## v3.64 — Year 5 curriculum map correction
+- Replaced the Year 5 2026–2027 yearly overview PDF with the corrected final version supplied 21 September 2026.
+- Corrected map includes updated RE, Computing and PSHE sequences.
